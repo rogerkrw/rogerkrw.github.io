@@ -10,5 +10,11 @@
   },
   "index.qmd": {
     "index.html": "24611ff0"
+  },
+  "portfolio.qmd": {
+    "portfolio.html": "0da40097"
+  },
+  "help-me.md": {
+    "help-me.html": "edafaf7b"
   }
 }

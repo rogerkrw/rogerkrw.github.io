@@ -14,6 +14,34 @@
     "text": "This is a post with executable code."
   },
   {
+    "objectID": "help-me.html",
+    "href": "help-me.html",
+    "title": "Quarto + GitHub Pages",
+    "section": "",
+    "text": "Usei o “Renderizar para docs” (caminho mais simples): https://quarto.org/docs/publishing/github-pages.html#source-branch\nRequer git pusha cada modificação para atualizar a base, mas é simples de fazer. Não preciso de automatizações por hora.\nAparentemente, está tudo funcionando em: https://rogerkrw.github.io/\n\n\n\nEste vídeo me ajudou com o passo a passo: https://www.youtube.com/watch?v=uimdXPZc40I&t=150s"
+  },
+  {
+    "objectID": "help-me.html#renderizar-para-docs",
+    "href": "help-me.html#renderizar-para-docs",
+    "title": "Quarto + GitHub Pages",
+    "section": "",
+    "text": "Usei o “Renderizar para docs” (caminho mais simples): https://quarto.org/docs/publishing/github-pages.html#source-branch\nRequer git pusha cada modificação para atualizar a base, mas é simples de fazer. Não preciso de automatizações por hora.\nAparentemente, está tudo funcionando em: https://rogerkrw.github.io/"
+  },
+  {
+    "objectID": "help-me.html#ajuda-adicional",
+    "href": "help-me.html#ajuda-adicional",
+    "title": "Quarto + GitHub Pages",
+    "section": "",
+    "text": "Este vídeo me ajudou com o passo a passo: https://www.youtube.com/watch?v=uimdXPZc40I&t=150s"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Portfólio."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "rogerkrw",
