@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "rogerkrw.com.br"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: hhttps://github.com/rogerkrw
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rogerkrw/
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
