@@ -7,15 +7,14 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: hhttps://github.com/rogerkrw
+      - portfolio.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/rogerkrw/
+      - icon: github
+        href: hhttps://github.com/rogerkrw
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
