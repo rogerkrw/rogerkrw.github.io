@@ -1,20 +1,12 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
-  title: "rogerkrw.com.br"
-  navbar:
-    right:
-      - about.qmd
-      - portfolio.qmd
-      - icon: linkedin
-        href: https://www.linkedin.com/in/rogerkrw/
-      - icon: github
-        href: hhttps://github.com/rogerkrw
+  title: "rogerkrw.com.br"  
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true

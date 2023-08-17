@@ -1,14 +1,58 @@
 ---
-title: "rogerkrw"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Rogério Kreidlow"
+image: rogerkrw.jpg
+about:
+  template: trestles
+  links:    
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
 page-layout: full
-title-block-banner: true
 ---
 
+**Jornalista e Redator | Conteúdo informativo, instrutivo, técnico e analítico.**
 
+Bem-vinda ou bem-vindo. Esta é minha página, destinada a reunir informações profissionais e, quem sabe, textos mais pessoais no futuro.
+
+Sou **jornalista** e **redator**. *Texto é o cerne do meu trabalho*.
+
+## Faço:
+
+- Redação;
+- Edição;
+- Revisão;
+- Pesquisa jornalística e bibliográfica;
+- Curadoria de conteúdos;
+- Planejamento estratégico de conteúdos;
+- Gestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).
+
+Atualmente, experimento "IAs Generativas" como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas.
+
+## Tipos de textos
+
+Tenho facilidade e preferência por textos **informativos**, **instrutivos**, **técnicos** e **analíticos**.
+
+Meu forte são **artigos**, **tutoriais** e **notícias**, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto. 
+
+Também adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos.
+
+## Áreas de especialização
+
+Encaro diversos desafios em texto, mas tenho inclinação para áreas *tech* como:
+
+- **Desenvolvimento de Software** (Programação Front-End, Programação Back-End, DevOps etc.);
+- **Ciência de Dados** (Data Science, Data Analytics, Data Engineering etc.);
+- **Gestão de Produtos** (Product Management, Product Discovery, Product Marketing etc.);
+- **UX/UI Design** (UX, UI, Research, Systems, Ops etc.);
+- **Marketing** (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);
+- **Inovação e Gestão** (Startups, Venture Capital, Liderança, Soft Skills etc.).
+
+## Hobbies
+
+Meus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar.
+
+## Contatos
+
+Para saber mais sobre minha formação e atuação, confira meu perfil no [LinkedIn](https://www.linkedin.com/in/rogerkrw/).
+
+Caso esteja procurando um redator ou queira conversar sobre projetos relacionados a conteúdos, mande uma mensagem no meu [LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [neste formulário](https://forms.gle/3to7Vt8XJGtJJB248).

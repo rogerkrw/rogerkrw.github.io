@@ -7,11 +7,60 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "backup/230817_index.html",
+    "href": "backup/230817_index.html",
+    "title": "rogerkrw",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rogério Kreidlow",
+    "section": "",
+    "text": "Jornalista e Redator | Conteúdo informativo, instrutivo, técnico e analítico.\nBem-vinda ou bem-vindo. Esta é minha página, destinada a reunir informações profissionais e, quem sabe, textos mais pessoais no futuro.\nSou jornalista e redator. Texto é o cerne do meu trabalho."
+  },
+  {
+    "objectID": "index.html#faço",
+    "href": "index.html#faço",
+    "title": "Rogério Kreidlow",
+    "section": "Faço:",
+    "text": "Faço:\n\nRedação;\nEdição;\nRevisão;\nPesquisa jornalística e bibliográfica;\nCuradoria de conteúdos;\nPlanejamento estratégico de conteúdos;\nGestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).\n\nAtualmente, experimento “IAs Generativas” como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas."
+  },
+  {
+    "objectID": "index.html#tipos-de-textos",
+    "href": "index.html#tipos-de-textos",
+    "title": "Rogério Kreidlow",
+    "section": "Tipos de textos",
+    "text": "Tipos de textos\nTenho facilidade e preferência por textos informativos, instrutivos, técnicos e analíticos.\nMeu forte são artigos, tutoriais e notícias, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto.\nTambém adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos."
+  },
+  {
+    "objectID": "index.html#áreas-de-especialização",
+    "href": "index.html#áreas-de-especialização",
+    "title": "Rogério Kreidlow",
+    "section": "Áreas de especialização",
+    "text": "Áreas de especialização\nEncaro diversos desafios em texto, mas tenho inclinação para áreas tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
+  },
+  {
+    "objectID": "index.html#hobbies",
+    "href": "index.html#hobbies",
+    "title": "Rogério Kreidlow",
+    "section": "Hobbies",
+    "text": "Hobbies\nMeus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar."
+  },
+  {
+    "objectID": "index.html#contatos",
+    "href": "index.html#contatos",
+    "title": "Rogério Kreidlow",
+    "section": "Contatos",
+    "text": "Contatos\nPara saber mais sobre minha formação e atuação, confira meu perfil no LinkedIn.\nCaso esteja procurando um redator ou queira conversar sobre projetos relacionados a conteúdos, mande uma mensagem no meu LinkedIn ou neste formulário."
   },
   {
     "objectID": "portfolio.html",
@@ -21,17 +70,24 @@
     "text": "Portfólio."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "rogerkrw",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a post with executable code."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "backup/230817_portfolio.html",
+    "href": "backup/230817_portfolio.html",
+    "title": "Portfolio",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Portfólio."
+  },
+  {
+    "objectID": "backup/230817_about.html",
+    "href": "backup/230817_about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]
