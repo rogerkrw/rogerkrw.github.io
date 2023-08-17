@@ -5,6 +5,7 @@ project:
 
 website:
   title: "rogerkrw.com.br"  
+  google-analytics: "G-H1VN6PCJ26"
 
 format:
   html:
