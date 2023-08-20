@@ -49,6 +49,13 @@
     "text": "Áreas de especialização\nEncaro diversos desafios em texto, mas tenho inclinação para áreas tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
   },
   {
+    "objectID": "index.html#portfolio",
+    "href": "index.html#portfolio",
+    "title": "Rogério Kreidlow",
+    "section": "Portfolio",
+    "text": "Portfolio\nAmostras de alguns dos meus trabalhos podem ser conferidos neste portolfio."
+  },
+  {
     "objectID": "index.html#hobbies",
     "href": "index.html#hobbies",
     "title": "Rogério Kreidlow",
@@ -68,27 +75,6 @@
     "title": "Portfolio",
     "section": "",
     "text": "Este é meu portfolio (se você caiu diretamente aqui, sugiro me conhecer primeiro).\nA seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).\nClique nas imagens para acessar os originais em PDF."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "backup/230817_portfolio.html",
-    "href": "backup/230817_portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Portfólio."
-  },
-  {
-    "objectID": "backup/230817_about.html",
-    "href": "backup/230817_about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
   },
   {
     "objectID": "portfolio.html#tutoriais",
@@ -154,10 +140,24 @@
     "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
   },
   {
-    "objectID": "index.html#portfolio",
-    "href": "index.html#portfolio",
-    "title": "Rogério Kreidlow",
-    "section": "Portfolio",
-    "text": "Portfolio\nAmostras de alguns dos meus trabalhos podem ser conferidos neste portolfio."
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "backup/230817_portfolio.html",
+    "href": "backup/230817_portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Portfólio."
+  },
+  {
+    "objectID": "backup/230817_about.html",
+    "href": "backup/230817_about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]
