@@ -4,13 +4,13 @@ project:
   
 
 website:
-  title: "rogerkrw.com.br"
-  google-analytics: "G-H1VN6PCJ26"
+  title: "rogerkrw.com.br"  
   navbar:
     right:
       - portfolio.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/rogerkrw/
+  google-analytics: "G-H1VN6PCJ26"
 
 format:
   html:
