@@ -1,6 +1,6 @@
 ---
 title: "Rogério Kreidlow"
-image: rogerkrw.jpg
+image: imgs/rogerkrw.jpg
 about:
   template: trestles
   links:    
@@ -46,6 +46,11 @@ Encaro diversos desafios em texto, mas tenho inclinação para áreas *tech* com
 - **UX/UI Design** (UX, UI, Research, Systems, Ops etc.);
 - **Marketing** (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);
 - **Inovação e Gestão** (Startups, Venture Capital, Liderança, Soft Skills etc.).
+
+## Portfolio
+
+Amostras de alguns dos meus trabalhos podem ser conferidos [neste portolfio](portfolio.qmd).
+
 
 ## Hobbies
 

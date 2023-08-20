@@ -67,7 +67,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Portfólio."
+    "text": "Este é meu portfolio (se você caiu diretamente aqui, sugiro me conhecer primeiro).\nA seguir, reúno amostras tanto desde produções mais recentes (material instrutivo e artigos web) às mais antigas (reportagens para jornais impressos).\nClique nas imagens para acessar os originais em PDF."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -89,5 +89,75 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "portfolio.html#tutoriais",
+    "href": "portfolio.html#tutoriais",
+    "title": "Portfolio",
+    "section": "Tutoriais",
+    "text": "Tutoriais\nA seguir, amostras de tutoriais criados para um curso de “Fundamentos de Programação”, em 2022:\n\n\n\n\n\nEstruturas Sequenciais\n\n\n\n\n\nEstruturas Condicionais\n\n\n\n\n\n\n\nImplementando Funções\n\n\n\n\n\nProgramando com Classes\n\n\n\n\nCriei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. — muitos deles de excelentes especialistas com colaborei — para mais de 30 cursos, abrangendo as áreas de Programação, Dados, Design, Produto e Inovação e Gestão."
+  },
+  {
+    "objectID": "portfolio.html#artigos-instrutivos",
+    "href": "portfolio.html#artigos-instrutivos",
+    "title": "Portfolio",
+    "section": "Artigos instrutivos",
+    "text": "Artigos instrutivos\nAssim como os tutoriais, de viés mais prático, também produzi artigos instrutivos:\n\n\n\n\n\nArquitetura de um Computador\n\n\n\n\n\nLógica e Aritmética"
+  },
+  {
+    "objectID": "portfolio.html#artigos-interpretativos",
+    "href": "portfolio.html#artigos-interpretativos",
+    "title": "Portfolio",
+    "section": "Artigos interpretativos",
+    "text": "Artigos interpretativos\nOs textos abaixo são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\nDon Normal, parte 1: as muitas vidas do senhor design\n\n\n\n\n\nDon Normal, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até agosto/2023, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
+  },
+  {
+    "objectID": "portfolio.html#artigos-para-blogs",
+    "href": "portfolio.html#artigos-para-blogs",
+    "title": "Portfolio",
+    "section": "Artigos para blogs",
+    "text": "Artigos para blogs\nAbaixo, seguem também alguns textos para blog. O primeiro é um artigo e o segundo é um tutorial.\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\nAté a atualização desta página, em agosto/2023, ambos os artigos estavam disponíveis neste e neste links."
+  },
+  {
+    "objectID": "portfolio.html#apresentação-de-slides",
+    "href": "portfolio.html#apresentação-de-slides",
+    "title": "Portfolio",
+    "section": "Apresentação de slides",
+    "text": "Apresentação de slides\nEmbora textos corridos sejam meu forte, também me arrisco em apresentações, como esta, para apoiar uma aula introdutória de Engenharia de Dados:\n\n\n\n\n\nIntrodução à Engenharia de Dados"
+  },
+  {
+    "objectID": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
+    "href": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
+    "title": "Portfolio",
+    "section": "Projeto e gestão de conteúdo de website",
+    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais. A última imagem é um exemplo de “Carta de Serviço” (print de agosto/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em agosto/2023 (a imagem leva para o site atual)\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\nO site é: joinville.sc.gov.br. O design teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos — guias de serviços que orientam como requerer e obter serviços públicos, como exige a Lei 13.460/2013 —, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
+  },
+  {
+    "objectID": "portfolio.html#relatórios-analíticos",
+    "href": "portfolio.html#relatórios-analíticos",
+    "title": "Portfolio",
+    "section": "Relatórios analíticos",
+    "text": "Relatórios analíticos\nEntrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio e tanto na época — até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão pública guardava. Foi um aprendizado novo a cada dia, acabei me tornando gerente, entregando muita coisa e desejando ter entregue mais.\nAbaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.\n\n\n\n\n\nRelatório de Ouvidoria à Secretaria da Saude de Joinville, produzido em 2015"
+  },
+  {
+    "objectID": "portfolio.html#trabalhos-jornalísticos",
+    "href": "portfolio.html#trabalhos-jornalísticos",
+    "title": "Portfolio",
+    "section": "Trabalhos jornalísticos",
+    "text": "Trabalhos jornalísticos\nA seguir, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).\n\nSérie de reportagens\nAbaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, que atende toda a região Norte/Nordeste de Santa Catarina:\n\n\n\n\n\nReportagem publicada em 04/05/2011\n\n\n\n\n\nReportagem publicada em 05/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 06/05/2011\n\n\n\n\n\nReportagem publicada em 08/05/2011\n\n\n\n\n\n\nReportagens e matérias avulsas\nE, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá por que motivos, em um antigo álbum no Issuu:\n\n\n\n\n\nReportagem publicada em 21/10/2010\n\n\n\n\n\nReportagem publicada em caderno sobre Meio Ambiente em 05/06/2012\n\n\n\n\n\n\n\nMatéria publicada em 09/06/2012\n\n\n\n\nUma curiosidade: uso Google Docs praticamente desde 2005, quando foi lançado. Então, tenho praticamente os originais de tudo o que fiz na minha vida de jornalista, um banco de dados e tanto. Só não me preocupei em salvar os PDFs dos trabalhos após publicados 🤦‍♂️.\nUm dia, quem sabe, ainda vou me aventurar no Arquivo Histórico de Joinville para garimpar outros trabalhos da época, mesmo que só por nostalgia."
+  },
+  {
+    "objectID": "portfolio.html#adendos",
+    "href": "portfolio.html#adendos",
+    "title": "Portfolio",
+    "section": "Adendos",
+    "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
+  },
+  {
+    "objectID": "index.html#portfolio",
+    "href": "index.html#portfolio",
+    "title": "Rogério Kreidlow",
+    "section": "Portfolio",
+    "text": "Portfolio\nAmostras de alguns dos meus trabalhos podem ser conferidos neste portolfio."
   }
 ]

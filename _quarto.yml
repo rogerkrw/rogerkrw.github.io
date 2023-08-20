@@ -6,6 +6,11 @@ project:
 website:
   title: "rogerkrw.com.br"
   google-analytics: "G-H1VN6PCJ26"
+  navbar:
+    right:
+      - portfolio.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rogerkrw/
 
 format:
   html:
