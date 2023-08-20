@@ -1,5 +1,6 @@
 ---
 title: "Portfolio"
+title-block-banner: true
 ---
 
 Este é meu *portfolio* (se você caiu  diretamente aqui, sugiro [me conhecer](index.qmd) primeiro).

@@ -4,21 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "backup/230817_index.html",
-    "href": "backup/230817_index.html",
-    "title": "rogerkrw",
-    "section": "",
-    "text": "No matching items"
+    "text": "About this blog\n\n\n Back to top"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -140,24 +133,17 @@
     "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "backup/230817_portfolio.html",
-    "href": "backup/230817_portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Portfólio."
-  },
-  {
-    "objectID": "backup/230817_about.html",
-    "href": "backup/230817_about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
   }
 ]

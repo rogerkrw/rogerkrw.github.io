@@ -1,0 +1,7 @@
+---
+title: Ops! Página não encontrada
+---
+
+Esta página provavelmente não existe ou o endereço foi digitado errado.
+
+Use a busca ou navegue a partir da [página principal](index.qmd), se necessário.

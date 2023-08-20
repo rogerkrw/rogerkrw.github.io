@@ -1,6 +1,9 @@
 [
   {
-    "listing": "/backup/230817_index.html",
-    "items": []
+    "listing": "/blog.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
   }
 ]
