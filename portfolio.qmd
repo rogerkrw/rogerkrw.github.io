@@ -4,13 +4,13 @@ title: "Portfolio"
 
 Este é meu *portfolio* (se você caiu  diretamente aqui, sugiro [me conhecer](index.qmd) primeiro).
 
-A seguir, reúno amostras tanto desde produções mais recentes (material instrutivo e artigos web) às mais antigas (reportagens para jornais impressos).
+A seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).
 
 Clique nas imagens para acessar os originais em PDF.
 
 ## Tutoriais
 
-A seguir, amostras de tutoriais criados para um curso de "Fundamentos de Programação", em 2022:
+Estas são amostras de tutoriais criados para um curso intitulado "Fundamentos de Programação", em 2022:
 
 ::: {layout-nrow=2}
 
@@ -24,7 +24,7 @@ A seguir, amostras de tutoriais criados para um curso de "Fundamentos de Program
 
 :::
 
-Criei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. --- muitos deles de excelentes especialistas com colaborei --- para mais de 30 cursos, abrangendo as áreas de Programação, Dados, Design, Produto e Inovação e Gestão.
+Criei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. --- muitos deles de excelentes especialistas com quem colaborei --- para mais de 30 cursos, abrangendo áreas como Programação, Dados, Design, Produto e Inovação e Gestão.
 
 ## Artigos instrutivos
 
@@ -40,15 +40,15 @@ Assim como os tutoriais, de viés mais prático, também produzi artigos instrut
 
 ## Artigos interpretativos
 
-Os textos abaixo são de duas Newsletters que produzi ao longo de 2021. 
+Os textos a seguir são de duas Newsletters que produzi ao longo de 2021. 
 
 A proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.
 
 ::: {layout-nrow=4}
 
-[![Don Normal, parte 1: as muitas vidas do senhor design](imgs/img-portfolio-0301.png "Don Normal, parte 1: as muitas vidas do senhor design")](https://drive.google.com/file/d/1vdoscjiPLJpyPcko_fYnmpd0Dc6cVplp/view?usp=drive_link)
+[![Don Norman, parte 1: as muitas vidas do senhor design](imgs/img-portfolio-0301.png "Don Norman, parte 1: as muitas vidas do senhor design")](https://drive.google.com/file/d/1vdoscjiPLJpyPcko_fYnmpd0Dc6cVplp/view?usp=drive_link)
 
-[![Don Normal, parte 2: as muitas ideias do senhor design](imgs/img-portfolio-0302.png "Don Normal, parte 2: as muitas ideias do senhor design")](https://drive.google.com/file/d/1OoXCdK-40bVPu0UjWlzvvSP81zwkj0xT/view?usp=drive_link)
+[![Don Norman, parte 2: as muitas ideias do senhor design](imgs/img-portfolio-0302.png "Don Norman, parte 2: as muitas ideias do senhor design")](https://drive.google.com/file/d/1OoXCdK-40bVPu0UjWlzvvSP81zwkj0xT/view?usp=drive_link)
 
 [![Uma abordagem conceitual sobre Modelos](imgs/img-portfolio-0303.png "Uma abordagem conceitual sobre Modelos")](https://drive.google.com/file/d/1EeWWhkyEfzVOPvVI2HR0j11QVV4LXfQs/view?usp=drive_link)
 
@@ -68,13 +68,13 @@ Praticamente todos esses textos continuavam disponíveis, ao menos até agosto/2
 
 ## Artigos para blogs
 
-Abaixo, seguem também alguns textos para blog. O primeiro é um artigo e o segundo é um tutorial.
+Aqui estão, também, alguns textos para blog. O primeiro é um artigo e o segundo tem um caráter mais de tutorial.
 
 ::: {layout-ncol=2}
 
-[![Banco de Dados Não Relacional (NoSQL): o que é e principais tipos](imgs/img-portfolio-0401.png "Banco de Dados Não Relacional (NoSQL): o que é e principais tipos")](https://drive.google.com/file/d/1oA4_mFw1itIYYs9mZt3UdI-wlmrmwTbg/view?usp=sharing)
+[![Banco de Dados Não Relacional (NoSQL): o que é e principais tipos](imgs/img-portfolio-0401.png "Banco de Dados Não Relacional (NoSQL): o que é e principais tipos")](https://drive.google.com/file/d/1yqF-1dJuMumD0wf65ZppW1bcij4dGRdd/view?usp=drive_link)
 
-[![Banco de Dados: passo a passo como criar do zero](imgs/img-portfolio-0402.png "Banco de Dados: passo a passo como criar do zero")](https://drive.google.com/file/d/1yqF-1dJuMumD0wf65ZppW1bcij4dGRdd/view?usp=sharing)
+[![Banco de Dados: passo a passo como criar do zero](imgs/img-portfolio-0402.png "Banco de Dados: passo a passo como criar do zero")](https://drive.google.com/file/d/1oA4_mFw1itIYYs9mZt3UdI-wlmrmwTbg/view?usp=drive_link)
 
 :::
 
@@ -94,7 +94,9 @@ Embora textos corridos sejam meu forte, também me arrisco em apresentações, c
 
 Em 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site --- um "portal do cidadão" --- para o Município.
 
-Abaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais. A última imagem é um exemplo de "Carta de Serviço" (print de agosto/2023) --- além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários.
+Abaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais. 
+
+A última imagem é um exemplo de "Carta de Serviço" (print de agosto/2023) --- além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.
 
 ::: {layout-nrow=2}
 
@@ -108,13 +110,13 @@ Abaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma
 
 :::
 
-O site é: [joinville.sc.gov.br](joinville.sc.gov.br). O design teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar "Cartas de Serviços" aos cidadãos --- guias de serviços que orientam como requerer e obter serviços públicos, como exige a Lei 13.460/2013 ---, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).
+O [design atual do site](https://joinville.sc.gov.br) teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar "Cartas de Serviços" aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).
 
 Foi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos.
 
 ## Relatórios analíticos
 
-Entrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio e tanto na época --- até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão pública guardava. Foi um aprendizado novo a cada dia, acabei me tornando gerente, entregando muita coisa e desejando ter entregue mais.
+Entrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio na época --- até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão guardava. Foi um aprendizado a cada dia, acabei me tornando gerente depois, entregando muita coisa e desejando ter entregue mais.
 
 Abaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.
 
@@ -126,21 +128,21 @@ Abaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde
 
 ## Trabalhos jornalísticos
 
-A seguir, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).
+Por fim, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).
 
 ### Série de reportagens
 
-Abaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, que atende toda a região Norte/Nordeste de Santa Catarina:
+Abaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, o qual atende toda a região Norte/Nordeste de Santa Catarina:
 
 ::: {layout-nrow=2}
 
-[![Reportagem publicada em 04/05/2011](imgs/img-portfolio-0801.png "Reportagem de 04/05/2011")](https://drive.google.com/file/d/15ZeK1wHJx_3g1DeEp3bVyIsrqUxegoN7/view?usp=sharing)
+[![Reportagem publicada em 04/05/2011](imgs/img-portfolio-0801.png "Reportagem de 04/05/2011")](https://drive.google.com/file/d/1KVEO_Wt_cf0u1y1Q5QqjbSXSJTM-3W50/view?usp=drive_link)
 
-[![Reportagem publicada em 05/05/2011](imgs/img-portfolio-0802.png "Reportagem de 05/05/2011")](https://drive.google.com/file/d/1GrusLnIm2iVaHS9Pq-bkcc9__viwj5do/view?usp=sharing)
+[![Reportagem publicada em 05/05/2011](imgs/img-portfolio-0802.png "Reportagem de 05/05/2011")](https://drive.google.com/file/d/15ZeK1wHJx_3g1DeEp3bVyIsrqUxegoN7/view?usp=drive_link)
 
-[![Reportagem publicada em 06/05/2011](imgs/img-portfolio-0803.png "Reportagem de 06/05/2011")](https://drive.google.com/file/d/1KVEO_Wt_cf0u1y1Q5QqjbSXSJTM-3W50/view?usp=sharing)
+[![Reportagem publicada em 06/05/2011](imgs/img-portfolio-0803.png "Reportagem de 06/05/2011")](https://drive.google.com/file/d/1h-ZNSOOX4FJqHbKlgplv9IfQl-82B794/view?usp=drive_link)
 
-[![Reportagem publicada em 08/05/2011](imgs/img-portfolio-0804.png "Reportagem de 08/05/2011")](https://drive.google.com/file/d/1S73AaCRk58JHSK8FtnwwbsAZWyQXtozV/view?usp=sharing)
+[![Reportagem publicada em 08/05/2011](imgs/img-portfolio-0804.png "Reportagem de 08/05/2011")](https://drive.google.com/file/d/1fBfo5WmuQjdjImTXGRUjgUqfbpgD0MbO/view?usp=drive_link)
 
 :::
 
@@ -150,11 +152,11 @@ E, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá 
 
 ::: {layout-nrow=2}
 
-[![Reportagem publicada em 21/10/2010](imgs/img-portfolio-0805.png "Reportagem de 21/10/2010")](https://drive.google.com/file/d/1f1KIw3BDpMG8_Kptv-jExP8x247hDD1l/view?usp=sharing)
+[![Reportagem publicada em 21/10/2010](imgs/img-portfolio-0805.png "Reportagem de 21/10/2010")](https://drive.google.com/file/d/1f1KIw3BDpMG8_Kptv-jExP8x247hDD1l/view?usp=drive_link)
 
-[![Reportagem publicada em caderno sobre Meio Ambiente em 05/06/2012](imgs/img-portfolio-0806.png "Reportagem de 05/06/2012")](https://drive.google.com/file/d/1fBfo5WmuQjdjImTXGRUjgUqfbpgD0MbO/view?usp=sharing)
+[![Reportagem publicada em caderno sobre Meio Ambiente em 05/06/2012](imgs/img-portfolio-0806.png "Reportagem de 05/06/2012")](https://drive.google.com/file/d/1GrusLnIm2iVaHS9Pq-bkcc9__viwj5do/view?usp=drive_link)
 
-[![Matéria publicada em 09/06/2012](imgs/img-portfolio-0807.png "Matéria de 09/06/2012")](https://drive.google.com/file/d/1sq3gkxmMfPly7UCGVuU9CJuAxi5P3G6z/view?usp=sharing)
+[![Matéria publicada em 09/06/2012](imgs/img-portfolio-0807.png "Matéria de 09/06/2012")](https://drive.google.com/file/d/1S73AaCRk58JHSK8FtnwwbsAZWyQXtozV/view?usp=drive_link)
 
 :::
 
