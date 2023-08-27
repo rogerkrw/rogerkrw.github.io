@@ -2,62 +2,21 @@
 title: "Rogério Kreidlow"
 image: imgs/rogerkrw.jpg
 about:
-  template: trestles
-  links:    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-page-layout: full
+  template: jolla
 ---
 
-**Jornalista e Redator | Conteúdo informativo, instrutivo, técnico e analítico.**
+**Estratégia e Gestão de Conteúdos**
 
-Bem-vinda ou bem-vindo. Esta é minha página, destinada a reunir informações profissionais e, quem sabe, textos mais pessoais no futuro.
+Bem-vinda ou bem-vindo. Sou **jornalista** e **redator**, com experiência em **implementação de produtos e projetos de conteúdo**, além de **produção e gestão de conteúdos** diversos.
 
-Sou **jornalista** e **redator**. *Texto é o cerne do meu trabalho*.
+Saiba mais sobre mim na [bio](about.qmd).
 
-## Faço:
+Conheça alguns dos meus trabalhos no [portfolio](portfolio.qmd).
 
-- Redação;
-- Edição;
-- Revisão;
-- Pesquisa jornalística e bibliográfica;
-- Curadoria de conteúdos;
-- Planejamento estratégico de conteúdos;
-- Gestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).
+Se quiser, confira meu [LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [currículo](https://drive.google.com/file/d/1L1ab99x1R5S66zZZUyPnprP3RAGUymui/view?usp=sharing).
 
-Atualmente, experimento "IAs Generativas" como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas.
+Se você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma [mensagem no LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [neste formulário](https://forms.gle/3to7Vt8XJGtJJB248).
 
-## Tipos de textos
+Em breve, adicionarei posts neste espaço.
 
-Tenho facilidade e preferência por textos **informativos**, **instrutivos**, **técnicos** e **analíticos**.
-
-Meu forte são **artigos**, **tutoriais** e **notícias**, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto. 
-
-Também adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos.
-
-## Áreas de especialização
-
-Encaro diversos desafios em texto, mas tenho inclinação para áreas *tech* como:
-
-- **Desenvolvimento de Software** (Programação Front-End, Programação Back-End, DevOps etc.);
-- **Ciência de Dados** (Data Science, Data Analytics, Data Engineering etc.);
-- **Gestão de Produtos** (Product Management, Product Discovery, Product Marketing etc.);
-- **UX/UI Design** (UX, UI, Research, Systems, Ops etc.);
-- **Marketing** (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);
-- **Inovação e Gestão** (Startups, Venture Capital, Liderança, Soft Skills etc.).
-
-## Portfolio
-
-Amostras de alguns dos meus trabalhos podem ser conferidos [neste portolfio](portfolio.qmd).
-
-
-## Hobbies
-
-Meus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar.
-
-## Contatos
-
-Para saber mais sobre minha formação e atuação, confira meu perfil no [LinkedIn](https://www.linkedin.com/in/rogerkrw/).
-
-Caso esteja procurando um redator ou queira conversar sobre projetos relacionados a conteúdos, mande uma mensagem no meu [LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [neste formulário](https://forms.gle/3to7Vt8XJGtJJB248).
+Obrigado pela visita.

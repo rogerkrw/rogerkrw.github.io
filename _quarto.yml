@@ -8,6 +8,8 @@ website:
   description: Rogério Kreidlow's website
   navbar:
     right:
+      - text: "Bio"
+        file: about.qmd
       - portfolio.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/rogerkrw/
