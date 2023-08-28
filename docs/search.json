@@ -7,193 +7,53 @@
     "text": "Estratégia e Gestão de Conteúdos | Jornalista\nSou Rogério Kreidlow (pronuncia-se “cráidlóf” ou “cráitlóf” ou, segundo o alemão pomerano original, “cráitlô”), tenho 42 anos e estou situado em Joinville, SC, Brasil.\nTexto é minha especialidade. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "about.html#o-que-faço",
+    "href": "about.html#o-que-faço",
     "title": "Rogério Kreidlow",
-    "section": "",
-    "text": "Estratégia e Gestão de Conteúdos\nBem-vinda ou bem-vindo. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfolio.\nSe quiser, confira meu LinkedIn ou currículo.\nSe você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma mensagem no LinkedIn ou neste formulário.\nEm breve, adicionarei posts neste espaço.\nObrigado pela visita.\n\n\n Back to top"
+    "section": "O que faço?",
+    "text": "O que faço?\nAtuo em:\n\nGestão de produtos e projetos de conteúdos, desde a ideação e definição até a implementação e parametrização de CMS, LMS e outras bases de conteúdos;\nGestão e estratégia de conteúdos em si (gestão dos “processos” de conteúdo), como mapeamento de temas, calendário editorial, briefing, distribuição de tarefas, monitoramento de produtividade/métricas, assim como atualizações, curadoria, auditoria, ou seja, melhoria contínua de bases de conteúdos;\nCriação de conteúdos: redação, edição, revisão, pesquisa jornalística/bibliográfica para produção de conteúdos diversos."
   },
   {
-    "objectID": "index.html#faço",
-    "href": "index.html#faço",
+    "objectID": "about.html#tipos-de-conteúdos",
+    "href": "about.html#tipos-de-conteúdos",
     "title": "Rogério Kreidlow",
-    "section": "Faço:",
-    "text": "Faço:\n\nRedação;\nEdição;\nRevisão;\nPesquisa jornalística e bibliográfica;\nCuradoria de conteúdos;\nPlanejamento estratégico de conteúdos;\nGestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).\n\nAtualmente, experimento “IAs Generativas” como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas."
+    "section": "Tipos de conteúdos",
+    "text": "Tipos de conteúdos\nTenho preferência por textos, materiais, projetos ou produtos de conteúdos instrutivos, técnicos, analíticos e informativos. E em diversos formatos, como artigos, tutoriais, apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, análises e relatórios, notícias/reportagens, comunicados e afins. Não faço copywriting ou redação publicitária.\nAtualmente, uso e experimento “IAs Generativas” (ChatGPT, OpenAI API, AutoGPT) e outras ferramentas (text-to-speech, text-to-image, text-to-audio, text-to-video, geradores de sillabus etc.) como assistentes para escalar o trabalho."
   },
   {
-    "objectID": "index.html#tipos-de-textos",
-    "href": "index.html#tipos-de-textos",
-    "title": "Rogério Kreidlow",
-    "section": "Tipos de textos",
-    "text": "Tipos de textos\nTenho facilidade e preferência por textos informativos, instrutivos, técnicos e analíticos.\nMeu forte são artigos, tutoriais e notícias, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto.\nTambém adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos."
-  },
-  {
-    "objectID": "index.html#áreas-de-especialização",
-    "href": "index.html#áreas-de-especialização",
+    "objectID": "about.html#áreas-de-especialização",
+    "href": "about.html#áreas-de-especialização",
     "title": "Rogério Kreidlow",
     "section": "Áreas de especialização",
-    "text": "Áreas de especialização\nEncaro diversos desafios em texto, mas tenho inclinação para áreas tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
+    "text": "Áreas de especialização\nEncaro qualquer assunto, mas tenho inclinação para áreas mais técnicas, como ciências, engenharias e similares, com maior experiência em conteúdos tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
   },
   {
-    "objectID": "index.html#portfolio",
-    "href": "index.html#portfolio",
+    "objectID": "about.html#portfolio",
+    "href": "about.html#portfolio",
     "title": "Rogério Kreidlow",
     "section": "Portfolio",
-    "text": "Portfolio\nAmostras de alguns dos meus trabalhos podem ser conferidos neste portolfio."
+    "text": "Portfolio\nAcesse meu portolfio para ter amostras de alguns dos meus trabalhos."
   },
   {
-    "objectID": "index.html#hobbies",
-    "href": "index.html#hobbies",
+    "objectID": "about.html#atuação-e-formação",
+    "href": "about.html#atuação-e-formação",
     "title": "Rogério Kreidlow",
-    "section": "Hobbies",
-    "text": "Hobbies\nMeus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar."
+    "section": "Atuação e formação",
+    "text": "Atuação e formação\nPara saber mais sobre minha formação e atuação, confira meu perfil no LinkedIn ou visualize/baixe meu currículo, extraído de lá."
   },
   {
-    "objectID": "index.html#contatos",
-    "href": "index.html#contatos",
+    "objectID": "about.html#personalidade-e-hobbies",
+    "href": "about.html#personalidade-e-hobbies",
     "title": "Rogério Kreidlow",
-    "section": "Contatos",
-    "text": "Contatos\nPara saber mais sobre minha formação e atuação, confira meu perfil no LinkedIn.\nCaso esteja procurando um redator ou queira conversar sobre projetos relacionados a conteúdos, mande uma mensagem no meu LinkedIn ou neste formulário."
+    "section": "Personalidade e hobbies",
+    "text": "Personalidade e hobbies\nSou um INTJ-A, ou seja, introvertido, intuitivo, racional e julgador.\nPor isso, tenho muita facilidade com estratégia e planejamento, trabalho imersivo, solitário, técnico e analítico, otimizado para objetivos realistas e metas precisas. Por outro lado, tenho dificuldades com interações sociais, negociações, persuasão, escopos vagos e, definitivamente, fujo de papo furado, discurso de vendas e o que não acrescenta novos conhecimentos.\nMeus hobbies também são, basicamente, relacionados à aquisição de conhecimentos: muita leitura (de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar), tempo para reflexões e maturação de pensamentos e explorações, no mundo real ou no mundo das ideias."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Este é meu portfolio (se você caiu diretamente aqui, sugiro me conhecer primeiro).\nA seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).\nClique nas imagens para acessar os originais em PDF."
-  },
-  {
-    "objectID": "portfolio.html#tutoriais",
-    "href": "portfolio.html#tutoriais",
-    "title": "Portfolio",
-    "section": "Tutoriais",
-    "text": "Tutoriais\nEstas são amostras de tutoriais criados para um curso intitulado “Fundamentos de Programação”, em 2022:\n\n\n\n\n\nEstruturas Sequenciais\n\n\n\n\n\nEstruturas Condicionais\n\n\n\n\n\n\n\nImplementando Funções\n\n\n\n\n\nProgramando com Classes\n\n\n\n\nCriei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. — muitos deles de excelentes especialistas com quem colaborei — para mais de 30 cursos, abrangendo áreas como Programação, Dados, Design, Produto e Inovação e Gestão."
-  },
-  {
-    "objectID": "portfolio.html#artigos-instrutivos",
-    "href": "portfolio.html#artigos-instrutivos",
-    "title": "Portfolio",
-    "section": "Artigos instrutivos",
-    "text": "Artigos instrutivos\nAssim como os tutoriais, de viés mais prático, também produzi artigos instrutivos:\n\n\n\n\n\nArquitetura de um Computador\n\n\n\n\n\nLógica e Aritmética"
-  },
-  {
-    "objectID": "portfolio.html#artigos-interpretativos",
-    "href": "portfolio.html#artigos-interpretativos",
-    "title": "Portfolio",
-    "section": "Artigos interpretativos",
-    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até agosto/2023, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
-  },
-  {
-    "objectID": "portfolio.html#artigos-para-blogs",
-    "href": "portfolio.html#artigos-para-blogs",
-    "title": "Portfolio",
-    "section": "Artigos para blogs",
-    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog. O primeiro é um artigo e o segundo tem um caráter mais de tutorial.\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\nAté a atualização desta página, em agosto/2023, ambos os artigos estavam disponíveis neste e neste links."
-  },
-  {
-    "objectID": "portfolio.html#apresentação-de-slides",
-    "href": "portfolio.html#apresentação-de-slides",
-    "title": "Portfolio",
-    "section": "Apresentação de slides",
-    "text": "Apresentação de slides\nEmbora textos corridos sejam meu forte, também me arrisco em apresentações, como esta, para apoiar uma aula introdutória de Engenharia de Dados:\n\n\n\n\n\nIntrodução à Engenharia de Dados"
-  },
-  {
-    "objectID": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
-    "href": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
-    "title": "Portfolio",
-    "section": "Projeto e gestão de conteúdo de website",
-    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de agosto/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em agosto/2023 (a imagem leva para o site atual)\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
-  },
-  {
-    "objectID": "portfolio.html#relatórios-analíticos",
-    "href": "portfolio.html#relatórios-analíticos",
-    "title": "Portfolio",
-    "section": "Relatórios analíticos",
-    "text": "Relatórios analíticos\nEntrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio na época — até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão guardava. Foi um aprendizado a cada dia, acabei me tornando gerente depois, entregando muita coisa e desejando ter entregue mais.\nAbaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.\n\n\n\n\n\nRelatório de Ouvidoria à Secretaria da Saude de Joinville, produzido em 2015"
-  },
-  {
-    "objectID": "portfolio.html#trabalhos-jornalísticos",
-    "href": "portfolio.html#trabalhos-jornalísticos",
-    "title": "Portfolio",
-    "section": "Trabalhos jornalísticos",
-    "text": "Trabalhos jornalísticos\nPor fim, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).\n\nSérie de reportagens\nAbaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, o qual atende toda a região Norte/Nordeste de Santa Catarina:\n\n\n\n\n\nReportagem publicada em 04/05/2011\n\n\n\n\n\nReportagem publicada em 05/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 06/05/2011\n\n\n\n\n\nReportagem publicada em 08/05/2011\n\n\n\n\n\n\nReportagens e matérias avulsas\nE, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá por que motivos, em um antigo álbum no Issuu:\n\n\n\n\n\nReportagem publicada em 21/10/2010\n\n\n\n\n\nReportagem publicada em caderno sobre Meio Ambiente em 05/06/2012\n\n\n\n\n\n\n\nMatéria publicada em 09/06/2012\n\n\n\n\nUma curiosidade: uso Google Docs praticamente desde 2005, quando foi lançado. Então, tenho praticamente os originais de tudo o que fiz na minha vida de jornalista, um banco de dados e tanto. Só não me preocupei em salvar os PDFs dos trabalhos após publicados 🤦‍♂️.\nUm dia, quem sabe, ainda vou me aventurar no Arquivo Histórico de Joinville para garimpar outros trabalhos da época, mesmo que só por nostalgia."
-  },
-  {
-    "objectID": "portfolio.html#adendos",
-    "href": "portfolio.html#adendos",
-    "title": "Portfolio",
-    "section": "Adendos",
-    "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Rogério Kreidlow",
-    "section": "",
-    "text": "Jornalista e Redator | Conteúdo informativo, instrutivo, técnico e analítico.\nBem-vinda ou bem-vindo. Esta é minha página, destinada a reunir informações profissionais e, quem sabe, textos mais pessoais no futuro.\nSou jornalista e redator. Texto é o cerne do meu trabalho."
-  },
-  {
-    "objectID": "sobre.html#faço",
-    "href": "sobre.html#faço",
-    "title": "Rogério Kreidlow",
-    "section": "Faço:",
-    "text": "Faço:\n\nRedação;\nEdição;\nRevisão;\nPesquisa jornalística e bibliográfica;\nCuradoria de conteúdos;\nPlanejamento estratégico de conteúdos;\nGestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).\n\nAtualmente, experimento “IAs Generativas” como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas."
-  },
-  {
-    "objectID": "sobre.html#tipos-de-textos",
-    "href": "sobre.html#tipos-de-textos",
-    "title": "Rogério Kreidlow",
-    "section": "Tipos de textos",
-    "text": "Tipos de textos\nTenho facilidade e preferência por textos informativos, instrutivos, técnicos e analíticos.\nMeu forte são artigos, tutoriais e notícias, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto.\nTambém adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos."
-  },
-  {
-    "objectID": "sobre.html#áreas-de-especialização",
-    "href": "sobre.html#áreas-de-especialização",
-    "title": "Rogério Kreidlow",
-    "section": "Áreas de especialização",
-    "text": "Áreas de especialização\nEncaro diversos desafios em texto, mas tenho inclinação para áreas tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
-  },
-  {
-    "objectID": "sobre.html#portfolio",
-    "href": "sobre.html#portfolio",
-    "title": "Rogério Kreidlow",
-    "section": "Portfolio",
-    "text": "Portfolio\nAmostras de alguns dos meus trabalhos podem ser conferidos neste portolfio."
-  },
-  {
-    "objectID": "sobre.html#hobbies",
-    "href": "sobre.html#hobbies",
-    "title": "Rogério Kreidlow",
-    "section": "Hobbies",
-    "text": "Hobbies\nMeus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar."
-  },
-  {
-    "objectID": "sobre.html#contatos",
-    "href": "sobre.html#contatos",
+    "objectID": "about.html#contatos",
+    "href": "about.html#contatos",
     "title": "Rogério Kreidlow",
     "section": "Contatos",
-    "text": "Contatos\nPara saber mais sobre minha formação e atuação, confira meu perfil no LinkedIn.\nCaso esteja procurando um redator ou queira conversar sobre projetos relacionados a conteúdos, mande uma mensagem no meu LinkedIn ou neste formulário."
+    "text": "Contatos\nCaso esteja procurando serviços ou consultoria nas minhas áreas de competência ou queira conversar sobre assuntos relacionados, mande uma mensagem no LinkedIn ou neste formulário."
   },
   {
     "objectID": "olds/230827-sobre.html",
@@ -315,94 +175,108 @@
     "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Este é meu portfolio (se você caiu diretamente aqui, sugiro me conhecer primeiro).\nA seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).\nClique nas imagens para acessar os originais em PDF."
+  },
+  {
+    "objectID": "portfolio.html#tutoriais",
+    "href": "portfolio.html#tutoriais",
+    "title": "Portfolio",
+    "section": "Tutoriais",
+    "text": "Tutoriais\nEstas são amostras de tutoriais criados para um curso intitulado “Fundamentos de Programação”, em 2022:\n\n\n\n\n\nEstruturas Sequenciais\n\n\n\n\n\nEstruturas Condicionais\n\n\n\n\n\n\n\nImplementando Funções\n\n\n\n\n\nProgramando com Classes\n\n\n\n\nCriei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. — muitos deles de excelentes especialistas com quem colaborei — para mais de 30 cursos, abrangendo áreas como Programação, Dados, Design, Produto e Inovação e Gestão."
+  },
+  {
+    "objectID": "portfolio.html#artigos-instrutivos",
+    "href": "portfolio.html#artigos-instrutivos",
+    "title": "Portfolio",
+    "section": "Artigos instrutivos",
+    "text": "Artigos instrutivos\nAssim como os tutoriais, de viés mais prático, também produzi artigos instrutivos:\n\n\n\n\n\nArquitetura de um Computador\n\n\n\n\n\nLógica e Aritmética"
+  },
+  {
+    "objectID": "portfolio.html#artigos-interpretativos",
+    "href": "portfolio.html#artigos-interpretativos",
+    "title": "Portfolio",
+    "section": "Artigos interpretativos",
+    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até agosto/2023, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
+  },
+  {
+    "objectID": "portfolio.html#artigos-para-blogs",
+    "href": "portfolio.html#artigos-para-blogs",
+    "title": "Portfolio",
+    "section": "Artigos para blogs",
+    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog. O primeiro é um artigo e o segundo tem um caráter mais de tutorial.\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\nAté a atualização desta página, em agosto/2023, ambos os artigos estavam disponíveis neste e neste links."
+  },
+  {
+    "objectID": "portfolio.html#apresentação-de-slides",
+    "href": "portfolio.html#apresentação-de-slides",
+    "title": "Portfolio",
+    "section": "Apresentação de slides",
+    "text": "Apresentação de slides\nEmbora textos corridos sejam meu forte, também me arrisco em apresentações, como esta, para apoiar uma aula introdutória de Engenharia de Dados:\n\n\n\n\n\nIntrodução à Engenharia de Dados"
+  },
+  {
+    "objectID": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
+    "href": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
+    "title": "Portfolio",
+    "section": "Projeto e gestão de conteúdo de website",
+    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de agosto/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em agosto/2023 (a imagem leva para o site atual)\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
+  },
+  {
+    "objectID": "portfolio.html#relatórios-analíticos",
+    "href": "portfolio.html#relatórios-analíticos",
+    "title": "Portfolio",
+    "section": "Relatórios analíticos",
+    "text": "Relatórios analíticos\nEntrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio na época — até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão guardava. Foi um aprendizado a cada dia, acabei me tornando gerente depois, entregando muita coisa e desejando ter entregue mais.\nAbaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.\n\n\n\n\n\nRelatório de Ouvidoria à Secretaria da Saude de Joinville, produzido em 2015"
+  },
+  {
+    "objectID": "portfolio.html#trabalhos-jornalísticos",
+    "href": "portfolio.html#trabalhos-jornalísticos",
+    "title": "Portfolio",
+    "section": "Trabalhos jornalísticos",
+    "text": "Trabalhos jornalísticos\nPor fim, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).\n\nSérie de reportagens\nAbaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, o qual atende toda a região Norte/Nordeste de Santa Catarina:\n\n\n\n\n\nReportagem publicada em 04/05/2011\n\n\n\n\n\nReportagem publicada em 05/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 06/05/2011\n\n\n\n\n\nReportagem publicada em 08/05/2011\n\n\n\n\n\n\nReportagens e matérias avulsas\nE, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá por que motivos, em um antigo álbum no Issuu:\n\n\n\n\n\nReportagem publicada em 21/10/2010\n\n\n\n\n\nReportagem publicada em caderno sobre Meio Ambiente em 05/06/2012\n\n\n\n\n\n\n\nMatéria publicada em 09/06/2012\n\n\n\n\nUma curiosidade: uso Google Docs praticamente desde 2005, quando foi lançado. Então, tenho praticamente os originais de tudo o que fiz na minha vida de jornalista, um banco de dados e tanto. Só não me preocupei em salvar os PDFs dos trabalhos após publicados 🤦‍♂️.\nUm dia, quem sabe, ainda vou me aventurar no Arquivo Histórico de Joinville para garimpar outros trabalhos da época, mesmo que só por nostalgia."
+  },
+  {
+    "objectID": "portfolio.html#adendos",
+    "href": "portfolio.html#adendos",
+    "title": "Portfolio",
+    "section": "Adendos",
+    "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los aqui. Caso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre em contato no meu LinkedIn ou neste formulário para resolvermos da melhor forma.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rogério Kreidlow",
+    "section": "",
+    "text": "Estratégia e Gestão de Conteúdos\nBem-vinda ou bem-vindo. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfolio.\nSe quiser, confira meu LinkedIn ou currículo.\nSe você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma mensagem no LinkedIn ou neste formulário.\nEm breve, adicionarei posts neste espaço.\nObrigado pela visita.\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+  },
+  {
     "objectID": "olds/230827-index.html",
     "href": "olds/230827-index.html",
     "title": "Rogério Kreidlow",
     "section": "",
     "text": "Estratégia e Gestão de Conteúdos\nBem-vinda ou bem-vindo! Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, produção e gestão de contéudos diversos.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalho no portfolio.\nSe quiser, confira meu LinkedIn e currículo.\nSe você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma mensagem no LinkedIn ou neste formulário.\nEm algum momento, adicionarei postagens minhas neste espaço.\nObrigado pela visita.\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html#faço",
-    "href": "about.html#faço",
-    "title": "Rogério Kreidlow",
-    "section": "Faço:",
-    "text": "Faço:\n\nRedação;\nEdição;\nRevisão;\nPesquisa jornalística e bibliográfica;\nCuradoria de conteúdos;\nPlanejamento estratégico de conteúdos;\nGestão de bases de conteúdos (CMS como Worpress e outros, LMS e similares).\n\nAtualmente, experimento “IAs Generativas” como ChatGPT, OpenAI API e outras ferramentas para escalar tais tarefas."
-  },
-  {
-    "objectID": "about.html#tipos-de-textos",
-    "href": "about.html#tipos-de-textos",
-    "title": "Rogério Kreidlow",
-    "section": "Tipos de textos",
-    "text": "Tipos de textos\nTenho facilidade e preferência por textos informativos, instrutivos, técnicos e analíticos.\nMeu forte são artigos, tutoriais e notícias, porém me arrisco em apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, relatórios e análises, além de microtextos e copies para UX Writing, dependendo do projeto.\nTambém adoro contribuir com ideação, prototipação e desenvolvimento de produtos digitais voltados a conteúdos."
-  },
-  {
-    "objectID": "about.html#áreas-de-especialização",
-    "href": "about.html#áreas-de-especialização",
-    "title": "Rogério Kreidlow",
-    "section": "Áreas de especialização",
-    "text": "Áreas de especialização\nEncaro qualquer assunto, mas tenho inclinação para áreas mais técnicas, como ciências, engenharias e similares, com maior experiência em conteúdos tech como:\n\nDesenvolvimento de Software (Programação Front-End, Programação Back-End, DevOps etc.);\nCiência de Dados (Data Science, Data Analytics, Data Engineering etc.);\nGestão de Produtos (Product Management, Product Discovery, Product Marketing etc.);\nUX/UI Design (UX, UI, Research, Systems, Ops etc.);\nMarketing (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);\nInovação e Gestão (Startups, Venture Capital, Liderança, Soft Skills etc.)."
-  },
-  {
-    "objectID": "about.html#portfolio",
-    "href": "about.html#portfolio",
-    "title": "Rogério Kreidlow",
-    "section": "Portfolio",
-    "text": "Portfolio\nAcesse meu portolfio para ter amostras de alguns dos meus trabalhos."
-  },
-  {
-    "objectID": "about.html#hobbies",
-    "href": "about.html#hobbies",
-    "title": "Rogério Kreidlow",
-    "section": "Hobbies",
-    "text": "Hobbies\nMeus hobbies são, basicamente, vida em família e leitura, literalmente de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar."
-  },
-  {
-    "objectID": "about.html#contatos",
-    "href": "about.html#contatos",
-    "title": "Rogério Kreidlow",
-    "section": "Contatos",
-    "text": "Contatos\nCaso esteja procurando serviços ou consultoria nas minhas áreas de competência ou queira conversar sobre assuntos relacionados, mande uma mensagem no LinkedIn ou neste formulário."
-  },
-  {
-    "objectID": "about.html#bio-rápida",
-    "href": "about.html#bio-rápida",
-    "title": "Rogério Kreidlow",
-    "section": "",
-    "text": "Sou Rogério Kreidlow (pronuncia-se “cráidlóf” ou “cráitlóf” ou, segundo o alemão pomerano original, “cráitlô”), tenho 42 anos e escrevo de Joinville, SC, Brasil.\nTexto é minha especialidade. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos."
-  },
-  {
-    "objectID": "about.html#o-que-faço",
-    "href": "about.html#o-que-faço",
-    "title": "Rogério Kreidlow",
-    "section": "O que faço?",
-    "text": "O que faço?\nAtuo em:\n\nGestão de produtos e projetos de conteúdos, desde a ideação e definição até a implementação e parametrização de CMS, LMS e outras bases de conteúdos;\nGestão e estratégia de conteúdos em si (gestão dos “processos” de conteúdo), como mapeamento de temas, calendário editorial, briefing, distribuição de tarefas, monitoramento de produtividade/métricas, assim como atualizações, curadoria, auditoria, ou seja, melhoria contínua de bases de conteúdos;\nCriação de conteúdos: redação, edição, revisão, pesquisa jornalística/bibliográfica para produção de conteúdos diversos."
-  },
-  {
-    "objectID": "about.html#tipos-de-conteúdos",
-    "href": "about.html#tipos-de-conteúdos",
-    "title": "Rogério Kreidlow",
-    "section": "Tipos de conteúdos",
-    "text": "Tipos de conteúdos\nTenho preferência por textos, materiais, projetos ou produtos de conteúdos instrutivos, técnicos, analíticos e informativos. E em diversos formatos, como artigos, tutoriais, apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, análises e relatórios, notícias/reportagens, comunicados e afins. Não faço copywriting ou redação publicitária.\nAtualmente, uso e experimento “IAs Generativas” (ChatGPT, OpenAI API, AutoGPT) e outras ferramentas (text-to-speech, text-to-image, text-to-audio, text-to-video, geradores de sillabus etc.) como assistentes para escalar o trabalho."
-  },
-  {
-    "objectID": "about.html#personalidade-e-hobbies",
-    "href": "about.html#personalidade-e-hobbies",
-    "title": "Rogério Kreidlow",
-    "section": "Personalidade e hobbies",
-    "text": "Personalidade e hobbies\nSou um INTJ-A, ou seja, introvertido, intuitivo, racional e julgador.\nPor isso, tenho muita facilidade com estratégia e planejamento, trabalho imersivo, solitário, técnico e analítico, otimizado para objetivos realistas e metas precisas. Por outro lado, tenho dificuldades com interações sociais, negociações, persuasão, escopos vagos e, definitivamente, fujo de papo furado, discurso de vendas e o que não acrescenta novos conhecimentos.\nMeus hobbies também são, basicamente, relacionados à aquisição de conhecimentos: muita leitura (de História a Filosofia da Matemática, de Computação a Antropologia, ou aonde a curiosidade me levar), tempo para reflexões e maturação de pensamentos e explorações, no mundo real ou no mundo das ideias."
-  },
-  {
-    "objectID": "about.html#atuação-e-formação",
-    "href": "about.html#atuação-e-formação",
-    "title": "Rogério Kreidlow",
-    "section": "Atuação e formação",
-    "text": "Atuação e formação\nPara saber mais sobre minha formação e atuação, confira meu perfil no LinkedIn ou visualize/baixe meu currículo, extraído de lá."
-  },
-  {
-    "objectID": "about.html#bio",
-    "href": "about.html#bio",
-    "title": "Rogério Kreidlow",
-    "section": "",
-    "text": "Sou Rogério Kreidlow (pronuncia-se “cráidlóf” ou “cráitlóf” ou, segundo o alemão pomerano original, “cráitlô”), tenho 42 anos e estou situado em Joinville, SC, Brasil.\nTexto é minha especialidade. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos."
   }
 ]
