@@ -15,11 +15,13 @@ website:
         href: https://www.linkedin.com/in/rogerkrw/
   google-analytics: "G-H1VN6PCJ26"
   back-to-top-navigation: true
-  page-footer: "Copyright 2023, Rogério Kreidlow" 
+  page-footer: "© Copyright 2023, Rogério Kreidlow. Feito com [Quarto](https://quarto.org/)." 
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: cyborg
     css: styles.css
     toc: true
 
