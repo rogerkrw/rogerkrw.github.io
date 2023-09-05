@@ -21,19 +21,19 @@ Sou **Rogério Kreidlow** (pronuncia-se "cráidlóf" ou "cráitlóf" ou, segundo
 
 Atuo em:
 
-1. **Gestão de produtos e projetos de conteúdos**, desde a ideação e definição até a implementação e parametrização de CMS, LMS e outras bases de conteúdos;
-2.  **Gestão e estratégia de conteúdos** em si (gestão dos "processos" de conteúdo), como mapeamento de temas, calendário editorial, briefing, distribuição de tarefas, monitoramento de produtividade/métricas, assim como atualizações, curadoria, auditoria, ou seja, melhoria contínua de bases de conteúdos;
-3. **Criação de conteúdos:** redação, edição, revisão, pesquisa jornalística/bibliográfica para produção de conteúdos diversos.
+1. **Redação**, **edição**, **revisão**, pesquisa jornalística/bibliográfica para produção de conteúdos diversos.
+2.  **Gestão de conteúdos** (gestão dos "processos" de conteúdo), como mapeamento de temas, calendário editorial, briefing, distribuição de tarefas, monitoramento de produtividade/métricas, assim como atualizações, curadoria, auditoria, ou seja, melhoria contínua de bases de conteúdos;
+3. **Gestão de produtos e projetos de conteúdos**, desde a ideação e definição até a implementação e parametrização de CMS, LMS e outras bases de conteúdos.
 
 ## Tipos de conteúdos
 
-Tenho preferência por textos, materiais, projetos ou produtos de conteúdos **instrutivos**, **técnicos**, **analíticos** e **informativos**. E em diversos formatos, como artigos, tutoriais, apresentações de slides, roteiros de vídeos, bem como ementas, materiais de back office, análises e relatórios, notícias/reportagens, comunicados e afins. Não faço copywriting ou redação publicitária.
+Tenho mais experiência com textos, materiais, projetos ou produtos de conteúdos de caráter **educativo/instrutivo**, **informativo** e, em menor medida, técnico, analítico e/ou copywriting/publicitário. Mas encaro diferentes desafios em texto, e em formatos diversos, como artigos, tutoriais, apresentações de slides, roteiros de vídeos, bem como ementas, relatórios, notícias, comunicados e afins.
 
 Atualmente, uso e experimento "IAs Generativas" (ChatGPT, OpenAI API, AutoGPT) e outras ferramentas (*text-to-speech*, *text-to-image*, *text-to-audio*, *text-to-video*, geradores de sillabus etc.) como assistentes para escalar o trabalho.
 
 ## Áreas de especialização
 
-Encaro qualquer assunto, mas tenho inclinação para áreas mais técnicas, como ciências, engenharias e similares, com maior experiência em conteúdos *tech* como:
+Textos para áreas "tech" têm sido meu foco nos últimos anos, como:
 
 - **Desenvolvimento de Software** (Programação Front-End, Programação Back-End, DevOps etc.);
 - **Ciência de Dados** (Data Science, Data Analytics, Data Engineering etc.);
