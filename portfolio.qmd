@@ -1,9 +1,9 @@
 ---
-title: "Portfolio"
+title: "Portfólio"
 title-block-banner: true
 ---
 
-Este é meu *portfolio* (se você caiu  diretamente aqui, sugiro [me conhecer](index.qmd) primeiro).
+Este é meu portfólio (se você caiu  diretamente aqui, sugiro [me conhecer](index.qmd) primeiro).
 
 A seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).
 

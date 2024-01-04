@@ -42,9 +42,9 @@ Textos para áreas "tech" têm sido meu foco nos últimos anos, como:
 - **Marketing** (Marketing de Conteúdo, SEO/SEM, Growth Hacking etc.);
 - **Inovação e Gestão** (Startups, Venture Capital, Liderança, Soft Skills etc.).
 
-## Portfolio
+## Portfólio
 
-Acesse meu [portolfio](portfolio.qmd) para ter amostras de alguns dos meus trabalhos.
+Acesse meu [portfólio](portfolio.qmd) para ter amostras de alguns dos meus trabalhos.
 
 ## Atuação e formação
 
