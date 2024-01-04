@@ -11,7 +11,7 @@ Bem-vinda ou bem-vindo. Sou **jornalista** e **redator**, com experiência em **
 
 Saiba mais sobre mim na [bio](about.qmd).
 
-Conheça alguns dos meus trabalhos no [portfolio](portfolio.qmd).
+Conheça alguns dos meus trabalhos no [portfólio](portfolio.qmd).
 
 Se quiser, confira meu [LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [currículo](https://drive.google.com/file/d/1L1ab99x1R5S66zZZUyPnprP3RAGUymui/view?usp=sharing).
 
