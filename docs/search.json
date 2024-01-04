@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "Rogério Kreidlow",
     "section": "",
-    "text": "Estratégia e Gestão de Conteúdos\nBem-vinda ou bem-vindo. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfolio.\nSe quiser, confira meu LinkedIn ou currículo.\nSe você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma mensagem no LinkedIn ou neste formulário.\nObrigado pela visita.\n\n\n Back to top"
+    "text": "Estratégia e Gestão de Conteúdos\nBem-vinda ou bem-vindo. Sou jornalista e redator, com experiência em implementação de produtos e projetos de conteúdo, além de produção e gestão de conteúdos diversos.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfólio.\nSe quiser, confira meu LinkedIn ou currículo.\nSe você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma mensagem no LinkedIn ou neste formulário.\nObrigado pela visita.\n\n\n Back to top"
   },
   {
     "objectID": "portfolio.html",
@@ -75,6 +75,13 @@
     "title": "Portfólio",
     "section": "",
     "text": "Este é meu portfólio (se você caiu diretamente aqui, sugiro me conhecer primeiro).\nA seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).\nClique nas imagens para acessar os originais em PDF."
+  },
+  {
+    "objectID": "portfolio.html#documentações-técnico-instrutivas",
+    "href": "portfolio.html#documentações-técnico-instrutivas",
+    "title": "Portfólio",
+    "section": "Documentações técnico-instrutivas",
+    "text": "Documentações técnico-instrutivas\nDesde set/2023, tenho colaborado na produção de documentação técnico-instrutiva para desenvolvedores de uma software house. Eis uma rápida amostra:\n\n\n\n\n\nApresentação de Guia de Boas Práticas para desenvolvedores de software\n\n\n\n\n\nPadrões para Commits no Git\n\n\n\n\nComecei com um “Guia de Boas Práticas”. Nele, abordei desde ferramentas usadas, padrões para commits e fluxos de trabalho no Git até processos e recomendações para colaborações em time, planejamento de tarefas e estimativas de esforço.\nNa sequência, tenho evoluído para guias rápidos sobre JavaScript, SQL e TypeScript, além de ajudar na elaboração e edição de desafios para onboarding e treinamento de novos devs."
   },
   {
     "objectID": "portfolio.html#tutoriais",
@@ -95,14 +102,14 @@
     "href": "portfolio.html#artigos-interpretativos",
     "title": "Portfólio",
     "section": "Artigos interpretativos",
-    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até agosto/2023, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
+    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até jan/2024, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
   },
   {
     "objectID": "portfolio.html#artigos-para-blogs",
     "href": "portfolio.html#artigos-para-blogs",
     "title": "Portfólio",
     "section": "Artigos para blogs",
-    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog. O primeiro é um artigo e o segundo tem um caráter mais de tutorial.\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\nAté a atualização desta página, em agosto/2023, ambos os artigos estavam disponíveis neste e neste links."
+    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog — marketing de conteúdo mais tradicional. O primeiro é um artigo e o segundo tem um caráter de tutorial.\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\nAté a atualização desta seção, em jan/2024, ambos os artigos estavam disponíveis neste e neste links."
   },
   {
     "objectID": "portfolio.html#apresentação-de-slides",
@@ -116,7 +123,7 @@
     "href": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
     "title": "Portfólio",
     "section": "Projeto e gestão de conteúdo de website",
-    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de agosto/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em agosto/2023 (a imagem leva para o site atual)\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
+    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de ago/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em ago/2023 (a imagem leva para o site atual)\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em ago/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
   },
   {
     "objectID": "portfolio.html#relatórios-analíticos",

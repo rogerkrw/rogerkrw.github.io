@@ -9,6 +9,22 @@ A seguir, reúno amostras desde produções mais recentes (material instrutivo e
 
 Clique nas imagens para acessar os originais em PDF.
 
+## Documentações técnico-instrutivas
+
+Desde set/2023, tenho colaborado na produção de documentação técnico-instrutiva para desenvolvedores de uma software house. Eis uma rápida amostra:
+
+::: {layout-ncol=2}
+
+[![Apresentação de Guia de Boas Práticas para desenvolvedores de software](imgs/img-portfolio-doctech01.png "Abertura de Guia de Boas Práticas par Devs")](https://drive.google.com/file/d/1kqaT0kpO1xTxrP5EYMzhxtLWPgSyeYOL/view?usp=sharing)
+
+[![Padrões para Commits no Git](imgs/img-portfolio-doctech02.png "Padrões para Commits")](https://drive.google.com/file/d/1C3sujZVg9XyL5z4qZzZ1XlY8n9tZBMe6/view?usp=sharing)
+
+:::
+
+Comecei com um "Guia de Boas Práticas". Nele, abordei desde ferramentas usadas, padrões para commits e fluxos de trabalho no Git até processos e recomendações para colaborações em time, planejamento de tarefas e estimativas de esforço. 
+
+Na sequência, tenho evoluído para guias rápidos sobre JavaScript, SQL e TypeScript, além de ajudar na elaboração e edição de desafios para onboarding e treinamento de novos devs.
+
 ## Tutoriais
 
 Estas são amostras de tutoriais criados para um curso intitulado "Fundamentos de Programação", em 2022:
@@ -65,11 +81,11 @@ A proposta era de artigos mais densos e longos, com uma pegada analítica e inte
 
 :::
 
-Praticamente todos esses textos continuavam disponíveis, ao menos até agosto/2023, nos seguintes endereços: [Awari Insights - Produtos e UX](https://awariprodutoux.substack.com/) e [Awari Insights - Dados e Tecnologia](https://awaridados.substack.com/).
+Praticamente todos esses textos continuavam disponíveis, ao menos até jan/2024, nos seguintes endereços: [Awari Insights - Produtos e UX](https://awariprodutoux.substack.com/) e [Awari Insights - Dados e Tecnologia](https://awaridados.substack.com/).
 
 ## Artigos para blogs
 
-Aqui estão, também, alguns textos para blog. O primeiro é um artigo e o segundo tem um caráter mais de tutorial.
+Aqui estão, também, alguns textos para blog — marketing de conteúdo mais tradicional. O primeiro é um artigo e o segundo tem um caráter de tutorial.
 
 ::: {layout-ncol=2}
 
@@ -79,7 +95,7 @@ Aqui estão, também, alguns textos para blog. O primeiro é um artigo e o segun
 
 :::
 
-Até a atualização desta página, em agosto/2023, ambos os artigos estavam disponíveis [neste](https://awari.com.br/banco-de-dados-nao-relacional/) e [neste](https://awari.com.br/como-criar-banco-de-dados/) links.
+Até a atualização desta seção, em jan/2024, ambos os artigos estavam disponíveis [neste](https://awari.com.br/banco-de-dados-nao-relacional/) e [neste](https://awari.com.br/como-criar-banco-de-dados/) links.
 
 ## Apresentação de slides
 
@@ -97,7 +113,7 @@ Em 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefei
 
 Abaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais. 
 
-A última imagem é um exemplo de "Carta de Serviço" (print de agosto/2023) --- além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.
+A última imagem é um exemplo de "Carta de Serviço" (print de ago/2023) --- além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.
 
 ::: {layout-nrow=2}
 
@@ -105,13 +121,13 @@ A última imagem é um exemplo de "Carta de Serviço" (print de agosto/2023) ---
 
 [![Apresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site](imgs/img-portfolio-0602.png "Apresentação do joinville.sc.gov.br")](https://docs.google.com/presentation/d/e/2PACX-1vTKbosFQbMvoZWSmObIuCtVIhP64SRoS74k9_aSfWxx07p8fIVDa9ENrAnsJ_pOoepXMQFxq8474RX8/pub?start=false&loop=false&delayms=3000)
 
-[![Página inicial do joinville.sc.gov.br em agosto/2023 (a imagem leva para o site atual)](imgs/img-portfolio-0603.png "Página inicial do joinville.sc.gov.br em agosto/2023")](https://www.joinville.sc.gov.br/)
+[![Página inicial do joinville.sc.gov.br em ago/2023 (a imagem leva para o site atual)](imgs/img-portfolio-0603.png "Página inicial do joinville.sc.gov.br em agosto/2023")](https://www.joinville.sc.gov.br/)
 
 [![Exemplo de Carta de Serviço, um dos principais tipos de conteúdo do site](imgs/img-portfolio-0604.png "Exemplo de Carta de Serviço")](https://drive.google.com/file/d/1yaLLmyK5HQk5sMFnaWHteJiJ60OizWMb/view?usp=sharing)
 
 :::
 
-O [design atual do site](https://joinville.sc.gov.br) teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar "Cartas de Serviços" aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em agosto/2023).
+O [design atual do site](https://joinville.sc.gov.br) teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar "Cartas de Serviços" aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em ago/2023).
 
 Foi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos.
 
