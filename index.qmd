@@ -5,9 +5,9 @@ about:
   template: jolla
 ---
 
-**Redação, Edição e Gestão de Conteúdos**
+**Redação e Gestão de Conteúdos**
 
-Bem-vinda ou bem-vindo. Sou **jornalista**, **redator** e **editor**, com experiência em **implementação de produtos e projetos de conteúdo**, além de **produção e gestão de conteúdos** diversos.
+Bem-vinda ou bem-vindo. Sou **jornalista** e **redator**, com experiência em **implementação de produtos e projetos de conteúdo**, além de **produção e gestão de conteúdos** diversos.
 
 Saiba mais sobre mim na [bio](about.qmd).
 
