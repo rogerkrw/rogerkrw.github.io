@@ -10,46 +10,36 @@ about:
 page-layout: full
 ---
 
-**Redação, Edição e Gestão de Conteúdos Instrucionais e Técnicos | Resolvedor de Problemas | Jornalista**
+**Redator técnico e instrucional | Resolvedor de problemas | Jornalista**
 
-Sou **Rogério Kreidlow** (pronuncia-se "cráitlóf"), tenho 42 anos e estou situado em Joinville, SC, Brasil.
+Sou **Rogério Kreidlow** (pronuncia-se "cráidlóf"), tenho 42 anos e estou situado em Joinville, SC, Brasil.
 
-Sou **jornalista** e **redator**, com experiência em **redação**, **edição** e **gestão de conteúdos instrucionais, técnicos, analíticos e informativos**, bem como implementação de produtos, projetos e processos voltados a conteúdos.
+Tenho uma carreira de 20 anos, com passagens pelo **Jornalismo**, **Administração Pública** e, atualmente, **redação técnica e instrucional para startups e software houses**. E, na falta de definição melhor, também visto o chapéu de **“resolvedor de problemas generalista”**.
 
-## O que faço?
+## Redação técnica e instrucional 
 
-Atuo em:
+**Redatão técnica e instrucional** é onde tenho atuado, recentemente, e o que encaro como caminho de especialização. Redijo, edito, planejo e faço gestão de conteúdos voltados a **Desenvolvimento/Engenharia de Software**, **Ciência de Dados**, **UX Design** e **Gestão de Produtos**, mas sem descartar propostas e desafios em outras áreas (tenho feito trabalhos em **Engenharia Civil**, por exemplo).
 
-1. **Redação**, **edição**, **revisão**, pesquisa jornalística/bibliográfica para produção de conteúdos diversos;
-2.  **Gestão de conteúdos**, como mapeamento de temas, calendário editorial, briefing, distribuição de tarefas, monitoramento de produtividade/métricas, assim como atualizações, curadoria, auditoria, ou seja, melhoria contínua de bases de conteúdos;
-3. **Gestão de produtos e projetos de conteúdos**, desde a ideação e definição até a implementação e parametrização de CMS, LMS e outras bases de conteúdos.
+## "Resolvedor de problemas generalista"
 
-## Tipos de conteúdos
+**“Resolvedor de problemas generalista”** é o outro chapéu porque gosto de “me meter” em **gestão de processos e de projetos**, **discovery**, **pesquisa** e **ideação**, bem como planejamento, elaboração de estratégia, além de conduzir implementação e **melhoria contínua** de recursos, planos, produtos, serviços, o que seja.
 
-Tenho mais experiência com textos, materiais, projetos ou produtos de conteúdos de caráter **instrutivo/educativo**, **técnico**, **analítico** e **informativo**. Encaro desafios em formatos diversos, como artigos, tutoriais, apresentações de slides, roteiros, bem como ementas, relatórios, notícias, comunicados e afins.
-
-## Áreas de especialização
-
-Textos para áreas "tech" têm sido meu foco nos últimos anos, como **Desenvolvimento de Software** (Programação Front-End, Programação Back-End, DevOps etc.); **Ciência de Dados** (Data Science, Data Analytics, Data Engineering etc.); **Gestão de Produtos** (Product Management, Product Discovery, Product Marketing etc.); **UX/UI Design** (UX, UI, Research, Systems, Ops etc.) e **Inovação** (Startups, Venture Capital, Liderança, Soft Skills etc.). Mas também tive oportunidade de contribuir em áreas mais tradicionais, como **Engenharia Civil**.
-
-## Outros "talentos"
-
-Paralelamente, também visto o chapéu de **"resolvedor de problemas generalista"**. Gosto de “me meter” em gestão de processos e de projetos, pesquisa/discovery e ideação, bem como planejamento, estratégia, implantação e melhoria contínua de recursos, planos, produtos, serviços, o que seja.
-
-## Portfólio
-
-Acesse meu [portfólio](portfolio.qmd) para ter amostras de alguns dos meus trabalhos.
-
-## Atuação e formação
-
-Para saber mais sobre minha formação e atuação, confira meu perfil no [Linkedin](https://www.linkedin.com/in/rogerkrw/).
+Não à toa, procuro estar cada vez mais envolvido com Desenvolvimento e Engenharia de Software, Computação, Tecnologia da Informação e Ciência de Dados.
 
 ## Personalidade e hobbies
 
-No pessoal, sou [INTJ-A](ttps://www.16personalities.com/br/personalidade-intj) ou ["C style" no DISC](https://www.discprofile.com/what-is-disc/disc-styles/conscientiousness). Tenho facilidade com aprendizado, racionalidade, lógica, precisão, atenção a detalhes (sem perder o “quadro geral”), trabalho imersivo, planejamento e busca por eficiência.
+Sou [INTJ-A](ttps://www.16personalities.com/br/personalidade-intj) ou ["C style" no DISC](https://www.discprofile.com/what-is-disc/disc-styles/conscientiousness). Tenho facilidade com aprendizado, racionalidade, lógica, precisão, atenção a detalhes (sem perder o “quadro geral”), trabalho imersivo, planejamento e busca por eficiência.
 
-Entre hobbies, gosto de ler e acompanhar sobre Ciência, Tecnologia, Matemática e Filosofia, principalmente Epistemologia, com foco em Lógica e Filosofia da Ciência.
+Entre hobbies, gosto de ler e acompanhar Ciência, Tecnologia, Matemática e Filosofia, principalmente Epistemologia (Lógica e Filosofia da Ciência).
+
+## Portfólio
+
+Acesse meu [portfólio](portfolio.qmd) para conhecer alguns dos meus trabalhos.
+
+## Atuação e formação
+
+Onde atuei e minhas formações, no meu [Linkedin](https://www.linkedin.com/in/rogerkrw/).
 
 ## Contatos
 
-Caso esteja procurando serviços ou consultoria nas minhas áreas de competência ou queira conversar sobre assuntos relacionados, mande uma mensagem no [Linkedin](https://www.linkedin.com/in/rogerkrw/).
+Se você procura serviços ou consultoria (ou quer trocar ideias) nas áreas em que atuo, me mande uma mensagem no [WhatsApp](https://wa.me/5547996588627).

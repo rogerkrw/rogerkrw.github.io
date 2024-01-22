@@ -5,9 +5,9 @@ about:
   template: jolla
 ---
 
-**Redação, Edição e Gestão de Conteúdos Instrucionais e Técnicos |<br/> Resolvedor de Problemas | Jornalista**
+**Redator técnico e instrucional | Resolvedor de problemas | Jornalista**
 
-Sou **jornalista** e **redator**, com experiência em **redação**, **edição** e **gestão de conteúdos instrucionais, técnicos, analíticos e informativos**, bem como implementação de produtos, projetos e processos voltados a conteúdos.
+Tenho uma carreira de 20 anos, com passagens pelo **Jornalismo**, **Administração Pública** e, atualmente, **redação técnica e instrucional para startups e software houses**. E, na falta de definição melhor, também visto o chapéu de **“resolvedor de problemas generalista”**.
 
 Saiba mais sobre mim na [bio](about.qmd).
 
@@ -15,6 +15,6 @@ Conheça alguns dos meus trabalhos no [portfólio](portfolio.qmd).
 
 Onde atuei e formações, no [Linkedin](https://www.linkedin.com/in/rogerkrw/).
 
-Se você procura serviços ou consultoria (ou quer trocar ideias sobre), mande uma mensagem no [meu WhatsApp](https://wa.me/5547996588627).
+Se você procura serviços ou consultoria (ou quer trocar ideias) nas áreas em que atuo, me mande uma mensagem no [WhatsApp](https://wa.me/5547996588627).
 
 Obrigado pela visita.
