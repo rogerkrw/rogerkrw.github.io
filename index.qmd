@@ -1,20 +1,20 @@
 ---
 title: "Rogério Kreidlow"
-image: imgs/rogerkrw.jpg
+image: imgs/rogerkrw.png
 about:
   template: jolla
 ---
 
-**Redação e Gestão de Conteúdos**
+**Redação, Edição e Gestão de Conteúdos Instrucionais e Técnicos |<br/> Resolvedor de Problemas | Jornalista**
 
-Bem-vinda ou bem-vindo. Sou **jornalista** e **redator**, com experiência em **implementação de produtos e projetos de conteúdo**, além de **produção e gestão de conteúdos** diversos.
+Sou **jornalista** e **redator**, com experiência em **redação**, **edição** e **gestão de conteúdos instrucionais, técnicos, analíticos e informativos**, bem como implementação de produtos, projetos e processos voltados a conteúdos.
 
 Saiba mais sobre mim na [bio](about.qmd).
 
 Conheça alguns dos meus trabalhos no [portfólio](portfolio.qmd).
 
-Se quiser, confira meu [LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [currículo](https://drive.google.com/file/d/1L1ab99x1R5S66zZZUyPnprP3RAGUymui/view?usp=sharing).
+Onde atuei e formações, no [Linkedin](https://www.linkedin.com/in/rogerkrw/).
 
-Se você procura serviços ou consultoria em conteúdos (ou quer trocar ideias sobre), mande uma [mensagem no LinkedIn](https://www.linkedin.com/in/rogerkrw/) ou [neste formulário](https://forms.gle/3to7Vt8XJGtJJB248).
+Se você procura serviços ou consultoria (ou quer trocar ideias sobre), mande uma mensagem no [meu WhatsApp](https://wa.me/5547996588627).
 
 Obrigado pela visita.
