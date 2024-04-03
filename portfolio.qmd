@@ -9,7 +9,7 @@ A seguir, reúno amostras desde produções mais recentes (material instrutivo e
 
 Clique nas imagens para acessar os originais na íntegra.
 
-## Newsletter Be Academy 
+## Newsletter na Substack
 
 Desde fev/2024, escrevo boletins informativos para uma newsletter na Substack chamada [Be Academy](https://beacademy.substack.com/), da [bemobile.tech](https://bemobile.tech/), com notas informativas voltadas para desenvolvedores de software e pessoas de tecnologia.
 
