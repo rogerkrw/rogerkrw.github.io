@@ -7,7 +7,42 @@ Este é meu portfólio (se você caiu  diretamente aqui, sugiro [me conhecer](in
 
 A seguir, reúno amostras desde produções mais recentes (material instrutivo e artigos web) a outras mais antigas (reportagens para jornais impressos).
 
-Clique nas imagens para acessar os originais em PDF.
+Clique nas imagens para acessar os originais na íntegra.
+
+## Newsletter Be Academy 
+
+Desde fev/2024, escrevo boletins informativos para uma newsletter na Substack chamada [Be Academy](https://beacademy.substack.com/), da [bemobile.tech](https://bemobile.tech/), com notas informativas voltadas para desenvolvedores de software e pessoas de tecnologia.
+
+Exemplos de boletins (clique nas imagens para ver a íntegra):
+
+::: {layout-ncol=2}
+
+[![Boletim na Substack "Be Academy", 28/03/2024](imgs/img-portfolio-newsletter01.png "Redis muda licença e provoca forks na comunidade")](https://drive.google.com/file/d/1grOkKPW7mz93yPSg3hTAPlmON48du0ed/view?usp=drive_link)
+
+[![Boletim na Substack "Be Academy", 22/03/2024](imgs/img-portfolio-newsletter02.png "Lições do eBay no uso de IA para desenvolvimento de software")](https://drive.google.com/file/d/18IMAsgGfOJqIavNc31FN1DEvh6s0q6uG/view?usp=drive_link)
+
+:::
+
+Este é um dos tipos de trabalho que mais curto fazer, principalmente pela pesquisa jornalística envolvida e a possibilidade de me manter informado sobre tendências.
+
+
+## Posts no Telegram
+
+Entre o fim de 2023 e início de 2024, tenho produzido posts para um grupo de desenvolvedores de software no Telegram da [bemobile.tech](https://bemobile.tech/). Recentemente, o grupo foi descontinuado e os esforços estão sendo migrados para a [Be Academy](https://beacademy.substack.com/).
+
+Demonstrações de alguns dos posts produzidos (clique nas imagens para ver a íntegra):
+
+::: {layout-nrow=2}
+
+[![WSL, o Linux no Windows](imgs/img-portfolio-telegram01.png "WSL, o Linux no Windows")](https://drive.google.com/file/d/1zwARItLEzKmLnZmdjYlbXVxoselscEBI/view?usp=drive_link)
+
+[![Convenções de nomenclatura](imgs/img-portfolio-telegram02.png "Convenções de nomenclatura")](https://drive.google.com/file/d/1sd0Kc_L3jfcBglEXxrcZbkklxHOKAMwF/view?usp=drive_link)
+
+[![Git Flow: branches](imgs/img-portfolio-telegram03.png "Git Flow: branches")](https://drive.google.com/file/d/1JATTiSQ5fTSyYVJHbPPkr2AklbY89Qg-/view?usp=drive_link)
+
+[![Código morto](imgs/img-portfolio-telegram04.png "Código morto")](https://drive.google.com/file/d/1L4LiUVJNdcRcA5gLPXNHvmIB5g9g4a0m/view?usp=drive_link)
+
+:::
 
 ## Documentações técnico-instrutivas
 
