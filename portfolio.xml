@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>rogerkrw.com.br</title>
+<link>https://rogerkrw.com.br/portfolio.html</link>
+<atom:link href="https://rogerkrw.com.br/portfolio.xml" rel="self" type="application/rss+xml"/>
+<description>Rogério Kreidlow&#39;s website</description>
+<generator>quarto-1.6.39</generator>
+<lastBuildDate>Sun, 14 Jan 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Título do Post</title>
+  <dc:creator>Rogério Kreidlow</dc:creator>
+  <link>https://rogerkrw.com.br/posts/2024-12-14-welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Conteúdo do post aqui…</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>categoria1</category>
+  <category>categoria2</category>
+  <guid>https://rogerkrw.com.br/posts/2024-12-14-welcome/</guid>
+  <pubDate>Sun, 14 Jan 2024 03:00:00 GMT</pubDate>
+  <media:content url="https://rogerkrw.com.br/posts/2024-12-14-welcome/imagem-destaque.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://rogerkrw.com.br/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://rogerkrw.com.br/posts/post-with-code/</guid>
+  <pubDate>Mon, 14 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://rogerkrw.com.br/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://rogerkrw.com.br/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://rogerkrw.com.br/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <guid>https://rogerkrw.com.br/posts/welcome/</guid>
+  <pubDate>Fri, 11 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
