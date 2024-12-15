@@ -8,6 +8,7 @@ website:
   description: Rogério Kreidlow's website
   navbar:
     right:
+      - blog.qmd
       - text: "Bio"
         file: about.qmd
       - portfolio.qmd

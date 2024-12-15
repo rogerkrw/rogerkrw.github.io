@@ -1,0 +1,10 @@
+---
+title: "Título do Post"
+description: "Breve descrição do post"
+author: "Rogério Kreidlow"
+date: "2024-01-14"
+categories: [categoria1, categoria2]
+image: "imagem-destaque.jpg"  # opcional
+---
+
+Conteúdo do post aqui...
