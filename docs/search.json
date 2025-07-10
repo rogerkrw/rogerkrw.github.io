@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "posts/2024-12-14-welcome/index.html",
-    "href": "posts/2024-12-14-welcome/index.html",
-    "title": "Título do Post",
-    "section": "",
-    "text": "Conteúdo do post aqui…\n\n\n\n Back to top"
+    "text": "Título do Post\n\n\n\ncategoria1\n\ncategoria2\n\n\n\nBreve descrição do post\n\n\n\n\n\nJan 14, 2024\n\n\nRogério Kreidlow\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "portfolio.html",
@@ -25,77 +18,77 @@
     "href": "portfolio.html#newsletter-na-substack",
     "title": "Portfólio",
     "section": "Newsletter na Substack",
-    "text": "Newsletter na Substack\nDesde fev/2024, escrevo boletins informativos para uma newsletter na Substack chamada Be Academy, da bemobile.tech, com notas informativas voltadas para desenvolvedores de software e pessoas de tecnologia.\nExemplos de boletins (clique nas imagens para ver a íntegra):\n\n\n\n\n\n\n\n\n\nBoletim na Substack “Be Academy”, 28/03/2024\n\n\n\n\n\n\n\nBoletim na Substack “Be Academy”, 22/03/2024\n\n\n\n\n\nEste é um dos tipos de trabalho que mais curto fazer, principalmente pela pesquisa jornalística envolvida e a possibilidade de me manter informado sobre tendências."
+    "text": "Newsletter na Substack\nDesde fev/2024, escrevo boletins informativos para uma newsletter na Substack chamada Be Academy, da bemobile.tech, com notas informativas voltadas para desenvolvedores de software e pessoas de tecnologia.\nExemplos de boletins (clique nas imagens para ver a íntegra):\n\n\n\n\n\n\nBoletim na Substack “Be Academy”, 28/03/2024\n\n\n\n\n\n\n\nBoletim na Substack “Be Academy”, 22/03/2024\n\n\n\n\n\nEste é um dos tipos de trabalho que mais curto fazer, principalmente pela pesquisa jornalística envolvida e a possibilidade de me manter informado sobre tendências."
   },
   {
     "objectID": "portfolio.html#posts-no-telegram",
     "href": "portfolio.html#posts-no-telegram",
     "title": "Portfólio",
     "section": "Posts no Telegram",
-    "text": "Posts no Telegram\nEntre o fim de 2023 e início de 2024, tenho produzido posts para um grupo de desenvolvedores de software no Telegram da bemobile.tech. Recentemente, o grupo foi descontinuado e os esforços estão sendo migrados para a Be Academy.\nDemonstrações de alguns dos posts produzidos (clique nas imagens para ver a íntegra):\n\n\n\n\n\n\n\n\n\nWSL, o Linux no Windows\n\n\n\n\n\n\n\nConvenções de nomenclatura\n\n\n\n\n\n\n\n\n\nGit Flow: branches\n\n\n\n\n\n\n\nCódigo morto"
+    "text": "Posts no Telegram\nEntre o fim de 2023 e início de 2024, tenho produzido posts para um grupo de desenvolvedores de software no Telegram da bemobile.tech. Recentemente, o grupo foi descontinuado e os esforços estão sendo migrados para a Be Academy.\nDemonstrações de alguns dos posts produzidos (clique nas imagens para ver a íntegra):\n\n\n\n\n\n\nWSL, o Linux no Windows\n\n\n\n\n\n\n\nConvenções de nomenclatura\n\n\n\n\n\n\n\n\n\nGit Flow: branches\n\n\n\n\n\n\n\nCódigo morto"
   },
   {
     "objectID": "portfolio.html#documentações-técnico-instrutivas",
     "href": "portfolio.html#documentações-técnico-instrutivas",
     "title": "Portfólio",
     "section": "Documentações técnico-instrutivas",
-    "text": "Documentações técnico-instrutivas\nDesde set/2023, tenho colaborado na produção de documentação técnico-instrutiva para desenvolvedores de uma software house. Eis uma rápida amostra:\n\n\n\n\n\n\n\n\n\nApresentação de Guia de Boas Práticas para desenvolvedores de software\n\n\n\n\n\n\n\nPadrões para Commits no Git\n\n\n\n\n\nComecei com um “Guia de Boas Práticas”. Nele, abordei desde ferramentas usadas, padrões para commits e fluxos de trabalho no Git até processos e recomendações para colaborações em time, planejamento de tarefas e estimativas de esforço.\nNa sequência, tenho evoluído para guias rápidos sobre JavaScript, SQL e TypeScript, além de ajudar na elaboração e edição de desafios para onboarding e treinamento de novos devs."
+    "text": "Documentações técnico-instrutivas\nDesde set/2023, tenho colaborado na produção de documentação técnico-instrutiva para desenvolvedores de uma software house. Eis uma rápida amostra:\n\n\n\n\n\n\nApresentação de Guia de Boas Práticas para desenvolvedores de software\n\n\n\n\n\n\n\nPadrões para Commits no Git\n\n\n\n\n\nComecei com um “Guia de Boas Práticas”. Nele, abordei desde ferramentas usadas, padrões para commits e fluxos de trabalho no Git até processos e recomendações para colaborações em time, planejamento de tarefas e estimativas de esforço.\nNa sequência, tenho evoluído para guias rápidos sobre JavaScript, SQL e TypeScript, além de ajudar na elaboração e edição de desafios para onboarding e treinamento de novos devs."
   },
   {
     "objectID": "portfolio.html#tutoriais",
     "href": "portfolio.html#tutoriais",
     "title": "Portfólio",
     "section": "Tutoriais",
-    "text": "Tutoriais\nEstas são amostras de tutoriais criados para um curso intitulado “Fundamentos de Programação”, em 2022:\n\n\n\n\n\n\n\n\n\nEstruturas Sequenciais\n\n\n\n\n\n\n\nEstruturas Condicionais\n\n\n\n\n\n\n\n\n\nImplementando Funções\n\n\n\n\n\n\n\nProgramando com Classes\n\n\n\n\n\nCriei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. — muitos deles de excelentes especialistas com quem colaborei — para mais de 30 cursos, abrangendo áreas como Programação, Dados, Design, Produto e Inovação e Gestão."
+    "text": "Tutoriais\nEstas são amostras de tutoriais criados para um curso intitulado “Fundamentos de Programação”, em 2022:\n\n\n\n\n\n\nEstruturas Sequenciais\n\n\n\n\n\n\n\nEstruturas Condicionais\n\n\n\n\n\n\n\n\n\nImplementando Funções\n\n\n\n\n\n\n\nProgramando com Classes\n\n\n\n\n\nCriei muitos tutoriais similares, geri a produção de outros e editei materiais em texto, slides etc. — muitos deles de excelentes especialistas com quem colaborei — para mais de 30 cursos, abrangendo áreas como Programação, Dados, Design, Produto e Inovação e Gestão."
   },
   {
     "objectID": "portfolio.html#artigos-instrutivos",
     "href": "portfolio.html#artigos-instrutivos",
     "title": "Portfólio",
     "section": "Artigos instrutivos",
-    "text": "Artigos instrutivos\nAssim como os tutoriais, de viés mais prático, também produzi artigos instrutivos:\n\n\n\n\n\n\n\n\n\nArquitetura de um Computador\n\n\n\n\n\n\n\nLógica e Aritmética"
+    "text": "Artigos instrutivos\nAssim como os tutoriais, de viés mais prático, também produzi artigos instrutivos:\n\n\n\n\n\n\nArquitetura de um Computador\n\n\n\n\n\n\n\nLógica e Aritmética"
   },
   {
     "objectID": "portfolio.html#artigos-interpretativos",
     "href": "portfolio.html#artigos-interpretativos",
     "title": "Portfólio",
     "section": "Artigos interpretativos",
-    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até jan/2024, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
+    "text": "Artigos interpretativos\nOs textos a seguir são de duas Newsletters que produzi ao longo de 2021.\nA proposta era de artigos mais densos e longos, com uma pegada analítica e interpretativa. É um dos tipos de trabalho que mais curto fazer.\n\n\n\n\n\n\nDon Norman, parte 1: as muitas vidas do senhor design\n\n\n\n\n\n\n\nDon Norman, parte 2: as muitas ideias do senhor design\n\n\n\n\n\n\n\n\n\nUma abordagem conceitual sobre Modelos\n\n\n\n\n\n\n\nSingularidade, ficção, transumanismo e ética em IA\n\n\n\n\n\n\n\n\n\nUm ano de GPT-3, a IA que se comunica (e até codifica) como humano\n\n\n\n\n\n\n\nUma viagem de sete décadas na Inteligência Artificial\n\n\n\n\n\n\n\n\n\nUm olho no peixe, outro no Metaverso\n\n\n\n\n\n\n\nUma história da Gestão de Produtos\n\n\n\n\n\nPraticamente todos esses textos continuavam disponíveis, ao menos até jan/2024, nos seguintes endereços: Awari Insights - Produtos e UX e Awari Insights - Dados e Tecnologia."
   },
   {
     "objectID": "portfolio.html#artigos-para-blogs",
     "href": "portfolio.html#artigos-para-blogs",
     "title": "Portfólio",
     "section": "Artigos para blogs",
-    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog — marketing de conteúdo mais tradicional. O primeiro é um artigo e o segundo tem um caráter de tutorial.\n\n\n\n\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\n\nAté a atualização desta seção, em jan/2024, ambos os artigos estavam disponíveis neste e neste links."
+    "text": "Artigos para blogs\nAqui estão, também, alguns textos para blog — marketing de conteúdo mais tradicional. O primeiro é um artigo e o segundo tem um caráter de tutorial.\n\n\n\n\n\n\nBanco de Dados Não Relacional (NoSQL): o que é e principais tipos\n\n\n\n\n\n\n\nBanco de Dados: passo a passo como criar do zero\n\n\n\n\n\nAté a atualização desta seção, em jan/2024, ambos os artigos estavam disponíveis neste e neste links."
   },
   {
     "objectID": "portfolio.html#apresentação-de-slides",
     "href": "portfolio.html#apresentação-de-slides",
     "title": "Portfólio",
     "section": "Apresentação de slides",
-    "text": "Apresentação de slides\nEmbora textos corridos sejam meu forte, também me arrisco em apresentações, como esta, para apoiar uma aula introdutória de Engenharia de Dados:\n\n\n\n\n\n\n\n\n\nIntrodução à Engenharia de Dados"
+    "text": "Apresentação de slides\nEmbora textos corridos sejam meu forte, também me arrisco em apresentações, como esta, para apoiar uma aula introdutória de Engenharia de Dados:\n\n\n\n\n\n\nIntrodução à Engenharia de Dados"
   },
   {
     "objectID": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
     "href": "portfolio.html#projeto-e-gestão-de-conteúdo-de-website",
     "title": "Portfólio",
     "section": "Projeto e gestão de conteúdo de website",
-    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de ago/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em ago/2023 (a imagem leva para o site atual)\n\n\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em ago/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
+    "text": "Projeto e gestão de conteúdo de website\nEm 2016, quando atuava como coordenador na Secretaria de Comunicação da Prefeitura de Joinville (SC), integrei um projeto que me deu grande satisfação: arquitetar, notear e fazer um pouco o papel de PO (Product Owner) na construção de um novo site — um “portal do cidadão” — para o Município.\nAbaixo, um print da tela inicial do site, como lançado em meados de 2016, e uma apresentação que foi feita na época, apresentando a novidade aos demais órgãos municipais.\nA última imagem é um exemplo de “Carta de Serviço” (print de ago/2023) — além de definirmos este modelo de informações, ajudamos os demais órgãos municipais no planejamento, criação e implementação de centenas de guias como esse aos usuários entre 2017 e 2020.\n\n\n\n\n\n\nVersão da página inicial do joinville.sc.gov.br quando lançado, em junho/2016\n\n\n\n\n\n\n\nApresentação do joinville.sc.gov.br feita aos órgãos municipais antes do lançamento do site\n\n\n\n\n\n\n\n\n\nPágina inicial do joinville.sc.gov.br em ago/2023 (a imagem leva para o site atual)\n\n\n\n\n\n\n\nExemplo de Carta de Serviço, um dos principais tipos de conteúdo do site\n\n\n\n\n\nO design atual do site teve leves mudanças (ficou melhor) e houve uma ou outra alteração conceitual desde lá, mas muitos dos princípios, como priorizar a busca em vez de banners, destacar “Cartas de Serviços” aos cidadãos, entre outros, continuam ativos (pelo menos até a última atualização desta página, em ago/2023).\nFoi um período bacana de trabalho com pessoas como o Aurélio (dev), Charles (coordenador de TI e o Scrum Master do projeto), Edson (gerente de TI), Filipe (Diretor Executivo da Secretaria de Administração e Planejamento), Fred (dev), entre outros. Na operação do site, depois de lançado, teve uma galera de Comunicação, como Eva, Raquel, Mario, Elair, Angela e Matheus, que nutriram e/ou continuam nutrindo a base de conteúdos."
   },
   {
     "objectID": "portfolio.html#relatórios-analíticos",
     "href": "portfolio.html#relatórios-analíticos",
     "title": "Portfólio",
     "section": "Relatórios analíticos",
-    "text": "Relatórios analíticos\nEntrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio na época — até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão guardava. Foi um aprendizado a cada dia, acabei me tornando gerente depois, entregando muita coisa e desejando ter entregue mais.\nAbaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.\n\n\n\n\n\n\n\n\n\nRelatório de Ouvidoria à Secretaria da Saude de Joinville, produzido em 2015"
+    "text": "Relatórios analíticos\nEntrei na Prefeitura de Joinville (SC) em 2014 como Coordenador de Ouvidoria, um desafio na época — até então, já acumulava quase 10 anos como repórter de jornais impressos, conhecia a Administração Pública como jornalista, mas não sabia dos desafios que a gestão guardava. Foi um aprendizado a cada dia, acabei me tornando gerente depois, entregando muita coisa e desejando ter entregue mais.\nAbaixo, amostra de relatório analítico que produzi para a Secretaria de Saúde, com base em dados da Ouvidoria, em 2015. Toda a coleta e análise de dados, bem como texto, infográficos e diagramação são meus. O Jornalismo de Dados, pelo qual me interessava desde 2011, no fundo foi o que me fez ser chamado para a Administração Pública e me ajudou em trabalhos como esse.\n\n\n\n\n\n\nRelatório de Ouvidoria à Secretaria da Saude de Joinville, produzido em 2015"
   },
   {
     "objectID": "portfolio.html#trabalhos-jornalísticos",
     "href": "portfolio.html#trabalhos-jornalísticos",
     "title": "Portfólio",
     "section": "Trabalhos jornalísticos",
-    "text": "Trabalhos jornalísticos\nPor fim, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).\n\nSérie de reportagens\nAbaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, o qual atende toda a região Norte/Nordeste de Santa Catarina:\n\n\n\n\n\n\n\n\n\nReportagem publicada em 04/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 05/05/2011\n\n\n\n\n\n\n\n\n\nReportagem publicada em 06/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 08/05/2011\n\n\n\n\n\n\n\nReportagens e matérias avulsas\nE, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá por que motivos, em um antigo álbum no Issuu:\n\n\n\n\n\n\n\n\n\nReportagem publicada em 21/10/2010\n\n\n\n\n\n\n\nReportagem publicada em caderno sobre Meio Ambiente em 05/06/2012\n\n\n\n\n\n\n\n\n\nMatéria publicada em 09/06/2012\n\n\n\n\n\nUma curiosidade: uso Google Docs praticamente desde 2005, quando foi lançado. Então, tenho praticamente os originais de tudo o que fiz na minha vida de jornalista, um banco de dados e tanto. Só não me preocupei em salvar os PDFs dos trabalhos após publicados 🤦‍♂️.\nUm dia, quem sabe, ainda vou me aventurar no Arquivo Histórico de Joinville para garimpar outros trabalhos da época, mesmo que só por nostalgia."
+    "text": "Trabalhos jornalísticos\nPor fim, exemplos de algumas das muitas reportagens produzidas na minha trajetória como repórter de jornais impressos (onde debutei aquelas famosas 10.000 horas que te tornam bom ou razoavelmente bom em alguma coisa).\n\nSérie de reportagens\nAbaixo, exemplo de série de reportagens sobre saúde pública em Joinville (SC), que culminou com um debate sobre o Hospital Municipal São José, o qual atende toda a região Norte/Nordeste de Santa Catarina:\n\n\n\n\n\n\nReportagem publicada em 04/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 05/05/2011\n\n\n\n\n\n\n\n\n\nReportagem publicada em 06/05/2011\n\n\n\n\n\n\n\nReportagem publicada em 08/05/2011\n\n\n\n\n\n\n\nReportagens e matérias avulsas\nE, aqui, amostras de reportagens e matérias avulsas, cujos PDFs tinha, sei lá por que motivos, em um antigo álbum no Issuu:\n\n\n\n\n\n\nReportagem publicada em 21/10/2010\n\n\n\n\n\n\n\nReportagem publicada em caderno sobre Meio Ambiente em 05/06/2012\n\n\n\n\n\n\n\n\n\nMatéria publicada em 09/06/2012\n\n\n\n\n\nUma curiosidade: uso Google Docs praticamente desde 2005, quando foi lançado. Então, tenho praticamente os originais de tudo o que fiz na minha vida de jornalista, um banco de dados e tanto. Só não me preocupei em salvar os PDFs dos trabalhos após publicados 🤦‍♂️.\nUm dia, quem sabe, ainda vou me aventurar no Arquivo Histórico de Joinville para garimpar outros trabalhos da época, mesmo que só por nostalgia."
   },
   {
     "objectID": "portfolio.html#adendos",
@@ -103,6 +96,34 @@
     "title": "Portfólio",
     "section": "Adendos",
     "text": "Adendos\nSe eu encontrar outros materiais ou produzir novos, tentarei disponibilizá-los.\nCaso você ou outra pessoa ache que isso viola direitos autorais ou fira qualquer regra ou bom senso, entre me mande uma mensagem no WhatsApp.\nObrigado por navegar nesse breve baú de praticamente 20 anos de carreira."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rogério Kreidlow",
+    "section": "",
+    "text": "Redator técnico e instrucional | Resolvedor de problemas | Jornalista\nTenho uma carreira de 20 anos, com passagens pelo Jornalismo, Administração Pública e, atualmente, redação técnica e instrucional para startups e software houses. E, na falta de definição melhor, também visto o chapéu de “resolvedor de problemas generalista”.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfólio.\nOnde atuei e formações, no Linkedin.\nSe você procura serviços ou consultoria (ou quer trocar ideias) nas áreas em que atuo, me mande uma mensagem no WhatsApp.\nObrigado pela visita.\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/2024-12-14-welcome/index.html",
+    "href": "posts/2024-12-14-welcome/index.html",
+    "title": "Título do Post",
+    "section": "",
+    "text": "Conteúdo do post aqui…\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -152,26 +173,5 @@
     "title": "Rogério Kreidlow",
     "section": "Contatos",
     "text": "Contatos\nSe você procura serviços ou consultoria (ou quer trocar ideias) nas áreas em que atuo, me mande uma mensagem no WhatsApp."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Título do Post\n\n\n\n\n\n\ncategoria1\n\n\ncategoria2\n\n\n\nBreve descrição do post\n\n\n\n\n\nJan 14, 2024\n\n\nRogério Kreidlow\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 11, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rogério Kreidlow",
-    "section": "",
-    "text": "Redator técnico e instrucional | Resolvedor de problemas | Jornalista\nTenho uma carreira de 20 anos, com passagens pelo Jornalismo, Administração Pública e, atualmente, redação técnica e instrucional para startups e software houses. E, na falta de definição melhor, também visto o chapéu de “resolvedor de problemas generalista”.\nSaiba mais sobre mim na bio.\nConheça alguns dos meus trabalhos no portfólio.\nOnde atuei e formações, no Linkedin.\nSe você procura serviços ou consultoria (ou quer trocar ideias) nas áreas em que atuo, me mande uma mensagem no WhatsApp.\nObrigado pela visita.\n\n\n Back to top"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\n Back to top"
   }
 ]

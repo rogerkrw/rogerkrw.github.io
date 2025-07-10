@@ -26,6 +26,7 @@ format:
       dark: cyborg
     css: styles.css
     toc: true
+    include-in-header: html
 
 execute:
   cache: true
