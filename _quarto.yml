@@ -14,7 +14,7 @@ website:
       - portfolio.qmd
       - icon: linkedin
         href: https://www.linkedin.com/in/rogerkrw/
-  google-analytics: "G-H1VN6PCJ26"
+  google-analytics: "G-GV591LTXJB"
   back-to-top-navigation: true
   page-footer: "© Copyright 2023, Rogério Kreidlow. Feito com [Quarto](https://quarto.org/)."
 
