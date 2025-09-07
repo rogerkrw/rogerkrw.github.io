@@ -7,15 +7,15 @@ $code-block-bg-alpha: -.9;
 
 /* Custom dark theme styles */
 a.btn-primary {
-  background-color: #fff;
+  background-color: transparent;
   border-color: #fff;
-  color: #000;
+  color: #fff;  
 }
 
 a.btn-primary:hover {
-  background-color: #ddd;
-  border-color: #ddd;
-  color: #000;
+  background-color: #333;
+  border-color: #fff;
+  color: #fff;
 }
 
 a .menu-text,

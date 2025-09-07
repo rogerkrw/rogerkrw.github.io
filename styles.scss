@@ -5,3 +5,13 @@
 footer {
   border-top: 1px solid #ccc;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+a.btn-primary {
+  border-radius: 6px;
+  padding: 10px;
+}

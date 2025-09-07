@@ -7,15 +7,15 @@ $code-block-bg-alpha: -.9;
 
 /* Custom dark theme styles */
 a.btn-primary {
-  background-color: #000;
+  background-color: transparent;
   border-color: #000;
-  color: #fff;
+  color: #000;  
 }
 
 a.btn-primary:hover {
-  background-color: #222;
+  background-color: #f0f0f0;
   border-color: #222;
-  color: #fff;
+  color: #000;  
 }
 
 a .menu-text,
@@ -26,4 +26,10 @@ a .navbar-title {
 a .menu-text:hover,
 a .navbar-title:hover {
     color: #222 !important;
+}
+
+@media screen and (max-width: 768px) {
+  a.btn-primary {
+    diplay: block;
+  }
 }
