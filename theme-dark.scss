@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+$navbar-bg: #000;
+$body-bg: #000;
+$body-color: #FFF;
+$link-color: #FFF;
+$code-block-bg-alpha: -.9;
+
+/* Custom dark theme styles */
+a.btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+a.btn-primary:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+  color: #000;
+}
+
+a .menu-text,
+a .navbar-title {
+    color: #fff !important;
+}
+
+a .menu-text:hover,
+a .navbar-title:hover {
+    color: #ddd !important;
+}

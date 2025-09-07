@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Rogério Kreidlow"
+  site-url: "https://rogeriokreidlow.github.io"
+  description: "Site pessoal"
+  favicon: logo.ico  
+  search:
+    location: navbar
+    type: overlay
+    keyboard-shortcut: ["F2"]    
+  navbar:    
+    logo: logo.png
+    logo-alt: "Foto de Rogério Kreidlow"
+    logo-href: index.qmd
+    background: primary
+    page-layout: full
+    left:      
+      - href: blog.qmd
+        text: Textos      
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rogerkrw       
+      - icon: github
+        href: https://github.com/rogerkrw        
+  page-footer: "Copyright © 2025 Rogerio Kreidlow"
+format:
+  html:
+    css: styles.scss
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    grid:
+      body-width: 700px
+toc: true
+
+

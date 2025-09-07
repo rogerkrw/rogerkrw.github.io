@@ -1,0 +1,35 @@
+---
+title: "Rogério Kreidlow"
+description: "AI & PM Strategist. Journalist"
+about:
+  template: trestles
+  image: logo.png
+  links:
+    - icon: linkedin
+      url: https://www.linkedin.com/in/rogerkrw/
+    - icon: github
+      url: https://github.com/rogerkrw
+page-layout: full    
+---
+
+Olá, sou **Rogério Kreidlow** e este é meu site pessoal. 
+
+Atuo como **AI & PM Strategist** na [**BeTalent**](https://betalent.tech/), ajudando clientes em PoCs de IA, discoveries de produto, análise de dados, sempre na interseção entre negócio e tecnologia.
+
+<a href="https://wa.me/5547996588627?text=Ol%C3%A1,%20sou%20Rog%C3%A9rio%20Kreidlow.%20Em%20breve,%20darei%20um%20retorno.%20Obrigado%20pelo%20contato.%20Abra%C3%A7o!" class="btn btn-primary center">Chame no Whats</a>
+
+Além disso:
+
+* ~10 anos em tech e dados em startups e na gestão pública.
+* Jornalista por +15 anos, com incursão no Jornalismo de Dados.
+* Capacidade analítica e de construção do racional de produtos e projetos.
+* Mentalidade de adaptação, exploração e aprendizado contínuo.
+
+[INTJ-A](https://www.16personalities.com/br/personalidade-intj) no Myers-Briggs e [C](https://www.discprofile.com/disc-styles/conscientiousness) no DISC. Gosto de livros, de explorações intelectuais e de construir, com palavras ou códigos.
+
+<a href="blog.qmd" class="btn btn-primary center">Confira meus textos</a>
+
+<a href="https://www.linkedin.com/in/rogerkrw/" class="btn btn-primary center">Veja no Linkedin</a>
+
+
+
