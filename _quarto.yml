@@ -16,10 +16,7 @@ website:
     logo-alt: "Foto de Rogério Kreidlow"
     logo-href: index.qmd
     background: primary
-    page-layout: full
-    left:      
-      - href: blog.qmd
-        text: Textos      
+    page-layout: full    
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/rogerkrw       

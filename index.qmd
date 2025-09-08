@@ -9,6 +9,12 @@ about:
       url: https://www.linkedin.com/in/rogerkrw/
     - icon: github
       url: https://github.com/rogerkrw
+    - text: |
+        <img src="sinal.svg" alt="Substack" style="width: 20px; height: 20px;">
+      url: https://sinal.substack.com/
+    - text: |
+        <img src="dobra.svg" alt="Substack" style="width: 20px; height: 20px;">
+      url: https://dobra.substack.com/
 page-layout: full    
 ---
 
@@ -27,9 +33,13 @@ Além disso:
 
 [INTJ-A](https://www.16personalities.com/br/personalidade-intj) no Myers-Briggs e [C](https://www.discprofile.com/disc-styles/conscientiousness) no DISC. Gosto de livros, de explorações intelectuais e de construir, com palavras ou códigos.
 
-<a href="blog.qmd" class="btn btn-primary center">Confira meus textos</a>
-
 <a href="https://www.linkedin.com/in/rogerkrw/" class="btn btn-primary center">Veja no Linkedin</a>
+
+Escrevo as newsletters a [**Sinal**](https://sinal.substack.com/) (curadorias e análises sobre tecnologia) e [**Dobra**](https://dobra.substack.com) (ensaios reflexivos).
+
+<a href="https://sinal.substack.com/" class="btn btn-primary center">Acessar a Sinal</a>
+
+<a href="https://dobra.substack.com/" class="btn btn-primary center">Acessar a Dobra</a>
 
 
 
