@@ -6,7 +6,8 @@ website:
   title: "Rogério Kreidlow"
   site-url: "https://rogerkrw.github.io"
   description: "Site pessoal"
-  favicon: logo.ico  
+  favicon: logo.ico
+  google-analytics: G-SKSQF6JWNM  
   search:
     location: navbar
     type: overlay
