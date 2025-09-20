@@ -32,6 +32,7 @@ format:
       dark: [cosmo, theme-dark.scss]
     grid:
       body-width: 700px
+    include-in-header: clarity-script.html
 toc: true
 
 
