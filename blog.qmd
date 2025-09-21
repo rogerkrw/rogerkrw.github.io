@@ -1,9 +1,0 @@
----
-title: "Textos"
-listing: 
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: false
-page-layout: full
----

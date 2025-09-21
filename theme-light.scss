@@ -1,29 +1,4 @@
 /*-- scss:defaults --*/
+$font-family-sans-serif: "Arial", sans-serif;
+$primary: #000;
 $navbar-bg: #fff;
-$body-bg: #fff;
-$body-color: #000;
-$link-color: #000;
-$code-block-bg-alpha: -.9;
-
-/* Custom dark theme styles */
-a.btn-primary {
-  background-color: transparent;
-  border-color: #000;
-  color: #000;  
-}
-
-a.btn-primary:hover {
-  background-color: #f0f0f0;
-  border-color: #222;
-  color: #000;  
-}
-
-a .menu-text,
-a .navbar-title {
-    color: #000 !important;
-}
-
-a .menu-text:hover,
-a .navbar-title:hover {
-    color: #222 !important;
-}
