@@ -31,10 +31,7 @@ format:
     css: styles.scss
     theme:
       light: [default, theme-light.scss]
-      dark: [default, theme-dark.scss] 
-    grid:
-      body-width: 700px
+      dark: [default, theme-dark.scss]     
     include-in-header: clarity-script.html
 toc: true
-
 

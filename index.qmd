@@ -1,6 +1,6 @@
 ---
 title: "Rogério Kreidlow"
-description: "AI & PM Strategist. Journalist"
+description: "Head de Expansão na BeTalent"
 about:
   template: trestles
   image: logo.png
@@ -8,39 +8,21 @@ about:
     - icon: linkedin
       url: https://www.linkedin.com/in/rogerkrw/
     - icon: github
-      url: https://github.com/rogerkrw
-    - text: |
-        <img src="sinal.svg" alt="Substack" style="width: 20px; height: 20px;">
-      url: https://sinal.substack.com/
-    - text: |
-        <img src="dobra.svg" alt="Substack" style="width: 20px; height: 20px;">
-      url: https://dobra.substack.com/
+      url: https://github.com/rogerkrw    - 
 page-layout: full    
 ---
 
 Olá, sou **Rogério Kreidlow** e este é meu site pessoal. 
 
-Atuo como **AI & PM Strategist** na [**BeTalent**](https://betalent.tech/), ajudando clientes em PoCs de IA, discoveries de produto, análise de dados, sempre na interseção entre negócio e tecnologia.
+Como Head de Expansão da [**BeTalent**](https://betalent.tech/), atuo tanto na prospecção e no relacionamento com clientes quanto na condução estratégica de PoCs de IA e discoveries de produto. Também faço a gestão de marketing e participo das decisões de board da empresa.
 
-<a href="https://wa.me/5547996588627?text=Ol%C3%A1,%20sou%20Rog%C3%A9rio%20Kreidlow.%20Em%20breve,%20darei%20um%20retorno.%20Obrigado%20pelo%20contato.%20Abra%C3%A7o!" class="btn btn-primary center">Chame no Whats</a>
+<a href="https://wa.me/5547996588627?text=Ol%C3%A1,%20sou%20Rog%C3%A9rio%20Kreidlow.%20Em%20breve,%20darei%20um%20retorno.%20Obrigado%20pelo%20contato.%20Abra%C3%A7o!" class="btn btn-primary center">Entre em contato</a>
 
 Além disso:
 
-* ~10 anos em tech e dados em startups e na gestão pública.
-* Jornalista por +15 anos, com incursão no Jornalismo de Dados.
-* Capacidade analítica e de construção do racional de produtos e projetos.
-* Mentalidade de adaptação, exploração e aprendizado contínuo.
+- Dez anos em tecnologia, em startups e na gestão pública.
+- Jornalista por +15 anos, com incursão no Jornalismo de Dados.
+- Capacidade analítica e de construção do racional de produtos, projetos e estratégias.
+- Mentalidade de exploração, adaptação e aprendizado contínuo.
 
-[INTJ-A](https://www.16personalities.com/br/personalidade-intj) no Myers-Briggs e [C](https://www.discprofile.com/disc-styles/conscientiousness) no DISC. Gosto de livros, de explorações intelectuais e de construir, com palavras ou códigos.
-
-<a href="https://www.linkedin.com/in/rogerkrw/" class="btn btn-primary center">Veja no Linkedin</a>
-
-Escrevo as newsletters a [**Sinal**](https://sinal.substack.com/) (curadorias e análises sobre tecnologia) e [**Dobra**](https://dobra.substack.com) (ensaios reflexivos).
-
-<a href="https://sinal.substack.com/" class="btn btn-primary center">Acessar a Sinal</a>
-
-<a href="https://dobra.substack.com/" class="btn btn-primary center">Acessar a Dobra</a>
-
-
-
-
+[INTJ-A](https://www.16personalities.com/br/personalidade-intj) no Myers-Briggs e [C](https://www.discprofile.com/disc-styles/conscientiousness) no DISC. Gosto de explorar conhecimentos e de construir, com palavras ou códigos.

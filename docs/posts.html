@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="AI &amp; PM Strategist. Journalist">
 
-<title>Rogério Kreidlow</title>
+<title>Textos – Rogério Kreidlow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,10 +31,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./logo.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -69,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SKSQF6JWNM"></script>
 
 <script type="text/javascript">
@@ -86,6 +117,35 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
     })(window, document, "clarity", "script", "tdxfh4g3ip");
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.scss">
 </head>
@@ -279,65 +339,107 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<!-- Formulário Brevo Simplificado e Modificado -->
+<div class="sib-form">
+  <div id="sib-form-container" class="sib-form-container">
+    <!-- Mensagens de erro/sucesso - agora visíveis e controladas por JS -->
+    <div id="error-message" class="sib-form-message-panel" style="display: none; font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewbox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z"></path>
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Sua assinatura não pôde ser validada.
+        </span>
+      </div>
+    </div>
+    <div id="success-message" class="sib-form-message-panel" style="display: none; font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;">
+      <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+        <svg viewbox="0 0 512 512" class="sib-icon sib-notification__icon">
+          <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z"></path>
+        </svg>
+        <span class="sib-form-message-panel__inner-text">
+          Assinatura feita com sucesso!
+        </span>
+      </div>
+    </div>
+
+    <form id="sib-form" data-type="subscription"> <!-- Remove action e method -->
+      <div class="sib-form-block">
+        <p>Assine</p>
+      </div>
+      <div class="sib-form-block">
+        <p>Assine e receba os conteúdos por e-mail. Cancele quando quiser.</p>
+      </div>
+      <div class="sib-input sib-form-block">
+        <input type="email" id="EMAIL" name="EMAIL" placeholder="e-mail" required="">
+      </div>
+      <div class="g-recaptcha" data-sitekey="6Lfvo8ErAAAAAAFoH47UuUZ2ZWDfaYeIbPldbUdD" data-size="invisible" data-callback="onSubmit"></div>
+      <button type="submit">Assinar</button>
+    </form>
+  </div>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?hl=pt" async="" defer=""></script>
+<script defer="" src="https://sibforms.com/forms/end-form/build/main.js"></script>
+</div></div>
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="logo.png" class="about-image
-  rounded " style="width: 20em;">
+<main class="content column-page-left" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Rogério Kreidlow</h1>
+<h1 class="title">Textos</h1>
 </div>
-<div>
-  <div class="description">
-    AI &amp; PM Strategist. Journalist
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/rogerkrw/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/rogerkrw" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://sinal.substack.com/" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="sinal.svg" alt="Substack" style="width: 20px; height: 20px;">
-</span>
-  </a>
-  <a href="https://dobra.substack.com/" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="dobra.svg" alt="Substack" style="width: 20px; height: 20px;">
-</span>
-  </a>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1788922800000" data-listing-file-modified-sort="1758426311484" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="thumbnail"><a href="./posts/2025-09-21-test/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-09-21-test/index.html" class="no-external">My Post</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2025-09-21-test/index.html" class="no-external">
+<p>Post description</p>
+</a></div>
 </div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-
-<p>Olá, sou <strong>Rogério Kreidlow</strong> e este é meu site pessoal.</p>
-<p>Atuo como <strong>AI &amp; PM Strategist</strong> na <a href="https://betalent.tech/"><strong>BeTalent</strong></a>, ajudando clientes em PoCs de IA, discoveries de produto, análise de dados, sempre na interseção entre negócio e tecnologia.</p>
-<p><a href="https://wa.me/5547996588627?text=Ol%C3%A1,%20sou%20Rog%C3%A9rio%20Kreidlow.%20Em%20breve,%20darei%20um%20retorno.%20Obrigado%20pelo%20contato.%20Abra%C3%A7o!" class="btn btn-primary center">Chame no Whats</a></p>
-<p>Além disso:</p>
-<ul>
-<li>~10 anos em tech e dados em startups e na gestão pública.</li>
-<li>Jornalista por +15 anos, com incursão no Jornalismo de Dados.</li>
-<li>Capacidade analítica e de construção do racional de produtos e projetos.</li>
-<li>Mentalidade de adaptação, exploração e aprendizado contínuo.</li>
-</ul>
-<p><a href="https://www.16personalities.com/br/personalidade-intj">INTJ-A</a> no Myers-Briggs e <a href="https://www.discprofile.com/disc-styles/conscientiousness">C</a> no DISC. Gosto de livros, de explorações intelectuais e de construir, com palavras ou códigos.</p>
-<p><a href="https://www.linkedin.com/in/rogerkrw/" class="btn btn-primary center">Veja no Linkedin</a></p>
-<p>Escrevo as newsletters a <a href="https://sinal.substack.com/"><strong>Sinal</strong></a> (curadorias e análises sobre tecnologia) e <a href="https://dobra.substack.com"><strong>Dobra</strong></a> (ensaios reflexivos).</p>
-<p><a href="https://sinal.substack.com/" class="btn btn-primary center">Acessar a Sinal</a></p>
-<p><a href="https://dobra.substack.com/" class="btn btn-primary center">Acessar a Dobra</a></p>
-
-
-</main></div>
+<div class="metadata">
+<a href="./posts/2025-09-21-test/index.html" class="no-external">
+<div class="listing-date">
+Sep 9, 2026
 </div>
- <!-- /main -->
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -353,6 +455,13 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
