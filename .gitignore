@@ -1,2 +1,4 @@
 /.quarto/
 backup.txt
+
+**/*.quarto_ipynb

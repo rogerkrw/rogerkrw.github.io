@@ -6,32 +6,43 @@ website:
   title: "Rogério Kreidlow"
   site-url: "https://rogerkrw.github.io"
   description: "Site pessoal"
-  favicon: logo.ico
+  favicon: logo.ico  
   google-analytics: "G-SKSQF6JWNM"
   bread-crumbs: true
   page-navigation: true
   search:
     location: navbar
     type: overlay
-    keyboard-shortcut: ["F2"]    
-  navbar:    
+    keyboard-shortcut: ["F2"]
+  navbar:
     logo: logo.png
     logo-alt: "Foto de Rogério Kreidlow"
     logo-href: index.qmd
-    background: primary    
-    page-layout: full  
+    left:
+      - href: index.qmd
+        text: Bio
+      - href: blog.qmd
+        text: Blog
+    background: primary
     tools:
       - icon: linkedin
-        href: https://www.linkedin.com/in/rogerkrw       
+        href: https://www.linkedin.com/in/rogerkrw
       - icon: github
-        href: https://github.com/rogerkrw        
-  page-footer: "Copyright © 2025 Rogerio Kreidlow"
+        href: https://github.com/rogerkrw
+  page-footer: 'Copyright © 2025 Rogério Kreidlow | Feito com <a href="https://quarto.org/">Quarto</a>'
+
+collections:
+  posts:
+    type: post
+    sort: "date desc" 
+    fields: [image, date, title, description, categories] 
+    listing: true
+
 format:
   html:
     css: styles.scss
     theme:
       light: [default, theme-light.scss]
-      dark: [default, theme-dark.scss]     
+      dark: [default, theme-dark.scss]
     include-in-header: clarity-script.html
-toc: true
-
+    toc: true

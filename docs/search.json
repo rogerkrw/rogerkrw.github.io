@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Textos",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "My Post\n\n\nPost description\n\n\n\n\n\nSep 9, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2025-09-21-test/index.html",
-    "href": "posts/2025-09-21-test/index.html",
-    "title": "My Post",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue massa non tortor congue congue. Maecenas convallis fringilla quam, at cursus nisi ullamcorper in. Praesent vel dictum ex. Vestibulum tincidunt eu arcu sit amet bibendum. Integer facilisis libero nec gravida porttitor. Suspendisse maximus augue at lacus bibendum blandit. Nulla dictum nulla nunc, ac porta eros ornare et. Vestibulum eleifend aliquet ipsum nec placerat."
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",

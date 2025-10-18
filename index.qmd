@@ -8,8 +8,7 @@ about:
     - icon: linkedin
       url: https://www.linkedin.com/in/rogerkrw/
     - icon: github
-      url: https://github.com/rogerkrw    - 
-page-layout: full    
+      url: https://github.com/rogerkrw
 ---
 
 Olá, sou **Rogério Kreidlow** e este é meu site pessoal. 

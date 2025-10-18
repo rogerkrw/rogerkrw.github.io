@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rogerkrw.github.io/posts.html</loc>
-    <lastmod>2025-09-21T03:47:48.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rogerkrw.github.io/posts/2025-09-21-test/index.html</loc>
-    <lastmod>2025-09-21T03:45:11.484Z</lastmod>
+    <loc>https://rogerkrw.github.io/blog.html</loc>
+    <lastmod>2025-10-18T19:28:14.978Z</lastmod>
   </url>
   <url>
     <loc>https://rogerkrw.github.io/index.html</loc>
-    <lastmod>2025-10-13T12:57:03.166Z</lastmod>
+    <lastmod>2025-10-18T20:13:04.518Z</lastmod>
   </url>
 </urlset>
