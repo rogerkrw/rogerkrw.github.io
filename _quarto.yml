@@ -17,7 +17,7 @@ website:
   navbar:
     logo: logo.png
     logo-alt: "Foto de Rogério Kreidlow"
-    logo-href: index.qmd
+    logo-href: /
     left:
       - href: index.qmd
         text: Bio

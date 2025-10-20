@@ -32,76 +32,69 @@
     "href": "CLAUDE.html",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Objetivo: Reestruturar a página inicial (index.qmd) para exibir uma bio resumida e posts recentes do blog, movendo a bio completa para uma página dedicada (bio.qmd).\nStatus: PAUSADA - Abordagem mais complexa que foi substituída pela bio-as-home\n\n\n\nObjetivo: Abordagem simplificada onde a bio completa É a home, com posts recentes integrados.\nStatus: PRONTA - Aguardando alimentação do blog com posts reais antes do merge\nEstrutura: - Home (index.qmd): Bio completa + 3 posts recentes - Blog (blog.qmd): Listagem completa de posts - Navbar: Início | Blog\nQuando fazer merge: - Quando o blog tiver posts reais (não apenas exemplos) - Quando estiver pronto para publicar a bio completa na home\n\n\n\nObjetivo: Adicionar formulário de assinatura Brevo no blog para captação de e-mails.\nStatus: FUNCIONAL - Aguardando configuração de disparo de e-mails no Brevo\nO que contém: - Formulário Brevo em subscribe.html - Integração via margin-header no blog.qmd - reCAPTCHA removido (causava erro no localhost) - Tamanho médio (350px de largura)\nPendências antes do merge: - Configurar disparo automático de e-mails no Brevo - Configurar domínio autorizado para reCAPTCHA (opcional) - Testar fluxo completo de assinatura\nQuando fazer merge: - Após merge de bio-as-home em main - Quando sistema de e-mails estiver configurado no Brevo - Em momento estratégico para começar captação de leads\n\n\n\n\nHome (index.qmd)\n├─ Bio resumida (1-2 parágrafos)\n├─ Link \"→ Saiba mais\" → bio.qmd\n└─ Posts recentes do blog (últimos 3 posts)\n\nBio (bio.qmd) - NOVA PÁGINA\n└─ Bio completa (conteúdo atual do index.qmd)\n\nBlog (blog.qmd)\n└─ Todos os posts (listagem completa)\n\n\n\nInício | Bio | Blog\n\n\n\n\nCriar branch home-redesign\nCriar CLAUDE.md (este arquivo)\nCriar bio.qmd com bio completa\nAtualizar index.qmd com bio resumida + posts recentes\nCriar 5 posts de exemplo\nAtualizar _quarto.yml (adicionar bio na navegação)\nAtualizar .gitignore (ignorar CLAUDE.md)\nRenderizar e revisar resultado\n\n\n\n\nSou **Rogério Kreidlow**, Head de Expansão na [BeTalent](https://betalent.tech/).\nAtuo na condução de descobertas e PoCs em IA, no relacionamento com clientes e\nna gestão de iniciativas ligadas a produto e marketing. Gosto de explorar\nconhecimentos e construir com palavras ou código.\n\n[→ Saiba mais](bio.qmd)\n\n\n\nPosts simples com conteúdo genérico para testar o layout:\n\nComo a IA está transformando o atendimento ao cliente\n\nData: 2025-10-15\nCategoria: IA, Tecnologia\n\nEstratégias de expansão para startups de tecnologia\n\nData: 2025-10-10\nCategoria: Gestão, Startups\n\nJornalismo de dados: contando histórias com números\n\nData: 2025-10-05\nCategoria: Jornalismo, Dados\n\nO papel do marketing em empresas de tecnologia\n\nData: 2025-09-28\nCategoria: Marketing, Tecnologia\n\nPoCs de IA: do conceito à implementação\n\nData: 2025-09-22\nCategoria: IA, Gestão de Projetos\n\n\n\n\n\n\nFormato: Cards com título, descrição e data\nQuantidade: 3 posts mais recentes\nLink para blog completo ao final\n\n\n\n\nAdicionar listagem de posts recentes no index.qmd:\nlisting:\n  contents: blog\n  sort: \"date desc\"\n  max-items: 3\n  type: default\n\n\n\n\n\n\nEscrever posts reais para o blog\nRemover posts de exemplo da branch bio-as-home\nTestar renderização final\n\n\n\n\n\nFazer merge de bio-as-home em main\nPublicar site atualizado\nValidar em produção\n\n\n\n\n\nConfigurar disparo de e-mails no Brevo\nTestar fluxo completo de assinatura\n(Opcional) Configurar reCAPTCHA para domínio de produção\nFazer merge de add-subscription em main\nPublicar formulário de assinatura\n\n\n\n\n\n\nCLAUDE.md está ignorado no .gitignore\nPosts de exemplo criados apenas para visualização de layout\nTemplate usado: trestles (melhor layout que jolla)\npage-layout: full para conteúdo mais largo\nCSS customizado em styles.scss para ocultar headers de tabela e ajustar espaçamentos"
+    "text": "✅ FASES 1 E 2 CONCLUÍDAS - Home com bio completa + 3 posts recentes ✓ - Primeiro blog post publicado ✓ - Estrutura de blog funcional ✓ - Deploy em produção ✓\n\n\n\n\n\nObjetivo: Backup da versão com blog preenchido com posts de exemplo.\nStatus: Disponível para testes e referência futura.\n\n\n\nObjetivo: Adicionar formulário de assinatura Brevo no blog para captação de e-mails.\nStatus: FUNCIONAL - Aguardando configuração de disparo de e-mails no Brevo\nO que contém: - Formulário Brevo em subscribe.html - Integração via margin-header no blog.qmd - reCAPTCHA removido (causava erro no localhost) - Tamanho médio (350px de largura)\nPendências antes do merge: - Configurar disparo automático de e-mails no Brevo - Configurar domínio autorizado para reCAPTCHA (opcional) - Testar fluxo completo de assinatura\nQuando fazer merge: - Quando sistema de e-mails estiver configurado no Brevo - Em momento estratégico para começar captação de leads\n\n\n\n\nHome (index.qmd)\n├─ Bio completa com detalhes\n├─ Seção \"Posts recentes\"\n└─ Últimos 3 posts (apenas títulos, sem data/imagem)\n\nBlog (blog.qmd)\n└─ Todos os posts (listagem em tabela)\n\n\n\nInício | Blog\n\n\n\nMetadados Obrigatórios (Front Matter):\n---\ntitle: Título do Post\nauthor: Rogério Kreidlow\ndate: YYYY-MM-DD\ndescription: Breve descrição para cards e SEO\nimage: imagem-principal.png\ncategories:\n  - Categoria1\n  - Categoria2\nkeywords:\n  - palavra-chave1\n  - palavra-chave2\ntoc: true\n---\nExemplo: Primeiro Post Publicado - Arquivo: blog/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms.md - Status: ✓ Publicado - Imagens: 2 (principais + citações)\n\n\n\n\nCriar estrutura de blog\nAtualizar index.qmd com listagem de posts\nConfigurar metadados de posts (YAML front matter)\nAdicionar primeiro blog post com conteúdo real\nConfigurar CSS para limpar apresentação (sem headers, filtros, etc)\nPublicar em produção (main branch)\nAtualizar .gitignore para rastrear posts e imagens\n\n\n\n\n\n\n\nConfigurar disparo de e-mails no Brevo\nTestar fluxo completo de assinatura\n(Opcional) Configurar reCAPTCHA para domínio de produção\nFazer merge de add-subscription em main\nPublicar formulário de assinatura\n\n\n\n\n\nInstalar extensão quarto-social-share\nConfigurar botões de compartilhamento (Twitter, LinkedIn, Facebook)\nTestar em todos os posts\nPublicar\n\n\n\n\n\n\n\nExtensão: quarto-social-share (GitHub: schochastics/quarto-social-share)\nUso:\nquarto add schochastics/quarto-social-share\nConfiguração no YAML:\n---\ntitle: \"Post Title\"\nformat:\n  html:\n    social-share: true\n    share-buttons: [twitter, facebook, linkedin]\n---\nRedes suportadas: Twitter, Facebook, LinkedIn, Email, etc.\nStatus: Pesquisado, pronto para implementação\n\n\n\n\n\nCLAUDE.md está ignorado no .gitignore (arquivo de planejamento/referência)\nTemplate usado: trestles (página “about” da home)\nHome usa page-layout: full e toc: false para largura completa\nCSS customizado em theme-light.scss:\n\n.quarto-listing-table thead { display: none !important; } - Oculta headers de tabela nas listagens\nGarante apresentação limpa da listagem de posts\n\nPosts são armazenados em blog/YYYY-MM-DD-slug/arquivo.md com metadados YAML\nImagens dos posts devem estar no mesmo diretório\nRenderização em docs/ pronta para deploy"
+  },
+  {
+    "objectID": "CLAUDE.html#status-atual",
+    "href": "CLAUDE.html#status-atual",
+    "title": "Projeto: Redesign do Site - rogerkrw.github.io",
+    "section": "",
+    "text": "✅ FASES 1 E 2 CONCLUÍDAS - Home com bio completa + 3 posts recentes ✓ - Primeiro blog post publicado ✓ - Estrutura de blog funcional ✓ - Deploy em produção ✓"
   },
   {
     "objectID": "CLAUDE.html#branches-de-desenvolvimento",
     "href": "CLAUDE.html#branches-de-desenvolvimento",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Objetivo: Reestruturar a página inicial (index.qmd) para exibir uma bio resumida e posts recentes do blog, movendo a bio completa para uma página dedicada (bio.qmd).\nStatus: PAUSADA - Abordagem mais complexa que foi substituída pela bio-as-home\n\n\n\nObjetivo: Abordagem simplificada onde a bio completa É a home, com posts recentes integrados.\nStatus: PRONTA - Aguardando alimentação do blog com posts reais antes do merge\nEstrutura: - Home (index.qmd): Bio completa + 3 posts recentes - Blog (blog.qmd): Listagem completa de posts - Navbar: Início | Blog\nQuando fazer merge: - Quando o blog tiver posts reais (não apenas exemplos) - Quando estiver pronto para publicar a bio completa na home\n\n\n\nObjetivo: Adicionar formulário de assinatura Brevo no blog para captação de e-mails.\nStatus: FUNCIONAL - Aguardando configuração de disparo de e-mails no Brevo\nO que contém: - Formulário Brevo em subscribe.html - Integração via margin-header no blog.qmd - reCAPTCHA removido (causava erro no localhost) - Tamanho médio (350px de largura)\nPendências antes do merge: - Configurar disparo automático de e-mails no Brevo - Configurar domínio autorizado para reCAPTCHA (opcional) - Testar fluxo completo de assinatura\nQuando fazer merge: - Após merge de bio-as-home em main - Quando sistema de e-mails estiver configurado no Brevo - Em momento estratégico para começar captação de leads"
+    "text": "Objetivo: Backup da versão com blog preenchido com posts de exemplo.\nStatus: Disponível para testes e referência futura.\n\n\n\nObjetivo: Adicionar formulário de assinatura Brevo no blog para captação de e-mails.\nStatus: FUNCIONAL - Aguardando configuração de disparo de e-mails no Brevo\nO que contém: - Formulário Brevo em subscribe.html - Integração via margin-header no blog.qmd - reCAPTCHA removido (causava erro no localhost) - Tamanho médio (350px de largura)\nPendências antes do merge: - Configurar disparo automático de e-mails no Brevo - Configurar domínio autorizado para reCAPTCHA (opcional) - Testar fluxo completo de assinatura\nQuando fazer merge: - Quando sistema de e-mails estiver configurado no Brevo - Em momento estratégico para começar captação de leads"
   },
   {
     "objectID": "CLAUDE.html#estrutura-de-navegação",
     "href": "CLAUDE.html#estrutura-de-navegação",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Home (index.qmd)\n├─ Bio resumida (1-2 parágrafos)\n├─ Link \"→ Saiba mais\" → bio.qmd\n└─ Posts recentes do blog (últimos 3 posts)\n\nBio (bio.qmd) - NOVA PÁGINA\n└─ Bio completa (conteúdo atual do index.qmd)\n\nBlog (blog.qmd)\n└─ Todos os posts (listagem completa)"
+    "text": "Home (index.qmd)\n├─ Bio completa com detalhes\n├─ Seção \"Posts recentes\"\n└─ Últimos 3 posts (apenas títulos, sem data/imagem)\n\nBlog (blog.qmd)\n└─ Todos os posts (listagem em tabela)"
   },
   {
     "objectID": "CLAUDE.html#navbar",
     "href": "CLAUDE.html#navbar",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Início | Bio | Blog"
+    "text": "Início | Blog"
   },
   {
-    "objectID": "CLAUDE.html#tarefas",
-    "href": "CLAUDE.html#tarefas",
+    "objectID": "CLAUDE.html#estrutura-de-posts",
+    "href": "CLAUDE.html#estrutura-de-posts",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Criar branch home-redesign\nCriar CLAUDE.md (este arquivo)\nCriar bio.qmd com bio completa\nAtualizar index.qmd com bio resumida + posts recentes\nCriar 5 posts de exemplo\nAtualizar _quarto.yml (adicionar bio na navegação)\nAtualizar .gitignore (ignorar CLAUDE.md)\nRenderizar e revisar resultado"
+    "text": "Metadados Obrigatórios (Front Matter):\n---\ntitle: Título do Post\nauthor: Rogério Kreidlow\ndate: YYYY-MM-DD\ndescription: Breve descrição para cards e SEO\nimage: imagem-principal.png\ncategories:\n  - Categoria1\n  - Categoria2\nkeywords:\n  - palavra-chave1\n  - palavra-chave2\ntoc: true\n---\nExemplo: Primeiro Post Publicado - Arquivo: blog/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms.md - Status: ✓ Publicado - Imagens: 2 (principais + citações)"
   },
   {
-    "objectID": "CLAUDE.html#conteúdo-da-bio-resumida-index.qmd",
-    "href": "CLAUDE.html#conteúdo-da-bio-resumida-index.qmd",
+    "objectID": "CLAUDE.html#tarefas-concluídas",
+    "href": "CLAUDE.html#tarefas-concluídas",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Sou **Rogério Kreidlow**, Head de Expansão na [BeTalent](https://betalent.tech/).\nAtuo na condução de descobertas e PoCs em IA, no relacionamento com clientes e\nna gestão de iniciativas ligadas a produto e marketing. Gosto de explorar\nconhecimentos e construir com palavras ou código.\n\n[→ Saiba mais](bio.qmd)"
-  },
-  {
-    "objectID": "CLAUDE.html#posts-de-exemplo-5-posts",
-    "href": "CLAUDE.html#posts-de-exemplo-5-posts",
-    "title": "Projeto: Redesign do Site - rogerkrw.github.io",
-    "section": "",
-    "text": "Posts simples com conteúdo genérico para testar o layout:\n\nComo a IA está transformando o atendimento ao cliente\n\nData: 2025-10-15\nCategoria: IA, Tecnologia\n\nEstratégias de expansão para startups de tecnologia\n\nData: 2025-10-10\nCategoria: Gestão, Startups\n\nJornalismo de dados: contando histórias com números\n\nData: 2025-10-05\nCategoria: Jornalismo, Dados\n\nO papel do marketing em empresas de tecnologia\n\nData: 2025-09-28\nCategoria: Marketing, Tecnologia\n\nPoCs de IA: do conceito à implementação\n\nData: 2025-09-22\nCategoria: IA, Gestão de Projetos"
-  },
-  {
-    "objectID": "CLAUDE.html#layout-dos-posts-recentes-na-home",
-    "href": "CLAUDE.html#layout-dos-posts-recentes-na-home",
-    "title": "Projeto: Redesign do Site - rogerkrw.github.io",
-    "section": "",
-    "text": "Formato: Cards com título, descrição e data\nQuantidade: 3 posts mais recentes\nLink para blog completo ao final"
-  },
-  {
-    "objectID": "CLAUDE.html#configuração-quarto",
-    "href": "CLAUDE.html#configuração-quarto",
-    "title": "Projeto: Redesign do Site - rogerkrw.github.io",
-    "section": "",
-    "text": "Adicionar listagem de posts recentes no index.qmd:\nlisting:\n  contents: blog\n  sort: \"date desc\"\n  max-items: 3\n  type: default"
+    "text": "Criar estrutura de blog\nAtualizar index.qmd com listagem de posts\nConfigurar metadados de posts (YAML front matter)\nAdicionar primeiro blog post com conteúdo real\nConfigurar CSS para limpar apresentação (sem headers, filtros, etc)\nPublicar em produção (main branch)\nAtualizar .gitignore para rastrear posts e imagens"
   },
   {
     "objectID": "CLAUDE.html#plano-de-ação-futuro",
     "href": "CLAUDE.html#plano-de-ação-futuro",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "Escrever posts reais para o blog\nRemover posts de exemplo da branch bio-as-home\nTestar renderização final\n\n\n\n\n\nFazer merge de bio-as-home em main\nPublicar site atualizado\nValidar em produção\n\n\n\n\n\nConfigurar disparo de e-mails no Brevo\nTestar fluxo completo de assinatura\n(Opcional) Configurar reCAPTCHA para domínio de produção\nFazer merge de add-subscription em main\nPublicar formulário de assinatura"
+    "text": "Configurar disparo de e-mails no Brevo\nTestar fluxo completo de assinatura\n(Opcional) Configurar reCAPTCHA para domínio de produção\nFazer merge de add-subscription em main\nPublicar formulário de assinatura\n\n\n\n\n\nInstalar extensão quarto-social-share\nConfigurar botões de compartilhamento (Twitter, LinkedIn, Facebook)\nTestar em todos os posts\nPublicar"
+  },
+  {
+    "objectID": "CLAUDE.html#extensões-e-recursos",
+    "href": "CLAUDE.html#extensões-e-recursos",
+    "title": "Projeto: Redesign do Site - rogerkrw.github.io",
+    "section": "",
+    "text": "Extensão: quarto-social-share (GitHub: schochastics/quarto-social-share)\nUso:\nquarto add schochastics/quarto-social-share\nConfiguração no YAML:\n---\ntitle: \"Post Title\"\nformat:\n  html:\n    social-share: true\n    share-buttons: [twitter, facebook, linkedin]\n---\nRedes suportadas: Twitter, Facebook, LinkedIn, Email, etc.\nStatus: Pesquisado, pronto para implementação"
   },
   {
     "objectID": "CLAUDE.html#notas-técnicas",
     "href": "CLAUDE.html#notas-técnicas",
     "title": "Projeto: Redesign do Site - rogerkrw.github.io",
     "section": "",
-    "text": "CLAUDE.md está ignorado no .gitignore\nPosts de exemplo criados apenas para visualização de layout\nTemplate usado: trestles (melhor layout que jolla)\npage-layout: full para conteúdo mais largo\nCSS customizado em styles.scss para ocultar headers de tabela e ajustar espaçamentos"
+    "text": "CLAUDE.md está ignorado no .gitignore (arquivo de planejamento/referência)\nTemplate usado: trestles (página “about” da home)\nHome usa page-layout: full e toc: false para largura completa\nCSS customizado em theme-light.scss:\n\n.quarto-listing-table thead { display: none !important; } - Oculta headers de tabela nas listagens\nGarante apresentação limpa da listagem de posts\n\nPosts são armazenados em blog/YYYY-MM-DD-slug/arquivo.md com metadados YAML\nImagens dos posts devem estar no mesmo diretório\nRenderização em docs/ pronta para deploy"
   }
 ]
