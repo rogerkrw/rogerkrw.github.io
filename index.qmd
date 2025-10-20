@@ -10,7 +10,7 @@ about:
     - icon: github
       url: https://github.com/rogerkrw
 listing:
-  contents: blog
+  contents: "blog/*/index.qmd"
   sort: "date desc"
   type: table
   fields:

@@ -21,7 +21,7 @@ website:
     left:
       - href: index.qmd
         text: Bio
-      - href: blog.qmd
+      - href: blog/
         text: Blog
     background: primary
     tools:

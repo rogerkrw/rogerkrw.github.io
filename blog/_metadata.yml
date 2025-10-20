@@ -1,0 +1,20 @@
+# Configurações compartilhadas para todos os posts do blog
+# Valores podem ser sobrescritos no YAML individual de cada post
+
+# Freeze: não re-renderizar a menos que explicitamente solicitado
+freeze: true
+
+# Layout otimizado para leitura de artigos
+page-layout: article
+
+# Profundidade do índice
+toc-depth: 3
+
+# Author padrão (pode ser sobrescrito em posts individuais)
+author: Rogério Kreidlow
+
+# Formato HTML com settings específicos para posts
+format:
+  html:
+    # Remove banner do título para manter visual limpo
+    title-block-banner: false
