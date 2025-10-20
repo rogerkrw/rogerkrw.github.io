@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/blog/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms.html"
+      "/blog/2025-10-20-achatamento-linguistico-cultural-llms/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/blog/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms/2025-10-20-o-risco-do-achatamento-linguistico-cultural-dos-llms.html"
+      "/blog/2025-10-20-achatamento-linguistico-cultural-llms/index.html"
     ]
   }
 ]
