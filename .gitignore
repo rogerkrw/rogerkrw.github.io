@@ -5,12 +5,10 @@ CLAUDE.md
 # Arquivos das branches de desenvolvimento
 bio.qmd
 subscribe.html
-blog/
 _quarto_yml
 
 # Renderizados das branches (docs/)
 docs/bio.html
-docs/blog/
 docs/CLAUDE.html
 docs/PLAN-BIO-HOME.html
 

@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Rogério Kreidlow">
+<meta name="dcterms.date" content="2025-10-20">
+<meta name="keywords" content="LLMs, GPT, viés cultural, diversidade linguística, aculturamento, IA generativa, padronização cultural">
+<meta name="description" content="Sabe a sensação de que IAs escrevem em português, mas parecem pensar em inglês? Fiz um apanhado de estudos e dados para entender por que isso ocorre e suas possíveis consequências.">
+
+<title>O risco do “achatamento” linguístico-cultural dos LLMs – Rogério Kreidlow</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d1a254edb624dd6ec8b58a150e534ea8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-811168f297bda597fc7e2e63a236d5d8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d1a254edb624dd6ec8b58a150e534ea8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "F2"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SKSQF6JWNM"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
+</script>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "tdxfh4g3ip");
+</script>
+
+
+<link rel="stylesheet" href="../../styles.scss">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="index.qmd" class="navbar-brand navbar-brand-logo">
+    <img src="../../logo.png" alt="Foto de Rogério Kreidlow" class="navbar-logo light-content">
+    <img src="../../logo.png" alt="Foto de Rogério Kreidlow" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="index.qmd">
+    <span class="navbar-title">Rogério Kreidlow</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Bio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.linkedin.com/in/rogerkrw" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/rogerkrw" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">O risco do “achatamento” linguístico-cultural dos LLMs</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">IA</div>
+    <div class="quarto-category">Linguagem</div>
+    <div class="quarto-category">Cultura</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Sabe a sensação de que IAs escrevem em português, mas parecem pensar em inglês? Fiz um apanhado de estudos e dados para entender por que isso ocorre e suas possíveis consequências.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rogério Kreidlow </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 20, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>LLMs, GPT, viés cultural, diversidade linguística, aculturamento, IA generativa, padronização cultural</p>
+  </div>
+</div>
+
+</header>
+
+
+<div id="fig-correlacao" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-correlacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="gpt-human-similarity-cultura-distance-from-usa.png" title="A imagem é um gráfico de dispersão com o título 'Correlação entre GPT e Humanos' no eixo Y e 'Distância Cultural dos Estados Unidos' no eixo X. Ele mostra pontos de dados para vários países. Uma linha de regressão preta com uma faixa de confiança cinza sombreia os dados, indicando tendência negativa. Os pontos de dados no canto superior esquerdo (baixa distância cultural, alta correlação) incluem Estados Unidos, Canadá, Reino Unido e Austrália. Países como Egito, Paquistão e Líbia estão no canto inferior direito (alta distância cultural, baixa correlação)." class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-correlacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Quanto maior a distância cultural dos EUA, menor a correlação entre respostas do GPT e o pensamento humano. Fonte: PsyArXiv Preprints
+</figcaption>
+</figure>
+</div>
+<p>Há algum tempo vi o gráfico que ilustra este artigo em um <a href="https://www.linkedin.com/posts/ctaurion_ai-technology-analytics-activity-7329196572716486656-a5qb/">post</a> de Cezar Taurion no LinkedIn, em que ele compartilhava outro post de Keith McNulty.</p>
+<p>Após me deter um pouco na imagem e ver rapidamente o estudo que deu origem a ela, lembro de ter elaborado uma hipótese mais ou menos assim: o fato de IAs como o ChatGPT e similares “pensarem” e “responderem” majoritariamente a partir do inglês (mesmo que traduzindo a outros idiomas) não pode enviesar a nós e a novas gerações a pensar e responder cada vez mais “em inglês” (não na língua em si, mas com a carga cultural de países onde o inglês é falado)? Não há risco de um processo de aculturamento, padronização, homogeneização, “achatamento” sócio-cognitivo, em detrimento de diversidade cultural, linguística, étnica?”</p>
+<p>Taurion, que questiona a confiança efusiva na IA generativa, diz no post:</p>
+<blockquote class="blockquote">
+<p><em>“O mundo não se limita ao Vale do Silício…”</em> — <a href="https://www.linkedin.com/posts/ctaurion_ai-technology-analytics-activity-7329196572716486656-a5qb/">Cezar Taurion</a>.</p>
+</blockquote>
+<p>E McNulty, em tradução livre:</p>
+<blockquote class="blockquote">
+<p>“Este artigo publicado no ano passado por biólogos evolutivos de Harvard indica que — quando usado para tarefas cognitivas típicas — a similaridade entre respostas de modelos LLMs e respostas humanas diminui à medida que nos afastamos das grandes economias ocidentais ‘semelhantes aos EUA’. Isso levanta questões sobre se podemos generalizar globalmente conclusões sobre o uso seguro e produtivo da tecnologia de IA integrada em processos de trabalho. […]” — <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326237398617501696/">Keith McNulty</a>.</p>
+</blockquote>
+<p>O print da postagem, para referência:</p>
+<div id="fig-postagem" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-postagem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="print-post-cesar-taurion-keith-mcnulty.png" title="A imagem é uma captura de tela de uma postagem no LinkedIn de Keith McNulty, compartilhada por Cezar Taurion. Inclui o mesmo gráfico de dispersão que mostra a correlação entre as respostas de LLMs (como o GPT) e as respostas humanas em relação à distância cultural dos Estados Unidos. O texto da postagem de Keith McNulty explica que a pesquisa indica que a similaridade entre os modelos de linguagem e as respostas humanas diminui à medida que se afastam das economias ocidentais dominantes, o que levanta questões sobre a generalização de tecnologias de IA em fluxos de trabalho." class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-postagem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Postagem de Cezar Taurion compartilhando a de Keith McNulty, que citou o artigo. Fonte: LinkedIn
+</figcaption>
+</figure>
+</div>
+<hr>
+<p>O estudo me chamou a atenção porque confirmava o que eu já intuía no uso quase diário de LLMs para escrita: havia sempre incômodos com termos, construções frasais, gerúndios, nuances, que não eram uma maneira “natural” de eu pensar e escrever em português do Brasil. Causavam fricção, incômodo. Não é um achado revelador e provavelmente você também já tenha tido o mesmo incômodo ou chegado à mesma constatação.</p>
+<p>E nem falo de termos como o “crucial” do GPT-3.5, que, de tão banalizado, surtia praticamente o efeito oposto, de nada mais ter importância. Qualquer “nariz de cera” (início de frase no estilo “encheção de linguiça”, que LLMs usam bastante), como “me fale sobre escovar os dentes todos os dias”, resultava em algo como: <em>“Escovar os dentes todos os dias é um hábito crucial para…”</em>. A evolução do GPT-4 e outros modelos ao menos parece ter melhorado tal comportamento.</p>
+<p>Mas sempre sobram termos e construções como:</p>
+<ul>
+<li><em>“em constante evolução”</em> (exemplo: “o mercado de trabalho em 2025 está em <em>constante evolução</em>…”);</li>
+<li><em>“ressoar”</em> (“o importante é que esses conselhos <em>ressoem</em> em você”);</li>
+<li><em>“certifique-se de”</em>, principalmente em listas de tarefas, com voz no imperativo (“<em>certifique-se de</em> ter preenchido todos os campos…”);</li>
+<li><em>“incluindo”</em> para quaisquer locuções substantivas (exemplo: “[…] todos os departamentos da empresa, <em>incluindo</em> vendas, marketing e RH.”);</li>
+<li><em>“significativo”</em>, no mesmo sentido de “crucial”;</li>
+<li>gerúndios que alongam sentenças (exemplo de uma típica frase de LLM: “a implementação do novo sistema representou um avanço significativo, <em>permitindo</em>…”);</li>
+<li>adjetivos desnecessários (o “significativo”, o “crucial”, entre vários outros);</li>
+<li>e por aí segue.</li>
+</ul>
+<p>Isso, é claro, para não falar de erros irritantes, como a mania de capitalizar todas as palavras em títulos ou itens de lista e em capitalizar a primeira palavra após dois-pontos, mesmo quando <a href="https://www.dicio.com.br/depois-de-dois-pontos-letra-maiuscula-ou-minuscula/">não seguem a regra</a>.</p>
+<p>É claro que se você fornecer textos com seu estilo, LLMs irão mimetizá-los. Mas aí lidamos com outras consequências, como o modelo enviesar para aquela abordagem, adotar quase <em>ipsis litteris</em> a mesma construção do texto fornecido e aumentar de forma até caricata certas características.</p>
+<p>E mesmo isso ainda obriga a escrever um “manual” na tentativa de o modelo não adotar um tom que soa sempre a texto de marketing ou copywriting. Do contrário, é comum ele tender a destacar e “vender” qualquer assunto, por mais irrelevante que seja ou quando se quer uma abordagem mais neutra, sem qualificações.</p>
+<hr>
+<p>O <em>paper</em> <em>“<a href="https://osf.io/preprints/psyarxiv/5b26t_v1">Which Humans?</a>”</em> (<em>“Quais humanos?”</em>, em tradução livre), que contém o gráfico que ilustra esse artigo, basicamente compara o desempenho de LLMs com o comportamento humano em testes psicológicos e ressalta a falta de diversidade cultural no treinamento dos LLMs.</p>
+<p>Metodologicamente, usa outro estudo chamado <em>“<a href="https://www.worldvaluessurvey.org/wvs.jsp">World Values Survey (WVS)</a>”</em>, que coletou respostas de 94.278 indivíduos de 65 nações, para comparar respostas do GPT com as de grupos humanos.</p>
+<p>Foi, então, feita uma análise de “cluster hierárquico”, o que mostrou que o GPT estava mais próximo dos EUA e mais distante de culturas como as do Oriente Médio e da Ásia Central (a distância no eixo X). E uma correlação inversa foi encontrada entre a distância cultural dos Estados Unidos e a semelhança GPT-humano (a linha preta).</p>
+<p>Uma das conclusões do estudo, portanto, é que o desempenho dos LLMs em tarefas cognitivas e psicológicas se assemelha mais ao de pessoas de sociedades “WEIRD” (<em>“Western, Educated, Industrialized, Rich, and Democratic”</em> ou “Ocidental, Educado, Industrializado, Rico e Democrático”, em tradução livre) e diminui à medida que se distancia dessas populações.</p>
+<p>Para nota rápida, WEIRD é um conceito que surgiu em um paper intitulado <em>“<a href="https://pubmed.ncbi.nlm.nih.gov/18855491/">The neglected 95%: why American psychology needs to become less American</a>”</em> (<em>“Os 95% negligenciados: por que a psicologia americana precisa se tornar menos americana”</em>), de Jeffrey J. Arnett, de 2008.</p>
+<p>No estudo, Arnett argumenta que a pesquisa em Psicologia publicada nos periódicos da American Psychological Association (APA) se concentrava excessivamente em amostras americanas, que representam menos de 5% da população mundial.</p>
+<p>Ou seja, a abordagem resulta em uma compreensão não representativa da psicologia humana, já que 95% da população global vive em condições culturais e socioeconômicas bem diferentes.</p>
+<p>É mais ou menos como tentar classificar todos os humanos a partir da ótica geracional que o marketing criou, dos <em>baby boomers</em>, X, <em>millennials</em>, Z, alfa, entre outras. Provavelmente, não fará muito sentido para entender povos esquimós, curdos, uigures ou guajajaras brasileiros.</p>
+<p>O gráfico em si, para entendimento nos detalhes, mostra:</p>
+<ul>
+<li>no <em>eixo X</em> (horizontal), a distância cultural de países em relação aos Estados Unidos (quanto maior o valor, mais diferente culturalmente é o país);</li>
+<li>no <em>eixo Y</em> (vertical), a correlação entre GPT e humanos (quanto maior, mais similaridade entre o desempenho do LLM e o modo de pensar daqueles humanos).</li>
+</ul>
+<p>A linha preta mostra correlação negativa (r = -0,7), o que significa que quanto mais distante culturalmente um país está dos EUA, pior o GPT performa se comparado à forma de pensar e se expressar das pessoas daquele país.</p>
+<p>Na prática, países culturalmente próximos aos EUA, como Austrália, Canadá e Reino Unido, têm alta correlação entre GPT e humanos (~0,85). Já países como Alemanha, Japão e Coreia do Sul ficam em uma faixa média (~0,78-0,8). E países culturalmente distantes (Paquistão, Líbia, Egito) apresentam correlações menores (~0,62-0,7).</p>
+<p>Qual o motivo disso? Bastaria um exercício dedutivo mental para respondermos. Em quais dados LLMs como o GPT foram treinados? Web, principalmente Wikipedia, periódicos, livros. Qual o idioma predominante na web? Inglês, sobretudo americano. Mesmo chutando, você acertaria.</p>
+<p>Resultado: o GPT tem um viés cultural alinhado com o inglês e toda a cultura que o fala e o molda no dia a dia, a qual, não há como negar, é uma <em>cultura ocidentalizada</em>, formalmente <em>educada</em>, <em>industrializada</em>, <em>rica</em> e — alguns questionarão — <em>democrática</em>.</p>
+<hr>
+<p>Pesquisando manualmente e com ajuda de <em>deep research</em> de vários LLMs, não há nenhuma fonte oficial e cabal de qual a proporção de idiomas presentes em cada LLM <em>mainstream</em>. O fato de a maioria dos grandes modelos ter parado de compartilhar <em>papers</em> detalhados, por questões de concorrência e segredo industrial, após o GPT-3, em 2020, tornou esse campo mais especulativo do que exato.</p>
+<p>De qualquer modo, não é difícil deduzir que o inglês seja a língua predominante na maioria dos conjuntos de dados de treinamentos. Basta fazer alguma extrapolação por fontes comuns e populares de dados.</p>
+<p>Uma das principais dessas fontes é o <a href="https://commoncrawl.org/">Common Crawl</a>, organização sem fins lucrativos que, desde 2008, faz <em>web scraping</em> (raspagem de dados) da internet mensalmente e disponibiliza seus dados de forma pública.</p>
+<p>No site da instituição, é informado que 250 bilhões de páginas web foram raspadas em 18 anos e que de 3 a 5 bilhões de páginas são adicionadas por mês. No relatório de julho de 2025, por exemplo, a instituição obteve conteúdo de 2,42 bilhões de páginas web ou 419 TB (Terabytes) de conteúdo não compactado.</p>
+<p>Conforme os dados de julho, disponíveis no <a href="https://commoncrawl.github.io/cc-crawl-statistics/plots/languages">GitHub</a>, o inglês está presente em 44,6% dos conteúdos coletados. O segundo colocado é o russo, com apenas 5,8%, seguido do chinês (5,59%), alemão (5,58%) e japonês (5,27%). O português representa 2,16% do total.</p>
+<p>A proporção do inglês caiu 1,46% entre os dois últimos levantamentos, enquanto outras línguas vêm crescendo vagarosamente. Exemplos: chinês (+4,59%), japonês (+5,24%), italiano (+10,3%) e persa (41,14%), embora todos longe de equilibrar a predominância do inglês.</p>
+<p>Vale ressaltar, porém, que o Common Crawl é apenas um dos muitos <em>datasets</em> massivos disponíveis. Há outros usados para treinamentos de modelos, além de versões otimizadas deles e, cada vez mais, dados sintéticos — gerados pelos próprios LLMs, por heurísticas ou por regras determinísticas para suprir a falta de dados de alta qualidade necessária às IAs.</p>
+<p>Nem seria necessário ir tão longe para verificar os números. Só o fato da maioria dos artigos científicos (<em>papers</em>) serem escritos em inglês dá uma dimensão da proporção do idioma. A própria <a href="https://pt.wikipedia.org/wiki/Lista_de_Wikip%C3%A9dias">Wikipédia</a> é uma boa bússola: 63,6 milhões de páginas são em inglês, contra 19,5 milhões do segundo colocado, o vietnamita.</p>
+<p>(Se você tem curiosidade sobre quantos dados haveria disponível para treinamento de LLMs no mundo, um post de 2024 <a href="https://www.educatingsilicon.com/2024/05/09/how-much-llm-training-data-is-there-in-the-limit/">deste site</a> se propôs a fazer tal exercício. Não é científico, mas as ideias são bem referenciadas e logicamente construídas.)</p>
+<p>Há ainda outra questão em relação ao inglês e outros idiomas nos LLMs: consumo de tokens. Token, para entendimento rápido, é a menor unidade de texto que um modelo de IA “entende”. É um “pedaço” de uma palavra ou um caractere. Para que uma IA processe texto, ela precisa convertê-lo em números, e tokens servem a isso.</p>
+<p>Para um exemplo simplório, na frase “Olá, mundo!”, um tokenizador (ferramenta usada para converter textos em tokens) pode quebrar “Olá,” em “Olá” e “,”, e “mundo!” em “mundo” e “!”. Cada parte recebe um número no vocabulário do modelo, o que permite que a IA trabalhe com o texto como matrizes numéricas multidimensionais.</p>
+<p>Em inglês, com base na análise na maioria dos tokenizadores, uma palavra corresponde a 0,75 token. Em outros idiomas, a tendência é a <a href="https://medium.com/data-science/all-languages-are-not-created-tokenized-equal-cd87694a97c1">correspondência ser maior</a>, o que significa que modelos têm de “gastar” mais tokens para responder às entradas.</p>
+<p>Para o português do Brasil, é consenso que cada palavra corresponde a 1,5 token (<a href="https://www.reddit.com/r/OpenAI/comments/124v2oi/hindi_8_times_more_expensive_than_english_the/">este post no Reddit</a> de 2023 calculava 1,9). O número aumenta em línguas como as asiáticas, da Índia, russo, grego e outras. Se formos olhar pelo lado de custos, <a href="https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc/">é mais “caro”</a> para um LLM genérico falar em outras línguas do que o inglês, o que pode reforçar ainda mais a comunicação na “língua-mãe” da tecnologia.</p>
+<hr>
+<p>Ao que essa argumentação nos leva? Embora não se pretenda científica, ela ajuda a pensar na hipótese que introduzi no início. Pode ocorrer de vermos novas gerações terem um “achatamento” cultural ainda maior do que a minha geração (<em>“millennials”</em>, para usarmos a classificação do marketing).</p>
+<p>Não que seja simplesmente bom ou ruim. Nada na realidade é tão simplista. Comércio, relações entre países e globalização são sobre <em>padronização</em>, “achatamentos” e sobre falamos a mesma língua, literal e metaforicamente. A própria História talvez seja um conflito por homogeneização cultural — seja via <em>hard power</em> (guerras, dominação etc.) ou <em>soft power</em> (influência cultural, religião, costumes etc.), até para nos entendermos uns aos outros e não parecermos alienígenas em um mesmo planeta, o que suspeito que possa ter ocorrido num passado remoto.</p>
+<p>No entanto, de outro ponto de vista, isso inevitavelmente implica em perda de diversidade cultural, de identidade e outras consequências desconhecidas. No extremo, pode levar todos a viverem, comportarem-se, falarem e a <em>pensarem</em> da mesma forma — ou de forma muito similar, o que em certa medida ocorre no “ocidente clássico” (Europa e EUA).</p>
+<hr>
+<p>Outro <a href="https://arxiv.org/abs/2409.01754">estudo</a> bastante recente, aliás, vai nessa linha. Pesquisadores do <a href="https://www.mpg.de/institutes">Instituto Max Planck</a>, na Alemanha, detectaram um aumento “abrupto” no uso de palavras geradas pelo ChatGPT — e isso em inglês. Estão na lista <em>“delve”</em>, <em>“comprehend”</em>, <em>“boast”</em>, <em>“swift”</em> e <em>“meticulous”</em> (respectivamente, “aprofundar”, “compreender”, “gabar-se/ostentar”, “veloz” e “meticuloso”, em tradução livre, mas que podem não captar as nuances dos originais em inglês).</p>
+<p>São evidências empíricas de que a linguagem gerada por IA pode estar moldando a comunicação falada por nós com implicações desconhecidas para a diversidade cultural e linguística.</p>
+<p>Para chegar a tal conclusão, a pesquisa analisou 740.249 horas de discurso humano, de 360.445 palestras acadêmicas do YouTube e 771.591 episódios de podcast em diversas disciplinas.</p>
+<p>O estudo quantificou as preferências de palavras do ChatGPT e, em seguida, comparou as distribuições de frequência de palavras em textos humanos com suas versões editadas pelo ChatGPT.</p>
+<p>Foi observado que a influência linguística dos LLM é presente na fala de <em>early adopters</em> (adotantes iniciais), como pessoas da academia, da ciência e da tecnologia. Mas se estende também a outros domínios, como negócios. E o comportamento não ocorre só em falas roteirizadas, mas em conversas informais, como nos podcasts.</p>
+<p>Não se sabe exatamente o que leva a essa adoção de termos do GPT na fala, segundo os pesquisadores. Pode ser imitação direta, maior facilidade cognitiva de lembrar ou algo mais profundo e desconhecido do processo cognitivo humano.</p>
+<p>O estudo levanta preocupações sobre a homogeneização cultural (o “achatamento”). Um efeito interessante (vale um artigo futuro) é no chamado “colapso do modelo”: a degradação da qualidade de IAs generativas, por serem cada vez mais treinadas em dados gerados por elas mesmas.</p>
+<p>Na busca crescente por otimização de tudo, pode haver uma <em>“redução da entropia”</em>, tornando tudo mais e mais igual, a ponto de não haver mais variedade de dados. Isso limitaria os próprios dados de treinamento, fazendo-os serem menos “generativos” cada avanço. Em um extremo hipotético, LLMs se tornariam “determinísticos” a diversas entradas.</p>
+<hr>
+<p>Se enxergarmos isso como problema, como resolvê-lo? Não é uma questão trivial. Dado o uso crescente de LLMs e dado que, inevitavelmente, os dados disponíveis na web, livros ou em quaisquer outras mídias parecem ser em sua maioria em inglês — o que, repito, reflete um determinado tipo de cultura, jeito de se comunicar, de pensar e de viver —, não parece haver muita saída.</p>
+<p>O que pode mudar um pouco o cenário, e em alguma medida isso acontece de 2022 para cá — mas, novamente, dentro da disponibilidade de dados para treinamento —, é a inclusão de mais dados de outras línguas que não o inglês em <em>datasets</em>.</p>
+<p>Uma terceira medida é, sim, o treinamento de LLMs com um peso maior para um idioma em detrimento de outros. É o que vem acontecendo em relação ao chinês, já que a China está em uma corrida geopolítica com os EUA para domínio em vários campos, entre eles a IA.</p>
+<p>Há <a href="https://pub.towardsai.net/why-do-chinese-llms-switch-to-chinese-in-complex-interactions-d18daac872b8">relatos</a> do DeepSeek, por exemplo, gerar saídas em chinês sem motivo aparente, em especial em tarefas difíceis. Tal comportamento pode ocorrer por haver uma maior quantidade de dados em chinês do que em inglês no pré-treinamento do modelo ou por características adicionadas no pós-treinamento, como no <a href="https://aws.amazon.com/pt/what-is/reinforcement-learning-from-human-feedback/">RLHF</a> (<em>“Reinforcement Learning from Human Feedback”</em> ou “Aprendizagem por Reforço com Feedback Humano”, em tradução livre).</p>
+<p>Em relação ao português do Brasil, os LLMs da <a href="https://amazoniaia.com.br/iniciativa">Amazônia IA</a> e da <a href="https://www.maritaca.ai/">Maritaca</a> vão na mesma direção. Ainda não testei ambos a fundo, mas em uma comparação rápida com GPT, Claude e Gemini, notei que tanto o modelo Sabiá 3.1 quanto Sabiá 3 e Sabiazinho, da Maritaca, adotam nuances da escrita em português do Brasil que costumam exigir <em>prompt engineering</em> nos LLMs <em>mainstream</em>.</p>
+<p>Um exemplo rápido é quanto às construções frasais, que nos LLMs da moda tendem a se estender com gerúndios e seguir padrões facilmente encontrados em <em>reports</em> e artigos acadêmicos em inglês americano. Notei que eles ocorrem menos ou não ocorrem nos modelos da Maritaca. Vale mencionar outros exemplos como <a href="https://arxiv.org/abs/2401.02909">Bode</a> ou <a href="https://clarice.ai/">Clarice</a>, mas não os testei para ter uma impressão.</p>
+<p>A conjectura que fica é se, dentro de 3, 5 ou 10 anos — longo prazo para a IA, dado os seus avanços — ainda fará sentido querermos nuances de determinadas línguas nos LLMs. Porque muito mais pessoas já terão recorrido e estarão recorrendo a eles. E uma gama muito maior de pessoas já pode estar habituada a falar, a pensar e se comportar com base na escrita em inglês, ou seja, em todo o contexto cultural que o idioma carrega.</p>
+<p>Em outras palavras: se mais pessoas pensam e agem de maneira parecida, não irão buscar “mais do mesmo” em vez de ainda sentirem necessidade de nuances diferentes? Outros modos de registrar a fala e, portanto, o pensamento, não irão virar, quando muito, peça de museu, já que não haverá mais necessidade delas? É uma questão filosófica, que só o tempo responderá.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rogerkrw\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright © 2025 Rogério Kreidlow | Feito com <a href="https://quarto.org/">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
