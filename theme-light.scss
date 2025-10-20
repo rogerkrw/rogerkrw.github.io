@@ -2,3 +2,10 @@
 $font-family-sans-serif: "Arial", sans-serif;
 $primary: #000;
 $navbar-bg: #fff;
+
+/*-- scss:rules --*/
+/* Hide table header for listings */
+.quarto-listing-table thead,
+.listing-table thead {
+  display: none !important;
+}

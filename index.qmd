@@ -9,6 +9,17 @@ about:
       url: https://www.linkedin.com/in/rogerkrw/
     - icon: github
       url: https://github.com/rogerkrw
+listing:
+  contents: blog
+  sort: "date desc"
+  type: table
+  fields:
+    - title
+  max-items: 3
+  filter-ui: false
+  sort-ui: false
+page-layout: full
+toc: false
 ---
 
 Olá, sou **Rogério Kreidlow** e este é meu site pessoal. 
@@ -25,3 +36,7 @@ Além disso:
 - Mentalidade de exploração, adaptação e aprendizado contínuo.
 
 [INTJ-A](https://www.16personalities.com/br/personalidade-intj) no Myers-Briggs e [C](https://www.discprofile.com/disc-styles/conscientiousness) no DISC. Gosto de explorar conhecimentos e de construir, com palavras ou códigos.
+
+---
+
+## Posts recentes
