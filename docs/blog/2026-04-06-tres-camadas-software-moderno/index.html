@@ -11,7 +11,7 @@
 <meta name="keywords" content="software engineering, LLMs, evals, product discovery, agile, AI engineering, agentes de IA">
 <meta name="description" content="Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.">
 
-<title>As três camadas do software moderno — construção, descoberta e avaliação – Rogério Kreidlow</title>
+<title>Três camadas do software: construção, descoberta e (agora) avaliação – Rogério Kreidlow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -305,9 +305,9 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" id="toc-camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="nav-link active" data-scroll-target="#camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Camada 1: Construção — a era do waterfall e do código como engenharia civil</a></li>
-  <li><a href="#camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" id="toc-camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="nav-link" data-scroll-target="#camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Camada 2: Descoberta — a era da web, dos smartphones e do product management</a></li>
-  <li><a href="#camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" id="toc-camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="nav-link" data-scroll-target="#camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Camada 3: Avaliação — a era dos LLMs e dos agentes de IA</a></li>
+  <li><a href="#construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" id="toc-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="nav-link active" data-scroll-target="#construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Construção: a era do waterfall e do código como engenharia civil</a></li>
+  <li><a href="#descoberta-a-era-da-web-dos-smartphones-e-do-product-management" id="toc-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="nav-link" data-scroll-target="#descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Descoberta: a era da web, dos smartphones e do product management</a></li>
+  <li><a href="#avaliação-a-era-dos-llms-e-dos-agentes-de-ia" id="toc-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="nav-link" data-scroll-target="#avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Avaliação: a era dos LLMs e dos agentes de IA</a></li>
   <li><a href="#o-que-essa-terceira-camada-muda-na-prática" id="toc-o-que-essa-terceira-camada-muda-na-prática" class="nav-link" data-scroll-target="#o-que-essa-terceira-camada-muda-na-prática">O que essa terceira camada muda na prática</a></li>
   <li><a href="#uma-nota-sobre-o-que-muda-para-quem-está-construindo" id="toc-uma-nota-sobre-o-que-muda-para-quem-está-construindo" class="nav-link" data-scroll-target="#uma-nota-sobre-o-que-muda-para-quem-está-construindo">Uma nota sobre o que muda para quem está construindo</a></li>
   <li><a href="#conclusão-três-camadas-uma-disciplina-em-construção" id="toc-conclusão-três-camadas-uma-disciplina-em-construção" class="nav-link" data-scroll-target="#conclusão-três-camadas-uma-disciplina-em-construção">Conclusão: três camadas, uma disciplina em construção</a></li>
@@ -320,7 +320,7 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">As três camadas do software moderno — construção, descoberta e avaliação</h1>
+<h1 class="title">Três camadas do software: construção, descoberta e (agora) avaliação</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Engenharia de Software</div>
     <div class="quarto-category">IA</div>
@@ -367,12 +367,16 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 
 <p><em>Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.</em></p>
 <hr>
+<blockquote class="blockquote">
+<p><strong>Nota de autoria:</strong> Este texto foi escrito por Claude 4.6 Sonnet a partir de uma ideia rápida minha. Não teria tempo (nem saco) para elaborar como um texto completo. O resultado superou minhas expectativas. A ferramenta me disse coisas que nem eu teria elaborado dessa forma. Apesar dos estilos e cacoetes irritantes típicos de textos de LLMs, resolvi publicar porque a mensagem é o que interessa. É o que penso, vejo e executo no dia a dia.</p>
+</blockquote>
+<hr>
 <p>Há uma pergunta que volta a me incomodar quando estou no meio de um projeto com agentes de IA: por que isso parece tão diferente de desenvolver software “normal”? Não é só a tecnologia. É o tipo de trabalho. É o que precisa ser feito antes de codar, durante o código e, especialmente, depois que o código já está rodando.</p>
-<p>A resposta, percebi, está em um padrão que se repete ao longo da história do desenvolvimento de software: cada grande onda tecnológica não apenas mudou as ferramentas — ela adicionou uma camada inteira de trabalho que antes não existia, ou existia de forma marginal e intuitiva.</p>
+<p>A resposta, percebi, está em um padrão que se repete ao longo da história do desenvolvimento de software: cada grande onda tecnológica não apenas mudou as ferramentas, mas, sim, adicionou uma camada inteira de trabalho que antes não existia, ou existia de forma marginal e intuitiva.</p>
 <p>Estamos vivendo a terceira dessas ondas.</p>
 <hr>
-<section id="camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="level2">
-<h2 class="anchored" data-anchor-id="camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Camada 1: Construção — a era do waterfall e do código como engenharia civil</h2>
+<section id="construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="level2">
+<h2 class="anchored" data-anchor-id="construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Construção: a era do waterfall e do código como engenharia civil</h2>
 <p>O desenvolvimento de software nasceu como uma atividade de construção, no sentido mais literal do termo. Não é metáfora: os primeiros modelos de processo de software foram importados diretamente da engenharia civil e da manufatura. O raciocínio fazia sentido à época — se você constrói uma ponte, você especifica tudo antes, executa em fases sequenciais e entrega ao final. Por que seria diferente com software?</p>
 <p>O modelo Waterfall, formalizado a partir de um paper de Winston Royce em 1970, traduziu essa lógica para o desenvolvimento de sistemas: levantamento de requisitos, design, implementação, testes, entrega, manutenção. Uma fase alimentava a próxima. Nenhum retorno entre elas era previsto — ou pelo menos não era desejado.</p>
 <p>Vale uma nota histórica: Royce, ao contrário do que se popularizou, já alertava naquele mesmo paper que aplicar esse modelo de forma puramente sequencial seria “arriscado e convidava ao fracasso”. A ironia é que o setor ignorou esse aviso por décadas. O Waterfall virou dogma, não pela qualidade do argumento, mas pela força da analogia com indústrias já consolidadas.</p>
@@ -382,8 +386,8 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <p>Nessa primeira era, a competência central era <strong>construir</strong>. O trabalho era essencialmente técnico: transformar requisitos em código funcional, da forma mais eficiente e correta possível. O valor estava na execução. O problema de “o que construir” era resolvido fora da equipe — por gerentes, por clientes, por documentos de especificação que chegavam prontos. O desenvolvedor recebia o problema já formulado.</p>
 <hr>
 </section>
-<section id="camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="level2">
-<h2 class="anchored" data-anchor-id="camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Camada 2: Descoberta — a era da web, dos smartphones e do product management</h2>
+<section id="descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="level2">
+<h2 class="anchored" data-anchor-id="descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Descoberta: a era da web, dos smartphones e do product management</h2>
 <p>A internet mudou algo fundamental no software: tornou a distribuição e a modificação radicalmente baratas.</p>
 <p>Antes da web, software era um produto físico. Corrigir um bug significava produzir um novo CD. Lançar uma funcionalidade significava uma nova versão do produto, com data, embalagem e campanha de marketing. O ciclo de feedback entre construção e uso era medido em meses ou anos.</p>
 <p>Depois da web — e especialmente depois do iPhone em 2007 e da explosão do ecossistema mobile entre 2010 e 2014 — o software virou um serviço. A atualização passou a ser contínua. O usuário podia receber uma nova versão enquanto dormia. E isso criou uma pressão nova, diferente da pressão por execução técnica: a pressão por <strong>relevância</strong>.</p>
@@ -397,17 +401,22 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <p>O desenvolvimento de software ganhou, assim, sua segunda camada.</p>
 <hr>
 </section>
-<section id="camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="level2">
-<h2 class="anchored" data-anchor-id="camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Camada 3: Avaliação — a era dos LLMs e dos agentes de IA</h2>
-<p>Aqui chegamos ao presente — e ao problema que me colocou a pensar em tudo isso.</p>
+<section id="avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="level2">
+<h2 class="anchored" data-anchor-id="avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Avaliação: a era dos LLMs e dos agentes de IA</h2>
+<p>Aqui chegamos ao presente e ao problema que me colocou a pensar em tudo isso.</p>
 <p>Construir um sistema que incorpora LLMs é diferente de construir software convencional de uma forma específica e perturbadora: <strong>você não sabe exatamente o que o sistema vai fazer até ele estar rodando com dados reais</strong>.</p>
 <p>Isso não é um bug. É uma característica estrutural dos LLMs.</p>
-<p>Em software tradicional, para uma dada entrada, existe uma saída determinística. Você escreve um teste unitário, define o input, define o output esperado, roda o teste. Passa ou falha. A lógica é binária. O TDD — Test-Driven Development — funciona precisamente porque esse contrato entre input e output é estável.</p>
-<p>Com LLMs, esse contrato não existe. Faça a mesma pergunta duas vezes e você obtém respostas diferentes. Ambas podem ser corretas. Ambas podem ser incorretas de formas distintas. A saída não é determinística — é probabilística. E o espaço de saídas possíveis é, na prática, infinito.</p>
-<p>Isso cria o que engenheiros de IA descrevem como “os três abismos do desenvolvimento com LLMs”: o abismo da compreensão (entre o desenvolvedor e os dados reais de uso), o abismo da especificação (entre o que o desenvolvedor quer que o LLM faça e o que ele efetivamente faz) e o abismo da generalização (entre como o sistema funciona no dataset de teste e como funciona em produção).</p>
-<p>Resolver esses abismos é o trabalho dos <strong>evals</strong> — abreviação de evaluations.</p>
-<p>Evals são, na definição mais simples, testes sistemáticos para sistemas que usam LLMs. Mas a analogia com testes unitários tradicionais só vai até certo ponto. Um eval não verifica se a saída é exatamente igual ao esperado — verifica se ela atende a um conjunto de critérios de qualidade: está factualmente correta? É coerente com o contexto? Segue o formato esperado? Não contém alucinações? Mantém o tom adequado?</p>
-<p>A frase que circula nos ambientes de engenharia de IA nos últimos dois anos sintetiza bem essa virada: <em>“evals are the new unit tests”</em>. O ZenML, em análise de mais de 1.200 deployments de LLMs em produção, documentou como a prática evoluiu de “vibe checks” informais — rodar o sistema manualmente e sentir se parece estar funcionando — para pipelines de avaliação sofisticados e automatizados que rodam a cada mudança no código ou no modelo.</p>
+<p>Em software tradicional, para uma dada entrada, existe uma saída determinística. Você escreve um teste unitário, define o input, define o output esperado, roda o teste. Passa ou falha. A lógica é binária. O TDD (Test-Driven Development) funciona precisamente porque esse contrato entre input e output é estável.</p>
+<p>Com LLMs, esse contrato não existe. Faça a mesma pergunta <em>n</em> vezes e você obtém respostas diferentes. Elas podem ser corretas ou podem ser incorretas de formas distintas. A saída não é determinística: é probabilística. E o espaço de saídas possíveis é, na prática, infinito.</p>
+<p>Isso cria algo como “três abismos do desenvolvimento com LLMs”:</p>
+<ul>
+<li>o abismo da compreensão (entre o desenvolvedor e os dados reais de uso);</li>
+<li>o abismo da especificação (entre o que o desenvolvedor quer que o LLM faça e o que ele efetivamente faz); e</li>
+<li>o abismo da generalização (entre como o sistema funciona no dataset de teste e como funciona em produção).</li>
+</ul>
+<p>Resolver esses abismos é o trabalho dos <strong>evals</strong>, abreviação de evaluations.</p>
+<p>Evals são, na definição mais simples, testes sistemáticos para sistemas que usam LLMs. Mas a analogia com testes unitários tradicionais só vai até certo ponto. Um eval não verifica se a saída é exatamente igual ao esperado. Verifica se ela atende a um conjunto de critérios de qualidade: está factualmente correta? É coerente com o contexto? Segue o formato esperado? Não contém alucinações? Mantém o tom adequado?</p>
+<p>A frase que circula nos ambientes de engenharia de IA nos últimos dois anos sintetiza bem essa virada: <em>“evals are the new unit tests”</em>. O ZenML, em análise de mais de 1.200 deployments de LLMs em produção, documentou como a prática evoluiu de “vibe checks” informais — rodar o sistema manualmente e “sentir” se parece estar funcionando — para pipelines de avaliação sofisticados e automatizados que rodam a cada mudança no código ou no modelo.</p>
 <p>O ciclo de trabalho que os evals introduzem tem uma estrutura que lembra mais ciência do que engenharia de software clássica:</p>
 <ol type="1">
 <li><strong>Diagnosticar</strong> o comportamento atual do sistema em produção — analisar outputs reais, identificar falhas, categorizar padrões de erro</li>
@@ -417,20 +426,20 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <li><strong>Medir a performance</strong> — rodar os evals no conjunto de casos relevantes e comparar com o baseline</li>
 <li><strong>Iterar</strong> — repetir o ciclo até atingir o nível de qualidade desejado ou satisfatório</li>
 </ol>
-<p>Esse ciclo é herdeiro direto da machine learning clássica e da ciência de dados, não da engenharia de software convencional. Quem trabalhou com modelos estatísticos reconhece a estrutura: você não “depura” um modelo como depura código. Você avalia, ajusta e reavalia. O sistema é uma caixa com comportamento emergente, não uma sequência de instruções determinísticas.</p>
+<p>Esse ciclo é herdeiro direto da machine learning clássico e da ciência de dados, não da engenharia de software convencional. Quem trabalhou com modelos estatísticos reconhece a estrutura: você não “depura” um modelo como depura código. Você avalia, ajusta e reavalia. O sistema é uma caixa com comportamento emergente, não uma sequência de instruções determinísticas.</p>
 <p>A particularidade da era dos agentes é que esse ciclo de avaliação precisa acompanhar não apenas o comportamento de um LLM isolado, mas o comportamento emergente de sistemas inteiros: um agente que usa ferramentas, mantém memória, delega subtarefas a outros agentes, toma decisões em múltiplos passos. A Amazon, por exemplo, descreve sua abordagem de avaliação de agentes em três camadas: a performance do modelo base, a performance dos componentes individuais do agente (detecção de intenção, uso de ferramentas, raciocínio multi-etapas) e a performance do sistema completo em termos de completude de tarefas.</p>
 <p>Erros se propagam e se compõem. Um erro na etapa 2 de um agente de 10 passos pode ser imperceptível isoladamente e catastrófico no resultado final.</p>
 <hr>
 </section>
 <section id="o-que-essa-terceira-camada-muda-na-prática" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-essa-terceira-camada-muda-na-prática">O que essa terceira camada muda na prática</h2>
-<p>A adição dos evals como disciplina central não elimina as camadas anteriores — ela se sobrepõe a elas.</p>
+<p>A adição dos evals como disciplina central não elimina as camadas anteriores, mas se sobrepõe a elas.</p>
 <p>Você ainda precisa fazer discovery: entender o problema real, validar que a solução baseada em LLMs faz sentido, prototipar com o usuário, evitar construir a coisa errada. Isso não mudou.</p>
 <p>Você ainda precisa construir: arquitetar o agente, estruturar o fluxo de dados, definir as ferramentas disponíveis, garantir que a máquina de estados funciona, gerenciar latência e custo. Isso também não mudou.</p>
-<p>O que mudou é que agora existe uma terceira categoria de trabalho que começa <strong>depois</strong> de construir — e que, diferente dos testes tradicionais, não termina nunca. Evals não são um checklist que você conclui antes do lançamento. São uma prática contínua, porque o comportamento de um LLM em produção varia, os modelos são atualizados pelos provedores, os dados de entrada mudam, e o que “bom” significa para o produto evolui com o tempo.</p>
+<p>O que mudou é que agora existe uma terceira categoria de trabalho que começa <strong>depois</strong> de construir e que, diferente dos testes tradicionais, não termina nunca. Evals não são um checklist que você conclui antes do lançamento. São uma prática contínua, porque o comportamento de um LLM em produção varia, os modelos são atualizados pelos provedores, os dados de entrada mudam, e o que “bom” significa para o produto evolui com o tempo.</p>
 <p>Isso tem implicações diretas sobre quem faz o quê em um time que trabalha com IA.</p>
 <p>O engenheiro precisa saber não só construir pipelines, mas instrumentar traces, construir datasets de avaliação e interpretar métricas de qualidade que não são binárias. O product manager precisa saber definir o que “bom” significa em termos mensuráveis — não apenas “o agente precisa responder bem”, mas “o agente deve completar a tarefa em menos de X segundos, com menos de Y% de alucinações, mantendo o tom Z, e nunca fazendo W”. Sem essa definição, o eval não tem critério. Sem critério, o ciclo de melhoria não converge.</p>
-<p>A Anthropic documenta isso em um post sobre evals para agentes: os evals forçam a equipe de produto a especificar o que sucesso significa — não como uma sensação, mas como um conjunto de critérios verificáveis. Duas pessoas lendo a mesma especificação inicial de um agente podem sair com interpretações completamente diferentes sobre como ele deveria lidar com casos de borda. Um conjunto de evals resolve essa ambiguidade.</p>
+<p>A Anthropic documenta isso em um post sobre evals para agentes: os evals forçam a equipe de produto a especificar o que sucesso significa, não como uma sensação, mas como um conjunto de critérios verificáveis. Duas pessoas lendo a mesma especificação inicial de um agente podem sair com interpretações completamente diferentes sobre como ele deveria lidar com casos de borda. Um conjunto de evals resolve essa ambiguidade.</p>
 <hr>
 </section>
 <section id="uma-nota-sobre-o-que-muda-para-quem-está-construindo" class="level2">
@@ -451,8 +460,6 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 </ul>
 <p>A terceira camada ainda está sendo construída. Os frameworks e as práticas estão em formação. A profissão de “AI engineer” está se definindo em tempo real, assim como a de “product manager” se definiu nos anos 2010.</p>
 <p>O que parece claro é que o trabalho de quem constrói sistemas com IA não cabe mais em nenhum dos silos anteriores — nem só na engenharia, nem só no produto, nem só na ciência de dados. É uma síntese dessas três, e a capacidade de transitar entre elas com competência vai separar as equipes que entregam sistemas confiáveis das que ficam presas em demos que nunca chegam à produção.</p>
-<hr>
-<p><em>Rogério Kreidlow trabalha como Head de Expansão na BeTalent Tech e escreve sobre produto, tecnologia e estratégia.</em></p>
 
 
 </section>

@@ -1,7 +1,7 @@
 ---
-title: Três camadas do software: construção, descoberta e (agora) avaliação
+title: "Três camadas do software: construção, descoberta e (agora) avaliação"
 date: 2026-04-06
-description: Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.
+description: "Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código."
 categories:
   - Engenharia de Software
   - IA
@@ -18,6 +18,10 @@ toc: true
 ---
 
 *Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.*
+
+---
+
+> **Nota de autoria:** Este texto foi escrito por Claude 4.6 Sonnet a partir de uma ideia rápida minha. Não teria tempo (nem saco) para elaborar como um texto completo. O resultado superou minhas expectativas. A ferramenta me disse coisas que nem eu teria elaborado dessa forma. Apesar dos estilos e cacoetes irritantes típicos de textos de LLMs, resolvi publicar porque a mensagem é o que interessa. É o que penso, vejo e executo no dia a dia.
 
 ---
 
@@ -83,15 +87,19 @@ Isso não é um bug. É uma característica estrutural dos LLMs.
 
 Em software tradicional, para uma dada entrada, existe uma saída determinística. Você escreve um teste unitário, define o input, define o output esperado, roda o teste. Passa ou falha. A lógica é binária. O TDD (Test-Driven Development) funciona precisamente porque esse contrato entre input e output é estável.
 
-Com LLMs, esse contrato não existe. Faça a mesma pergunta duas vezes e você obtém respostas diferentes. Ambas podem ser corretas. Ambas podem ser incorretas de formas distintas. A saída não é determinística — é probabilística. E o espaço de saídas possíveis é, na prática, infinito.
+Com LLMs, esse contrato não existe. Faça a mesma pergunta *n* vezes e você obtém respostas diferentes. Elas podem ser corretas ou podem ser incorretas de formas distintas. A saída não é determinística: é probabilística. E o espaço de saídas possíveis é, na prática, infinito.
 
-Isso cria o que engenheiros de IA descrevem como "os três abismos do desenvolvimento com LLMs": o abismo da compreensão (entre o desenvolvedor e os dados reais de uso), o abismo da especificação (entre o que o desenvolvedor quer que o LLM faça e o que ele efetivamente faz) e o abismo da generalização (entre como o sistema funciona no dataset de teste e como funciona em produção).
+Isso cria algo como "três abismos do desenvolvimento com LLMs": 
 
-Resolver esses abismos é o trabalho dos **evals** — abreviação de evaluations.
+- o abismo da compreensão (entre o desenvolvedor e os dados reais de uso);
+- o abismo da especificação (entre o que o desenvolvedor quer que o LLM faça e o que ele efetivamente faz); e
+- o abismo da generalização (entre como o sistema funciona no dataset de teste e como funciona em produção).
 
-Evals são, na definição mais simples, testes sistemáticos para sistemas que usam LLMs. Mas a analogia com testes unitários tradicionais só vai até certo ponto. Um eval não verifica se a saída é exatamente igual ao esperado — verifica se ela atende a um conjunto de critérios de qualidade: está factualmente correta? É coerente com o contexto? Segue o formato esperado? Não contém alucinações? Mantém o tom adequado?
+Resolver esses abismos é o trabalho dos **evals**, abreviação de evaluations.
 
-A frase que circula nos ambientes de engenharia de IA nos últimos dois anos sintetiza bem essa virada: *"evals are the new unit tests"*. O ZenML, em análise de mais de 1.200 deployments de LLMs em produção, documentou como a prática evoluiu de "vibe checks" informais — rodar o sistema manualmente e sentir se parece estar funcionando — para pipelines de avaliação sofisticados e automatizados que rodam a cada mudança no código ou no modelo.
+Evals são, na definição mais simples, testes sistemáticos para sistemas que usam LLMs. Mas a analogia com testes unitários tradicionais só vai até certo ponto. Um eval não verifica se a saída é exatamente igual ao esperado. Verifica se ela atende a um conjunto de critérios de qualidade: está factualmente correta? É coerente com o contexto? Segue o formato esperado? Não contém alucinações? Mantém o tom adequado?
+
+A frase que circula nos ambientes de engenharia de IA nos últimos dois anos sintetiza bem essa virada: *"evals are the new unit tests"*. O ZenML, em análise de mais de 1.200 deployments de LLMs em produção, documentou como a prática evoluiu de "vibe checks" informais — rodar o sistema manualmente e "sentir" se parece estar funcionando — para pipelines de avaliação sofisticados e automatizados que rodam a cada mudança no código ou no modelo.
 
 O ciclo de trabalho que os evals introduzem tem uma estrutura que lembra mais ciência do que engenharia de software clássica:
 
@@ -102,7 +110,7 @@ O ciclo de trabalho que os evals introduzem tem uma estrutura que lembra mais ci
 5. **Medir a performance** — rodar os evals no conjunto de casos relevantes e comparar com o baseline
 6. **Iterar** — repetir o ciclo até atingir o nível de qualidade desejado ou satisfatório
 
-Esse ciclo é herdeiro direto da machine learning clássica e da ciência de dados, não da engenharia de software convencional. Quem trabalhou com modelos estatísticos reconhece a estrutura: você não "depura" um modelo como depura código. Você avalia, ajusta e reavalia. O sistema é uma caixa com comportamento emergente, não uma sequência de instruções determinísticas.
+Esse ciclo é herdeiro direto da machine learning clássico e da ciência de dados, não da engenharia de software convencional. Quem trabalhou com modelos estatísticos reconhece a estrutura: você não "depura" um modelo como depura código. Você avalia, ajusta e reavalia. O sistema é uma caixa com comportamento emergente, não uma sequência de instruções determinísticas.
 
 A particularidade da era dos agentes é que esse ciclo de avaliação precisa acompanhar não apenas o comportamento de um LLM isolado, mas o comportamento emergente de sistemas inteiros: um agente que usa ferramentas, mantém memória, delega subtarefas a outros agentes, toma decisões em múltiplos passos. A Amazon, por exemplo, descreve sua abordagem de avaliação de agentes em três camadas: a performance do modelo base, a performance dos componentes individuais do agente (detecção de intenção, uso de ferramentas, raciocínio multi-etapas) e a performance do sistema completo em termos de completude de tarefas.
 
@@ -112,19 +120,19 @@ Erros se propagam e se compõem. Um erro na etapa 2 de um agente de 10 passos po
 
 ## O que essa terceira camada muda na prática
 
-A adição dos evals como disciplina central não elimina as camadas anteriores — ela se sobrepõe a elas.
+A adição dos evals como disciplina central não elimina as camadas anteriores, mas se sobrepõe a elas.
 
 Você ainda precisa fazer discovery: entender o problema real, validar que a solução baseada em LLMs faz sentido, prototipar com o usuário, evitar construir a coisa errada. Isso não mudou.
 
 Você ainda precisa construir: arquitetar o agente, estruturar o fluxo de dados, definir as ferramentas disponíveis, garantir que a máquina de estados funciona, gerenciar latência e custo. Isso também não mudou.
 
-O que mudou é que agora existe uma terceira categoria de trabalho que começa **depois** de construir — e que, diferente dos testes tradicionais, não termina nunca. Evals não são um checklist que você conclui antes do lançamento. São uma prática contínua, porque o comportamento de um LLM em produção varia, os modelos são atualizados pelos provedores, os dados de entrada mudam, e o que "bom" significa para o produto evolui com o tempo.
+O que mudou é que agora existe uma terceira categoria de trabalho que começa **depois** de construir e que, diferente dos testes tradicionais, não termina nunca. Evals não são um checklist que você conclui antes do lançamento. São uma prática contínua, porque o comportamento de um LLM em produção varia, os modelos são atualizados pelos provedores, os dados de entrada mudam, e o que "bom" significa para o produto evolui com o tempo.
 
 Isso tem implicações diretas sobre quem faz o quê em um time que trabalha com IA.
 
 O engenheiro precisa saber não só construir pipelines, mas instrumentar traces, construir datasets de avaliação e interpretar métricas de qualidade que não são binárias. O product manager precisa saber definir o que "bom" significa em termos mensuráveis — não apenas "o agente precisa responder bem", mas "o agente deve completar a tarefa em menos de X segundos, com menos de Y% de alucinações, mantendo o tom Z, e nunca fazendo W". Sem essa definição, o eval não tem critério. Sem critério, o ciclo de melhoria não converge.
 
-A Anthropic documenta isso em um post sobre evals para agentes: os evals forçam a equipe de produto a especificar o que sucesso significa — não como uma sensação, mas como um conjunto de critérios verificáveis. Duas pessoas lendo a mesma especificação inicial de um agente podem sair com interpretações completamente diferentes sobre como ele deveria lidar com casos de borda. Um conjunto de evals resolve essa ambiguidade.
+A Anthropic documenta isso em um post sobre evals para agentes: os evals forçam a equipe de produto a especificar o que sucesso significa, não como uma sensação, mas como um conjunto de critérios verificáveis. Duas pessoas lendo a mesma especificação inicial de um agente podem sair com interpretações completamente diferentes sobre como ele deveria lidar com casos de borda. Um conjunto de evals resolve essa ambiguidade.
 
 ---
 
@@ -151,7 +159,3 @@ Cada uma dessas camadas surgiu em resposta a uma mudança no custo e na velocida
 A terceira camada ainda está sendo construída. Os frameworks e as práticas estão em formação. A profissão de "AI engineer" está se definindo em tempo real, assim como a de "product manager" se definiu nos anos 2010.
 
 O que parece claro é que o trabalho de quem constrói sistemas com IA não cabe mais em nenhum dos silos anteriores — nem só na engenharia, nem só no produto, nem só na ciência de dados. É uma síntese dessas três, e a capacidade de transitar entre elas com competência vai separar as equipes que entregam sistemas confiáveis das que ficam presas em demos que nunca chegam à produção.
-
----
-
-*Rogério Kreidlow trabalha como Head de Expansão na BeTalent Tech e escreve sobre produto, tecnologia e estratégia.*
