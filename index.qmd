@@ -1,6 +1,6 @@
 ---
 title: "Rogério Kreidlow"
-description: "Head de Expansão na BeTalent"
+description: "Head of Expansion, AI Strategy & Tech Solutions at BeTalent"
 about:
   template: trestles
   image: logo.png
