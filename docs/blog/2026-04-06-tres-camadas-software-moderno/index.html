@@ -7,11 +7,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Rogério Kreidlow">
-<meta name="dcterms.date" content="2025-10-20">
-<meta name="keywords" content="LLMs, GPT, viés cultural, diversidade linguística, aculturamento, IA generativa, padronização cultural">
-<meta name="description" content="Sabe a sensação de que IAs escrevem em português, mas parecem pensar em inglês? Fiz um apanhado de estudos e dados para entender por que isso ocorre e suas possíveis consequências.">
+<meta name="dcterms.date" content="2026-04-06">
+<meta name="keywords" content="software engineering, LLMs, evals, product discovery, agile, AI engineering, agentes de IA">
+<meta name="description" content="Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.">
 
-<title>O risco do “achatamento” linguístico-cultural dos LLMs – Rogério Kreidlow</title>
+<title>As três camadas do software moderno — construção, descoberta e avaliação – Rogério Kreidlow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -300,8 +300,19 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" id="toc-camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="nav-link active" data-scroll-target="#camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Camada 1: Construção — a era do waterfall e do código como engenharia civil</a></li>
+  <li><a href="#camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" id="toc-camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="nav-link" data-scroll-target="#camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Camada 2: Descoberta — a era da web, dos smartphones e do product management</a></li>
+  <li><a href="#camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" id="toc-camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="nav-link" data-scroll-target="#camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Camada 3: Avaliação — a era dos LLMs e dos agentes de IA</a></li>
+  <li><a href="#o-que-essa-terceira-camada-muda-na-prática" id="toc-o-que-essa-terceira-camada-muda-na-prática" class="nav-link" data-scroll-target="#o-que-essa-terceira-camada-muda-na-prática">O que essa terceira camada muda na prática</a></li>
+  <li><a href="#uma-nota-sobre-o-que-muda-para-quem-está-construindo" id="toc-uma-nota-sobre-o-que-muda-para-quem-está-construindo" class="nav-link" data-scroll-target="#uma-nota-sobre-o-que-muda-para-quem-está-construindo">Uma nota sobre o que muda para quem está construindo</a></li>
+  <li><a href="#conclusão-três-camadas-uma-disciplina-em-construção" id="toc-conclusão-três-camadas-uma-disciplina-em-construção" class="nav-link" data-scroll-target="#conclusão-três-camadas-uma-disciplina-em-construção">Conclusão: três camadas, uma disciplina em construção</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -309,17 +320,17 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">O risco do “achatamento” linguístico-cultural dos LLMs</h1>
+<h1 class="title">As três camadas do software moderno — construção, descoberta e avaliação</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">Engenharia de Software</div>
     <div class="quarto-category">IA</div>
-    <div class="quarto-category">Linguagem</div>
-    <div class="quarto-category">Cultura</div>
+    <div class="quarto-category">Produto</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Sabe a sensação de que IAs escrevem em português, mas parecem pensar em inglês? Fiz um apanhado de estudos e dados para entender por que isso ocorre e suas possíveis consequências.
+    Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.
   </div>
 </div>
 
@@ -336,7 +347,7 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 20, 2025</p>
+      <p class="date">April 6, 2026</p>
     </div>
   </div>
   
@@ -347,117 +358,104 @@ gtag('config', 'G-SKSQF6JWNM', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>LLMs, GPT, viés cultural, diversidade linguística, aculturamento, IA generativa, padronização cultural</p>
+    <p>software engineering, LLMs, evals, product discovery, agile, AI engineering, agentes de IA</p>
   </div>
 </div>
 
 </header>
 
 
-<div id="fig-correlacao" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-correlacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="gpt-human-similarity-cultura-distance-from-usa.png" title="A imagem é um gráfico de dispersão com o título 'Correlação entre GPT e Humanos' no eixo Y e 'Distância Cultural dos Estados Unidos' no eixo X. Ele mostra pontos de dados para vários países. Uma linha de regressão preta com uma faixa de confiança cinza sombreia os dados, indicando tendência negativa. Os pontos de dados no canto superior esquerdo (baixa distância cultural, alta correlação) incluem Estados Unidos, Canadá, Reino Unido e Austrália. Países como Egito, Paquistão e Líbia estão no canto inferior direito (alta distância cultural, baixa correlação)." class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-correlacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Quanto maior a distância cultural dos EUA, menor a correlação entre respostas do GPT e o pensamento humano. Fonte: PsyArXiv Preprints
-</figcaption>
-</figure>
-</div>
-<p>Há algum tempo vi o gráfico que ilustra este artigo em um <a href="https://www.linkedin.com/posts/ctaurion_ai-technology-analytics-activity-7329196572716486656-a5qb/">post</a> de Cezar Taurion no LinkedIn, em que ele compartilhava outro post de Keith McNulty.</p>
-<p>Após me deter um pouco na imagem e ver rapidamente o estudo que deu origem a ela, lembro de ter elaborado uma hipótese mais ou menos assim: o fato de IAs como o ChatGPT e similares “pensarem” e “responderem” majoritariamente a partir do inglês (mesmo que traduzindo a outros idiomas) não pode enviesar a nós e a novas gerações a pensar e responder cada vez mais “em inglês” (não na língua em si, mas com a carga cultural de países onde o inglês é falado)? Não há risco de um processo de aculturamento, padronização, homogeneização, “achatamento” sócio-cognitivo, em detrimento de diversidade cultural, linguística, étnica?”</p>
-<p>Taurion, que questiona a confiança efusiva na IA generativa, diz no post:</p>
-<blockquote class="blockquote">
-<p><em>“O mundo não se limita ao Vale do Silício…”</em> — <a href="https://www.linkedin.com/posts/ctaurion_ai-technology-analytics-activity-7329196572716486656-a5qb/">Cezar Taurion</a>.</p>
-</blockquote>
-<p>E McNulty, em tradução livre:</p>
-<blockquote class="blockquote">
-<p>“Este artigo publicado no ano passado por biólogos evolutivos de Harvard indica que — quando usado para tarefas cognitivas típicas — a similaridade entre respostas de modelos LLMs e respostas humanas diminui à medida que nos afastamos das grandes economias ocidentais ‘semelhantes aos EUA’. Isso levanta questões sobre se podemos generalizar globalmente conclusões sobre o uso seguro e produtivo da tecnologia de IA integrada em processos de trabalho. […]” — <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326237398617501696/">Keith McNulty</a>.</p>
-</blockquote>
-<p>O print da postagem, para referência:</p>
-<div id="fig-postagem" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-postagem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="print-post-cesar-taurion-keith-mcnulty.png" title="A imagem é uma captura de tela de uma postagem no LinkedIn de Keith McNulty, compartilhada por Cezar Taurion. Inclui o mesmo gráfico de dispersão que mostra a correlação entre as respostas de LLMs (como o GPT) e as respostas humanas em relação à distância cultural dos Estados Unidos. O texto da postagem de Keith McNulty explica que a pesquisa indica que a similaridade entre os modelos de linguagem e as respostas humanas diminui à medida que se afastam das economias ocidentais dominantes, o que levanta questões sobre a generalização de tecnologias de IA em fluxos de trabalho." class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-postagem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Postagem de Cezar Taurion compartilhando a de Keith McNulty, que citou o artigo. Fonte: LinkedIn
-</figcaption>
-</figure>
-</div>
+<p><em>Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.</em></p>
 <hr>
-<p>O estudo me chamou a atenção porque confirmava o que eu já intuía no uso quase diário de LLMs para escrita: havia sempre incômodos com termos, construções frasais, gerúndios, nuances, que não eram uma maneira “natural” de eu pensar e escrever em português do Brasil. Causavam fricção, incômodo. Não é um achado revelador e provavelmente você também já tenha tido o mesmo incômodo ou chegado à mesma constatação.</p>
-<p>E nem falo de termos como o “crucial” do GPT-3.5, que, de tão banalizado, surtia praticamente o efeito oposto, de nada mais ter importância. Qualquer “nariz de cera” (início de frase no estilo “encheção de linguiça”, que LLMs usam bastante), como “me fale sobre escovar os dentes todos os dias”, resultava em algo como: <em>“Escovar os dentes todos os dias é um hábito crucial para…”</em>. A evolução do GPT-4 e outros modelos ao menos parece ter melhorado tal comportamento.</p>
-<p>Mas sempre sobram termos e construções como:</p>
+<p>Há uma pergunta que volta a me incomodar quando estou no meio de um projeto com agentes de IA: por que isso parece tão diferente de desenvolver software “normal”? Não é só a tecnologia. É o tipo de trabalho. É o que precisa ser feito antes de codar, durante o código e, especialmente, depois que o código já está rodando.</p>
+<p>A resposta, percebi, está em um padrão que se repete ao longo da história do desenvolvimento de software: cada grande onda tecnológica não apenas mudou as ferramentas — ela adicionou uma camada inteira de trabalho que antes não existia, ou existia de forma marginal e intuitiva.</p>
+<p>Estamos vivendo a terceira dessas ondas.</p>
+<hr>
+<section id="camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil" class="level2">
+<h2 class="anchored" data-anchor-id="camada-1-construção-a-era-do-waterfall-e-do-código-como-engenharia-civil">Camada 1: Construção — a era do waterfall e do código como engenharia civil</h2>
+<p>O desenvolvimento de software nasceu como uma atividade de construção, no sentido mais literal do termo. Não é metáfora: os primeiros modelos de processo de software foram importados diretamente da engenharia civil e da manufatura. O raciocínio fazia sentido à época — se você constrói uma ponte, você especifica tudo antes, executa em fases sequenciais e entrega ao final. Por que seria diferente com software?</p>
+<p>O modelo Waterfall, formalizado a partir de um paper de Winston Royce em 1970, traduziu essa lógica para o desenvolvimento de sistemas: levantamento de requisitos, design, implementação, testes, entrega, manutenção. Uma fase alimentava a próxima. Nenhum retorno entre elas era previsto — ou pelo menos não era desejado.</p>
+<p>Vale uma nota histórica: Royce, ao contrário do que se popularizou, já alertava naquele mesmo paper que aplicar esse modelo de forma puramente sequencial seria “arriscado e convidava ao fracasso”. A ironia é que o setor ignorou esse aviso por décadas. O Waterfall virou dogma, não pela qualidade do argumento, mas pela força da analogia com indústrias já consolidadas.</p>
+<p>O contexto explicava a lógica. Na era dos mainframes e dos primeiros computadores pessoais, o software era caro de modificar, distribuído em discos físicos e operado por especialistas. O custo de uma mudança após a entrega era proibitivo — às vezes exigia imprimir novos discos e enviar pelo correio. Nesse mundo, a especificação antecipada fazia sentido econômico.</p>
+<p>O problema que a era do Waterfall deixou explícito foi estrutural: o software não é uma ponte. Uma ponte concluída não muda de requisitos. Usuários mudam. Mercados mudam. Descobertas feitas durante a construção invalidam premissas do design original. O relatório Chaos do Standish Group, em meados dos anos 1990, documentou o tamanho do estrago: apenas 16% dos projetos de software eram entregues no prazo e dentro do orçamento. Mais de 30% eram cancelados antes de terminar.</p>
+<p>A resposta a essa crise foi o Manifesto Ágil, publicado em 2001 por dezessete desenvolvedores reunidos em Snowbird, Utah. Mas a verdade é que a dissolução do Waterfall como paradigma dominante tinha começado antes, nos anos 1990, com metodologias como Scrum (1995), Extreme Programming e RAD. O que o Manifesto Ágil fez foi dar nome e coesão ao que muitas equipes já praticavam intuitivamente.</p>
+<p>Nessa primeira era, a competência central era <strong>construir</strong>. O trabalho era essencialmente técnico: transformar requisitos em código funcional, da forma mais eficiente e correta possível. O valor estava na execução. O problema de “o que construir” era resolvido fora da equipe — por gerentes, por clientes, por documentos de especificação que chegavam prontos. O desenvolvedor recebia o problema já formulado.</p>
+<hr>
+</section>
+<section id="camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management" class="level2">
+<h2 class="anchored" data-anchor-id="camada-2-descoberta-a-era-da-web-dos-smartphones-e-do-product-management">Camada 2: Descoberta — a era da web, dos smartphones e do product management</h2>
+<p>A internet mudou algo fundamental no software: tornou a distribuição e a modificação radicalmente baratas.</p>
+<p>Antes da web, software era um produto físico. Corrigir um bug significava produzir um novo CD. Lançar uma funcionalidade significava uma nova versão do produto, com data, embalagem e campanha de marketing. O ciclo de feedback entre construção e uso era medido em meses ou anos.</p>
+<p>Depois da web — e especialmente depois do iPhone em 2007 e da explosão do ecossistema mobile entre 2010 e 2014 — o software virou um serviço. A atualização passou a ser contínua. O usuário podia receber uma nova versão enquanto dormia. E isso criou uma pressão nova, diferente da pressão por execução técnica: a pressão por <strong>relevância</strong>.</p>
+<p>Não bastava construir bem. Era preciso construir a coisa certa.</p>
+<p>O famoso estudo do Standish Group que revelou que 64% das funcionalidades de software são raramente ou nunca usadas tornou-se um dos dados mais citados na história do product management. Ele apontava para algo que o Agile por si só não resolvia: a agilidade na entrega não serve de muito se você estiver entregando rápido a coisa errada.</p>
+<p>É nesse contexto que a descoberta de produto emerge como disciplina. Marty Cagan, fundador do Silicon Valley Product Group, conta que começou a usar o termo “discovery” por volta de 2005 para nomear o problema que antecede o de “como construir”: o problema de descobrir <strong>o que</strong> construir. A terminologia pegou — e hoje é onipresente em times de produto.</p>
+<p>A descoberta trouxe para dentro do ciclo de desenvolvimento ferramentas que vinham de fora dele: entrevistas com usuários, prototipagem rápida, testes de usabilidade, frameworks como Jobs-to-be-Done, design thinking e o Lean Startup. A lógica central de todas essas abordagens é a mesma: suas premissas sobre o que o usuário quer estão provavelmente erradas, e você precisa testar isso antes de investir meses construindo.</p>
+<p>Teresa Torres, uma das mais influentes pensadoras contemporâneas sobre product discovery, resume bem: as boas equipes partem do princípio de que suas ideias iniciais estão erradas. E que a única forma de descobrir o que está certo é expor o usuário a algo — um protótipo, um experimento, uma versão mínima — e observar o que acontece.</p>
+<p>Isso não significa que pesquisa de mercado não existia antes. Existia. Mas ela era pesada, cara e separada do desenvolvimento. O que a era dos produtos digitais criou foi a integração da pesquisa ao ciclo de desenvolvimento — discovery e delivery como dois movimentos paralelos e contínuos de uma mesma equipe.</p>
+<p>Nessa segunda era, a competência central deixou de ser só construir. Passou a ser <strong>descobrir e construir</strong>. O product manager emergiu como o papel responsável por articular essas duas dimensões. A pergunta “o que construir?” foi incorporada ao trabalho, não delegada para fora.</p>
+<p>O desenvolvimento de software ganhou, assim, sua segunda camada.</p>
+<hr>
+</section>
+<section id="camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia" class="level2">
+<h2 class="anchored" data-anchor-id="camada-3-avaliação-a-era-dos-llms-e-dos-agentes-de-ia">Camada 3: Avaliação — a era dos LLMs e dos agentes de IA</h2>
+<p>Aqui chegamos ao presente — e ao problema que me colocou a pensar em tudo isso.</p>
+<p>Construir um sistema que incorpora LLMs é diferente de construir software convencional de uma forma específica e perturbadora: <strong>você não sabe exatamente o que o sistema vai fazer até ele estar rodando com dados reais</strong>.</p>
+<p>Isso não é um bug. É uma característica estrutural dos LLMs.</p>
+<p>Em software tradicional, para uma dada entrada, existe uma saída determinística. Você escreve um teste unitário, define o input, define o output esperado, roda o teste. Passa ou falha. A lógica é binária. O TDD — Test-Driven Development — funciona precisamente porque esse contrato entre input e output é estável.</p>
+<p>Com LLMs, esse contrato não existe. Faça a mesma pergunta duas vezes e você obtém respostas diferentes. Ambas podem ser corretas. Ambas podem ser incorretas de formas distintas. A saída não é determinística — é probabilística. E o espaço de saídas possíveis é, na prática, infinito.</p>
+<p>Isso cria o que engenheiros de IA descrevem como “os três abismos do desenvolvimento com LLMs”: o abismo da compreensão (entre o desenvolvedor e os dados reais de uso), o abismo da especificação (entre o que o desenvolvedor quer que o LLM faça e o que ele efetivamente faz) e o abismo da generalização (entre como o sistema funciona no dataset de teste e como funciona em produção).</p>
+<p>Resolver esses abismos é o trabalho dos <strong>evals</strong> — abreviação de evaluations.</p>
+<p>Evals são, na definição mais simples, testes sistemáticos para sistemas que usam LLMs. Mas a analogia com testes unitários tradicionais só vai até certo ponto. Um eval não verifica se a saída é exatamente igual ao esperado — verifica se ela atende a um conjunto de critérios de qualidade: está factualmente correta? É coerente com o contexto? Segue o formato esperado? Não contém alucinações? Mantém o tom adequado?</p>
+<p>A frase que circula nos ambientes de engenharia de IA nos últimos dois anos sintetiza bem essa virada: <em>“evals are the new unit tests”</em>. O ZenML, em análise de mais de 1.200 deployments de LLMs em produção, documentou como a prática evoluiu de “vibe checks” informais — rodar o sistema manualmente e sentir se parece estar funcionando — para pipelines de avaliação sofisticados e automatizados que rodam a cada mudança no código ou no modelo.</p>
+<p>O ciclo de trabalho que os evals introduzem tem uma estrutura que lembra mais ciência do que engenharia de software clássica:</p>
+<ol type="1">
+<li><strong>Diagnosticar</strong> o comportamento atual do sistema em produção — analisar outputs reais, identificar falhas, categorizar padrões de erro</li>
+<li><strong>Formular hipóteses</strong> sobre o que está causando os problemas — uma instrução ambígua no prompt? Um contexto mal estruturado? Uma lacuna no modelo base?</li>
+<li><strong>Definir baselines e métricas</strong> — o que significa “melhor”? Qual é o critério de qualidade mínimo aceitável?</li>
+<li><strong>Implementar mudanças</strong> — ajustar prompts, modificar a arquitetura do agente, mudar o modelo, alterar o contexto fornecido</li>
+<li><strong>Medir a performance</strong> — rodar os evals no conjunto de casos relevantes e comparar com o baseline</li>
+<li><strong>Iterar</strong> — repetir o ciclo até atingir o nível de qualidade desejado ou satisfatório</li>
+</ol>
+<p>Esse ciclo é herdeiro direto da machine learning clássica e da ciência de dados, não da engenharia de software convencional. Quem trabalhou com modelos estatísticos reconhece a estrutura: você não “depura” um modelo como depura código. Você avalia, ajusta e reavalia. O sistema é uma caixa com comportamento emergente, não uma sequência de instruções determinísticas.</p>
+<p>A particularidade da era dos agentes é que esse ciclo de avaliação precisa acompanhar não apenas o comportamento de um LLM isolado, mas o comportamento emergente de sistemas inteiros: um agente que usa ferramentas, mantém memória, delega subtarefas a outros agentes, toma decisões em múltiplos passos. A Amazon, por exemplo, descreve sua abordagem de avaliação de agentes em três camadas: a performance do modelo base, a performance dos componentes individuais do agente (detecção de intenção, uso de ferramentas, raciocínio multi-etapas) e a performance do sistema completo em termos de completude de tarefas.</p>
+<p>Erros se propagam e se compõem. Um erro na etapa 2 de um agente de 10 passos pode ser imperceptível isoladamente e catastrófico no resultado final.</p>
+<hr>
+</section>
+<section id="o-que-essa-terceira-camada-muda-na-prática" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-essa-terceira-camada-muda-na-prática">O que essa terceira camada muda na prática</h2>
+<p>A adição dos evals como disciplina central não elimina as camadas anteriores — ela se sobrepõe a elas.</p>
+<p>Você ainda precisa fazer discovery: entender o problema real, validar que a solução baseada em LLMs faz sentido, prototipar com o usuário, evitar construir a coisa errada. Isso não mudou.</p>
+<p>Você ainda precisa construir: arquitetar o agente, estruturar o fluxo de dados, definir as ferramentas disponíveis, garantir que a máquina de estados funciona, gerenciar latência e custo. Isso também não mudou.</p>
+<p>O que mudou é que agora existe uma terceira categoria de trabalho que começa <strong>depois</strong> de construir — e que, diferente dos testes tradicionais, não termina nunca. Evals não são um checklist que você conclui antes do lançamento. São uma prática contínua, porque o comportamento de um LLM em produção varia, os modelos são atualizados pelos provedores, os dados de entrada mudam, e o que “bom” significa para o produto evolui com o tempo.</p>
+<p>Isso tem implicações diretas sobre quem faz o quê em um time que trabalha com IA.</p>
+<p>O engenheiro precisa saber não só construir pipelines, mas instrumentar traces, construir datasets de avaliação e interpretar métricas de qualidade que não são binárias. O product manager precisa saber definir o que “bom” significa em termos mensuráveis — não apenas “o agente precisa responder bem”, mas “o agente deve completar a tarefa em menos de X segundos, com menos de Y% de alucinações, mantendo o tom Z, e nunca fazendo W”. Sem essa definição, o eval não tem critério. Sem critério, o ciclo de melhoria não converge.</p>
+<p>A Anthropic documenta isso em um post sobre evals para agentes: os evals forçam a equipe de produto a especificar o que sucesso significa — não como uma sensação, mas como um conjunto de critérios verificáveis. Duas pessoas lendo a mesma especificação inicial de um agente podem sair com interpretações completamente diferentes sobre como ele deveria lidar com casos de borda. Um conjunto de evals resolve essa ambiguidade.</p>
+<hr>
+</section>
+<section id="uma-nota-sobre-o-que-muda-para-quem-está-construindo" class="level2">
+<h2 class="anchored" data-anchor-id="uma-nota-sobre-o-que-muda-para-quem-está-construindo">Uma nota sobre o que muda para quem está construindo</h2>
+<p>Há uma percepção que circula em ambientes de engenharia de IA e que me parece cada vez mais verdadeira: as equipes que estão extraindo valor real de LLMs em produção não são necessariamente as que têm os modelos mais sofisticados ou os prompts mais criativos. São as que estão fazendo o trabalho menos glamouroso — construindo pipelines de avaliação, instrumentando sistemas em produção, tratando seus LLMs como componentes que precisam ser contidos e verificados, não apenas habilitados.</p>
+<p>A comparação que o ZenML usa é reveladora: as equipes bem-sucedidas não falam em “empoderar” seus modelos. Falam em “restringir” e “verificar”. A postura é de engenharia, não de otimismo tecnológico.</p>
+<p>Isso pode parecer uma deflação do potencial da IA. Não é. É a diferença entre uma demo que impressiona em apresentação e um sistema que funciona com confiabilidade suficiente para ser usado por milhares de pessoas todos os dias.</p>
+<hr>
+</section>
+<section id="conclusão-três-camadas-uma-disciplina-em-construção" class="level2">
+<h2 class="anchored" data-anchor-id="conclusão-três-camadas-uma-disciplina-em-construção">Conclusão: três camadas, uma disciplina em construção</h2>
+<p>O desenvolvimento de software passou, em cinquenta anos, de uma atividade de execução técnica para uma que exige, simultaneamente, exploração aberta sobre o problema, construção técnica rigorosa e avaliação científica contínua do comportamento emergente do sistema.</p>
+<p>Cada uma dessas camadas surgiu em resposta a uma mudança no custo e na velocidade do software:</p>
 <ul>
-<li><em>“em constante evolução”</em> (exemplo: “o mercado de trabalho em 2025 está em <em>constante evolução</em>…”);</li>
-<li><em>“ressoar”</em> (“o importante é que esses conselhos <em>ressoem</em> em você”);</li>
-<li><em>“certifique-se de”</em>, principalmente em listas de tarefas, com voz no imperativo (“<em>certifique-se de</em> ter preenchido todos os campos…”);</li>
-<li><em>“incluindo”</em> para quaisquer locuções substantivas (exemplo: “[…] todos os departamentos da empresa, <em>incluindo</em> vendas, marketing e RH.”);</li>
-<li><em>“significativo”</em>, no mesmo sentido de “crucial”;</li>
-<li>gerúndios que alongam sentenças (exemplo de uma típica frase de LLM: “a implementação do novo sistema representou um avanço significativo, <em>permitindo</em>…”);</li>
-<li>adjetivos desnecessários (o “significativo”, o “crucial”, entre vários outros);</li>
-<li>e por aí segue.</li>
+<li>O Waterfall respondia a um mundo em que modificar software era caro e lento. A solução era especificar tudo antes.</li>
+<li>O product discovery respondia a um mundo em que distribuir software ficou barato, mas descobrir o que o usuário realmente queria continuou difícil. A solução foi trazer a pesquisa para dentro do ciclo.</li>
+<li>Os evals respondem a um mundo em que componentes probabilísticos estão dentro do código, e o comportamento do sistema não pode ser deduzido da leitura do código — só pode ser observado em execução. A solução é tratar isso como ciência: hipóteses, métricas, experimentos, iteração.</li>
 </ul>
-<p>Isso, é claro, para não falar de erros irritantes, como a mania de capitalizar todas as palavras em títulos ou itens de lista e em capitalizar a primeira palavra após dois-pontos, mesmo quando <a href="https://www.dicio.com.br/depois-de-dois-pontos-letra-maiuscula-ou-minuscula/">não seguem a regra</a>.</p>
-<p>É claro que se você fornecer textos com seu estilo, LLMs irão mimetizá-los. Mas aí lidamos com outras consequências, como o modelo enviesar para aquela abordagem, adotar quase <em>ipsis litteris</em> a mesma construção do texto fornecido e aumentar de forma até caricata certas características.</p>
-<p>E mesmo isso ainda obriga a escrever um “manual” na tentativa de o modelo não adotar um tom que soa sempre a texto de marketing ou copywriting. Do contrário, é comum ele tender a destacar e “vender” qualquer assunto, por mais irrelevante que seja ou quando se quer uma abordagem mais neutra, sem qualificações.</p>
+<p>A terceira camada ainda está sendo construída. Os frameworks e as práticas estão em formação. A profissão de “AI engineer” está se definindo em tempo real, assim como a de “product manager” se definiu nos anos 2010.</p>
+<p>O que parece claro é que o trabalho de quem constrói sistemas com IA não cabe mais em nenhum dos silos anteriores — nem só na engenharia, nem só no produto, nem só na ciência de dados. É uma síntese dessas três, e a capacidade de transitar entre elas com competência vai separar as equipes que entregam sistemas confiáveis das que ficam presas em demos que nunca chegam à produção.</p>
 <hr>
-<p>O <em>paper</em> <em>“<a href="https://osf.io/preprints/psyarxiv/5b26t_v1">Which Humans?</a>”</em> (<em>“Quais humanos?”</em>, em tradução livre), que contém o gráfico que ilustra esse artigo, basicamente compara o desempenho de LLMs com o comportamento humano em testes psicológicos e ressalta a falta de diversidade cultural no treinamento dos LLMs.</p>
-<p>Metodologicamente, usa outro estudo chamado <em>“<a href="https://www.worldvaluessurvey.org/wvs.jsp">World Values Survey (WVS)</a>”</em>, que coletou respostas de 94.278 indivíduos de 65 nações, para comparar respostas do GPT com as de grupos humanos.</p>
-<p>Foi, então, feita uma análise de “cluster hierárquico”, o que mostrou que o GPT estava mais próximo dos EUA e mais distante de culturas como as do Oriente Médio e da Ásia Central (a distância no eixo X). E uma correlação inversa foi encontrada entre a distância cultural dos Estados Unidos e a semelhança GPT-humano (a linha preta).</p>
-<p>Uma das conclusões do estudo, portanto, é que o desempenho dos LLMs em tarefas cognitivas e psicológicas se assemelha mais ao de pessoas de sociedades “WEIRD” (<em>“Western, Educated, Industrialized, Rich, and Democratic”</em> ou “Ocidental, Educado, Industrializado, Rico e Democrático”, em tradução livre) e diminui à medida que se distancia dessas populações.</p>
-<p>Para nota rápida, WEIRD é um conceito que surgiu em um paper intitulado <em>“<a href="https://pubmed.ncbi.nlm.nih.gov/18855491/">The neglected 95%: why American psychology needs to become less American</a>”</em> (<em>“Os 95% negligenciados: por que a psicologia americana precisa se tornar menos americana”</em>), de Jeffrey J. Arnett, de 2008.</p>
-<p>No estudo, Arnett argumenta que a pesquisa em Psicologia publicada nos periódicos da American Psychological Association (APA) se concentrava excessivamente em amostras americanas, que representam menos de 5% da população mundial.</p>
-<p>Ou seja, a abordagem resulta em uma compreensão não representativa da psicologia humana, já que 95% da população global vive em condições culturais e socioeconômicas bem diferentes.</p>
-<p>É mais ou menos como tentar classificar todos os humanos a partir da ótica geracional que o marketing criou, dos <em>baby boomers</em>, X, <em>millennials</em>, Z, alfa, entre outras. Provavelmente, não fará muito sentido para entender povos esquimós, curdos, uigures ou guajajaras brasileiros.</p>
-<p>O gráfico em si, para entendimento nos detalhes, mostra:</p>
-<ul>
-<li>no <em>eixo X</em> (horizontal), a distância cultural de países em relação aos Estados Unidos (quanto maior o valor, mais diferente culturalmente é o país);</li>
-<li>no <em>eixo Y</em> (vertical), a correlação entre GPT e humanos (quanto maior, mais similaridade entre o desempenho do LLM e o modo de pensar daqueles humanos).</li>
-</ul>
-<p>A linha preta mostra correlação negativa (r = -0,7), o que significa que quanto mais distante culturalmente um país está dos EUA, pior o GPT performa se comparado à forma de pensar e se expressar das pessoas daquele país.</p>
-<p>Na prática, países culturalmente próximos aos EUA, como Austrália, Canadá e Reino Unido, têm alta correlação entre GPT e humanos (~0,85). Já países como Alemanha, Japão e Coreia do Sul ficam em uma faixa média (~0,78-0,8). E países culturalmente distantes (Paquistão, Líbia, Egito) apresentam correlações menores (~0,62-0,7).</p>
-<p>Qual o motivo disso? Bastaria um exercício dedutivo mental para respondermos. Em quais dados LLMs como o GPT foram treinados? Web, principalmente Wikipedia, periódicos, livros. Qual o idioma predominante na web? Inglês, sobretudo americano. Mesmo chutando, você acertaria.</p>
-<p>Resultado: o GPT tem um viés cultural alinhado com o inglês e toda a cultura que o fala e o molda no dia a dia, a qual, não há como negar, é uma <em>cultura ocidentalizada</em>, formalmente <em>educada</em>, <em>industrializada</em>, <em>rica</em> e — alguns questionarão — <em>democrática</em>.</p>
-<hr>
-<p>Pesquisando manualmente e com ajuda de <em>deep research</em> de vários LLMs, não há nenhuma fonte oficial e cabal de qual a proporção de idiomas presentes em cada LLM <em>mainstream</em>. O fato de a maioria dos grandes modelos ter parado de compartilhar <em>papers</em> detalhados, por questões de concorrência e segredo industrial, após o GPT-3, em 2020, tornou esse campo mais especulativo do que exato.</p>
-<p>De qualquer modo, não é difícil deduzir que o inglês seja a língua predominante na maioria dos conjuntos de dados de treinamentos. Basta fazer alguma extrapolação por fontes comuns e populares de dados.</p>
-<p>Uma das principais dessas fontes é o <a href="https://commoncrawl.org/">Common Crawl</a>, organização sem fins lucrativos que, desde 2008, faz <em>web scraping</em> (raspagem de dados) da internet mensalmente e disponibiliza seus dados de forma pública.</p>
-<p>No site da instituição, é informado que 250 bilhões de páginas web foram raspadas em 18 anos e que de 3 a 5 bilhões de páginas são adicionadas por mês. No relatório de julho de 2025, por exemplo, a instituição obteve conteúdo de 2,42 bilhões de páginas web ou 419 TB (Terabytes) de conteúdo não compactado.</p>
-<p>Conforme os dados de julho, disponíveis no <a href="https://commoncrawl.github.io/cc-crawl-statistics/plots/languages">GitHub</a>, o inglês está presente em 44,6% dos conteúdos coletados. O segundo colocado é o russo, com apenas 5,8%, seguido do chinês (5,59%), alemão (5,58%) e japonês (5,27%). O português representa 2,16% do total.</p>
-<p>A proporção do inglês caiu 1,46% entre os dois últimos levantamentos, enquanto outras línguas vêm crescendo vagarosamente. Exemplos: chinês (+4,59%), japonês (+5,24%), italiano (+10,3%) e persa (41,14%), embora todos longe de equilibrar a predominância do inglês.</p>
-<p>Vale ressaltar, porém, que o Common Crawl é apenas um dos muitos <em>datasets</em> massivos disponíveis. Há outros usados para treinamentos de modelos, além de versões otimizadas deles e, cada vez mais, dados sintéticos — gerados pelos próprios LLMs, por heurísticas ou por regras determinísticas para suprir a falta de dados de alta qualidade necessária às IAs.</p>
-<p>Nem seria necessário ir tão longe para verificar os números. Só o fato da maioria dos artigos científicos (<em>papers</em>) serem escritos em inglês dá uma dimensão da proporção do idioma. A própria <a href="https://pt.wikipedia.org/wiki/Lista_de_Wikip%C3%A9dias">Wikipédia</a> é uma boa bússola: 63,6 milhões de páginas são em inglês, contra 19,5 milhões do segundo colocado, o vietnamita.</p>
-<p>(Se você tem curiosidade sobre quantos dados haveria disponível para treinamento de LLMs no mundo, um post de 2024 <a href="https://www.educatingsilicon.com/2024/05/09/how-much-llm-training-data-is-there-in-the-limit/">deste site</a> se propôs a fazer tal exercício. Não é científico, mas as ideias são bem referenciadas e logicamente construídas.)</p>
-<p>Há ainda outra questão em relação ao inglês e outros idiomas nos LLMs: consumo de tokens. Token, para entendimento rápido, é a menor unidade de texto que um modelo de IA “entende”. É um “pedaço” de uma palavra ou um caractere. Para que uma IA processe texto, ela precisa convertê-lo em números, e tokens servem a isso.</p>
-<p>Para um exemplo simplório, na frase “Olá, mundo!”, um tokenizador (ferramenta usada para converter textos em tokens) pode quebrar “Olá,” em “Olá” e “,”, e “mundo!” em “mundo” e “!”. Cada parte recebe um número no vocabulário do modelo, o que permite que a IA trabalhe com o texto como matrizes numéricas multidimensionais.</p>
-<p>Em inglês, com base na análise na maioria dos tokenizadores, uma palavra corresponde a 0,75 token. Em outros idiomas, a tendência é a <a href="https://medium.com/data-science/all-languages-are-not-created-tokenized-equal-cd87694a97c1">correspondência ser maior</a>, o que significa que modelos têm de “gastar” mais tokens para responder às entradas.</p>
-<p>Para o português do Brasil, é consenso que cada palavra corresponde a 1,5 token (<a href="https://www.reddit.com/r/OpenAI/comments/124v2oi/hindi_8_times_more_expensive_than_english_the/">este post no Reddit</a> de 2023 calculava 1,9). O número aumenta em línguas como as asiáticas, da Índia, russo, grego e outras. Se formos olhar pelo lado de custos, <a href="https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc/">é mais “caro”</a> para um LLM genérico falar em outras línguas do que o inglês, o que pode reforçar ainda mais a comunicação na “língua-mãe” da tecnologia.</p>
-<hr>
-<p>Ao que essa argumentação nos leva? Embora não se pretenda científica, ela ajuda a pensar na hipótese que introduzi no início. Pode ocorrer de vermos novas gerações terem um “achatamento” cultural ainda maior do que a minha geração (<em>“millennials”</em>, para usarmos a classificação do marketing).</p>
-<p>Não que seja simplesmente bom ou ruim. Nada na realidade é tão simplista. Comércio, relações entre países e globalização são sobre <em>padronização</em>, “achatamentos” e sobre falamos a mesma língua, literal e metaforicamente. A própria História talvez seja um conflito por homogeneização cultural — seja via <em>hard power</em> (guerras, dominação etc.) ou <em>soft power</em> (influência cultural, religião, costumes etc.), até para nos entendermos uns aos outros e não parecermos alienígenas em um mesmo planeta, o que suspeito que possa ter ocorrido num passado remoto.</p>
-<p>No entanto, de outro ponto de vista, isso inevitavelmente implica em perda de diversidade cultural, de identidade e outras consequências desconhecidas. No extremo, pode levar todos a viverem, comportarem-se, falarem e a <em>pensarem</em> da mesma forma — ou de forma muito similar, o que em certa medida ocorre no “ocidente clássico” (Europa e EUA).</p>
-<hr>
-<p>Outro <a href="https://arxiv.org/abs/2409.01754">estudo</a> bastante recente, aliás, vai nessa linha. Pesquisadores do <a href="https://www.mpg.de/institutes">Instituto Max Planck</a>, na Alemanha, detectaram um aumento “abrupto” no uso de palavras geradas pelo ChatGPT — e isso em inglês. Estão na lista <em>“delve”</em>, <em>“comprehend”</em>, <em>“boast”</em>, <em>“swift”</em> e <em>“meticulous”</em> (respectivamente, “aprofundar”, “compreender”, “gabar-se/ostentar”, “veloz” e “meticuloso”, em tradução livre, mas que podem não captar as nuances dos originais em inglês).</p>
-<p>São evidências empíricas de que a linguagem gerada por IA pode estar moldando a comunicação falada por nós com implicações desconhecidas para a diversidade cultural e linguística.</p>
-<p>Para chegar a tal conclusão, a pesquisa analisou 740.249 horas de discurso humano, de 360.445 palestras acadêmicas do YouTube e 771.591 episódios de podcast em diversas disciplinas.</p>
-<p>O estudo quantificou as preferências de palavras do ChatGPT e, em seguida, comparou as distribuições de frequência de palavras em textos humanos com suas versões editadas pelo ChatGPT.</p>
-<p>Foi observado que a influência linguística dos LLM é presente na fala de <em>early adopters</em> (adotantes iniciais), como pessoas da academia, da ciência e da tecnologia. Mas se estende também a outros domínios, como negócios. E o comportamento não ocorre só em falas roteirizadas, mas em conversas informais, como nos podcasts.</p>
-<p>Não se sabe exatamente o que leva a essa adoção de termos do GPT na fala, segundo os pesquisadores. Pode ser imitação direta, maior facilidade cognitiva de lembrar ou algo mais profundo e desconhecido do processo cognitivo humano.</p>
-<p>O estudo levanta preocupações sobre a homogeneização cultural (o “achatamento”). Um efeito interessante (vale um artigo futuro) é no chamado “colapso do modelo”: a degradação da qualidade de IAs generativas, por serem cada vez mais treinadas em dados gerados por elas mesmas.</p>
-<p>Na busca crescente por otimização de tudo, pode haver uma <em>“redução da entropia”</em>, tornando tudo mais e mais igual, a ponto de não haver mais variedade de dados. Isso limitaria os próprios dados de treinamento, fazendo-os serem menos “generativos” cada avanço. Em um extremo hipotético, LLMs se tornariam “determinísticos” a diversas entradas.</p>
-<hr>
-<p>Se enxergarmos isso como problema, como resolvê-lo? Não é uma questão trivial. Dado o uso crescente de LLMs e dado que, inevitavelmente, os dados disponíveis na web, livros ou em quaisquer outras mídias parecem ser em sua maioria em inglês — o que, repito, reflete um determinado tipo de cultura, jeito de se comunicar, de pensar e de viver —, não parece haver muita saída.</p>
-<p>O que pode mudar um pouco o cenário, e em alguma medida isso acontece de 2022 para cá — mas, novamente, dentro da disponibilidade de dados para treinamento —, é a inclusão de mais dados de outras línguas que não o inglês em <em>datasets</em>.</p>
-<p>Uma terceira medida é, sim, o treinamento de LLMs com um peso maior para um idioma em detrimento de outros. É o que vem acontecendo em relação ao chinês, já que a China está em uma corrida geopolítica com os EUA para domínio em vários campos, entre eles a IA.</p>
-<p>Há <a href="https://pub.towardsai.net/why-do-chinese-llms-switch-to-chinese-in-complex-interactions-d18daac872b8">relatos</a> do DeepSeek, por exemplo, gerar saídas em chinês sem motivo aparente, em especial em tarefas difíceis. Tal comportamento pode ocorrer por haver uma maior quantidade de dados em chinês do que em inglês no pré-treinamento do modelo ou por características adicionadas no pós-treinamento, como no <a href="https://aws.amazon.com/pt/what-is/reinforcement-learning-from-human-feedback/">RLHF</a> (<em>“Reinforcement Learning from Human Feedback”</em> ou “Aprendizagem por Reforço com Feedback Humano”, em tradução livre).</p>
-<p>Em relação ao português do Brasil, os LLMs da <a href="https://amazoniaia.com.br/iniciativa">Amazônia IA</a> e da <a href="https://www.maritaca.ai/">Maritaca</a> vão na mesma direção. Ainda não testei ambos a fundo, mas em uma comparação rápida com GPT, Claude e Gemini, notei que tanto o modelo Sabiá 3.1 quanto Sabiá 3 e Sabiazinho, da Maritaca, adotam nuances da escrita em português do Brasil que costumam exigir <em>prompt engineering</em> nos LLMs <em>mainstream</em>.</p>
-<p>Um exemplo rápido é quanto às construções frasais, que nos LLMs da moda tendem a se estender com gerúndios e seguir padrões facilmente encontrados em <em>reports</em> e artigos acadêmicos em inglês americano. Notei que eles ocorrem menos ou não ocorrem nos modelos da Maritaca. Vale mencionar outros exemplos como <a href="https://arxiv.org/abs/2401.02909">Bode</a> ou <a href="https://clarice.ai/">Clarice</a>, mas não os testei para ter uma impressão.</p>
-<p>A conjectura que fica é se, dentro de 3, 5 ou 10 anos — longo prazo para a IA, dado os seus avanços — ainda fará sentido querermos nuances de determinadas línguas nos LLMs. Porque muito mais pessoas já terão recorrido e estarão recorrendo a eles. E uma gama muito maior de pessoas já pode estar habituada a falar, a pensar e se comportar com base na escrita em inglês, ou seja, em todo o contexto cultural que o idioma carrega.</p>
-<p>Em outras palavras: se mais pessoas pensam e agem de maneira parecida, não irão buscar “mais do mesmo” em vez de ainda sentirem necessidade de nuances diferentes? Outros modos de registrar a fala e, portanto, o pensamento, não irão virar, quando muito, peça de museu, já que não haverá mais necessidade delas? É uma questão filosófica, que só o tempo responderá.</p>
+<p><em>Rogério Kreidlow trabalha como Head de Expansão na BeTalent Tech e escreve sobre produto, tecnologia e estratégia.</em></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -2,12 +2,14 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/2026-04-06-tres-camadas-software-moderno/index.html",
       "/blog/2025-10-20-achatamento-linguistico-cultural-llms/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/blog/2026-04-06-tres-camadas-software-moderno/index.html",
       "/blog/2025-10-20-achatamento-linguistico-cultural-llms/index.html"
     ]
   }
