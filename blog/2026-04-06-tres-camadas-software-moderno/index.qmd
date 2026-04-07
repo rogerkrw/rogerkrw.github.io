@@ -19,21 +19,15 @@ toc: true
 
 *Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.*
 
----
-
 > **Nota de autoria:** Este texto foi escrito por Claude 4.6 Sonnet a partir de uma ideia rápida minha. Não teria tempo (nem saco) para elaborar como um texto completo. O resultado superou minhas expectativas. A ferramenta me disse coisas que nem eu teria elaborado dessa forma. Apesar dos estilos e cacoetes irritantes típicos de textos de LLMs, resolvi publicar porque a mensagem é o que interessa. É o que penso, vejo e executo no dia a dia.
 
 ![Ilustração: As três camadas da engenharia de software](illustration.jpg)
-
----
 
 Há uma pergunta que volta a me incomodar quando estou no meio de um projeto com agentes de IA: por que isso parece tão diferente de desenvolver software "normal"? Não é só a tecnologia. É o tipo de trabalho. É o que precisa ser feito antes de codar, durante o código e, especialmente, depois que o código já está rodando.
 
 A resposta, percebi, está em um padrão que se repete ao longo da história do desenvolvimento de software: cada grande onda tecnológica não apenas mudou as ferramentas, mas, sim, adicionou uma camada inteira de trabalho que antes não existia, ou existia de forma marginal e intuitiva.
 
 Estamos vivendo a terceira dessas ondas.
-
----
 
 ## Construção: a era do waterfall e do código como engenharia civil
 
@@ -76,8 +70,6 @@ Isso não significa que pesquisa de mercado não existia antes. Existia. Mas ela
 Nessa segunda era, a competência central deixou de ser só construir. Passou a ser **descobrir e construir**. O product manager emergiu como o papel responsável por articular essas duas dimensões. A pergunta "o que construir?" foi incorporada ao trabalho, não delegada para fora.
 
 O desenvolvimento de software ganhou, assim, sua segunda camada.
-
----
 
 ## Avaliação: a era dos LLMs e dos agentes de IA
 
