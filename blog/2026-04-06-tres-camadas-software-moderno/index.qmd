@@ -17,8 +17,6 @@ keywords:
 toc: true
 ---
 
-*Uma breve história de como a engenharia de software passou de uma disciplina de execução para uma de exploração — e o que muda agora que LLMs entram no código.*
-
 > **Nota de autoria:** Este texto foi escrito por Claude 4.6 Sonnet a partir de uma ideia rápida minha. Não teria tempo (nem saco) para elaborar como um texto completo. O resultado superou minhas expectativas. A ferramenta me disse coisas que nem eu teria elaborado dessa forma. Apesar dos estilos e cacoetes irritantes típicos de textos de LLMs, resolvi publicar porque a mensagem é o que interessa. É o que penso, vejo e executo no dia a dia.
 
 ![Ilustração: As três camadas da engenharia de software](illustration.jpg)
